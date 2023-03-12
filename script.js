@@ -32,3 +32,6 @@ function mostrarSlide(n) {
     mudarSlide(1);
   }, 7000);
 }
+
+//Script navbar
+

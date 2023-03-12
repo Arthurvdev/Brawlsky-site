@@ -4,57 +4,87 @@
 }
 
 body {
-    background-color: #7197c2;
+    background-color: rgb(41, 37, 43);
 }
 
 /*NAV BAR*/
 
-.logo{
-    position: fixed;
-    z-index: 5;
-    width: 8%;
-    margin-left: 1200px;
-    margin-top: -15px;
-
+#toggleNavbarButton{
+  z-index: 6;
+  position: fixed;
+  padding: 15px;
+  padding-right: 18px;
+  padding-left: 18px;
+  margin: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(60, 42, 66);
+  border: none;
+  color: white;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: 0.3s;
+  
 }
 
+#toggleNavbarButton:hover{
+  background-color:#1d1f20;
+  transition: 0.3s;
+}
+
+#toggleNavbarButton:active{
+  transform: scale(0.8);
+}
+
+
+
 .navbar {
+    margin-top: 80px ;
     position: fixed;
-    width: 100%;
-    z-index: 4;
-    background-color: rgb(90, 78, 122);
-     
+    width: 20%;
+    z-index: 7;
+    background-color: rgb(60, 42, 66);
+    padding: 5px;
+    height: 80%;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.5s ;
+    transform: translate(-100%);
   }
+
+.navbar.hidden{
+  transform: translateX(0%);
+  transition: 0.3s;
+}  
   
   .navbar ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 700px;
+    display: inline;
+    width: 710px;
+    padding: 10px;
   }
   
   .navbar li {
+    height: 50px;
     flex: 1;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17px;
-
+    
   }
   
   .navbar a {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px;
     text-decoration: none;
     transition: 0.2s;
+    font-size: 20px;
   }
   
   .navbar a:hover {
-    color: black;
-    background-color: rgb(255, 255, 255);
+    color: #d39eda;
     transition: 0.3s;
-    border-radius: 40px;
+    border-radius: 10px;
+    background-color: #1d1f20;
     
   }
 
@@ -106,6 +136,171 @@ body {
     right: 0;
   }
 
+  /*Página incicial*/
+
+  .logo{
+    z-index: 5;
+    width: 40%;
+    float: right;
+    padding-right: 60px;
+    position: relative;
+  }
+
+  .titulo_brawlsky{
+    padding: 200px;
+    padding-top: 15%;
+    position: relative;
+
+  }
+
+  h1{
+    color: white;
+    font-family: roboto;
+    font-size: 110px;
+    position: relative;
+  }
+
+  h2{
+    color: rgb(90, 78, 122);
+    font-family: roboto;
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    height: 70px;
+  }
+
+  /*Noticias e novidades*/
+
+  .novidades{
+    background-color: rgb(90, 78, 122);
+    position: relative;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    position: relative;
+    display:inline-block;
+    
+  }
+
+  .noticias_total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+
+  .noticias_titulo{
+    width: 100%;
+    position: relative;
+    height: 100px;
+  }
+
+  #noticias_titulo{
+    color: white;
+    font-size: 30px;
+    font-family: roboto;
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+  }
+
+  .noticias{
+    background-color: white;
+    width: 25%;
+    transition: 0.3s;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+
+  .noticias img{
+    padding-top: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+    
+  }
+
+  #h1_noticias{
+    text-align: center;
+    font-family: roboto;
+    font-size: 20px;
+    margin: 25px;
+    color: rgb(60, 42, 66);
+  }
+
+  #p_noticias{
+    color: rgb(60, 42, 66);
+    font-family: roboto;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+
+  /*historias*/
+
+  .historias_legends{
+    background-color: white;
+    width: 20%;
+    display: block;
+    position: relative;
+    border-radius: 20%;
+    padding-bottom: 20px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    list-style: none;
+
+  }
+
+  #img_historias{
+    padding-top: 20px;
+    width: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 100px;
+  }
+
+  #historias_p{
+    position: relative;
+    text-align: center;
+    font-family: roboto;
+    padding-top: 20px;
+    margin: 15px;
+    color: rgb(60, 42, 66);
+    
+  }
+
+  .historias_legends a{
+    text-align: center;
+    position: relative;
+    background-color: rgb(60, 42, 66);
+    padding: 15px;
+    border-radius: 20px;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-family: roboto;
+
+  }
+
+  .historias_legends a:hover{
+    background-color: rgb(15, 15, 15);
+    transition: 0.5s;
+  }
+
  /*Lendas*/ 
   
  .product-container {
@@ -113,6 +308,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
   }
   
   .product {

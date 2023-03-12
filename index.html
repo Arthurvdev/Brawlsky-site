@@ -9,17 +9,19 @@
 </head>
 <body>
 
-    <img class="logo" src="Imagens/logo.png" alt="">
+    
     <nav class="navbar">
         <ul>
           <li><a href="index.html">Início</a></li>
           <li><a href="lendas.html">Lendas</a></li>
           <li><a href="armas.html">Armas</a></li>
-          <li><a href="ranks.html">Ranks</a></li>
           <li><a href="atualizações.html">Atualizações</a></li>
         </ul>
       </nav>
 
+      <button id="toggleNavbarButton">|||</button>
+      
+      <!--
     <div class="slideshow-container">
         <div class="slide fade">
           <img src="Imagens/slide1.png" alt="Imagem 1">
@@ -34,9 +36,66 @@
         <a class="prev" onclick="mudarSlide(-1)">&#10094;</a>
         <a class="next" onclick="mudarSlide(1)">&#10095;</a>
       </div>
+      -->
+      <img class="logo" src="Imagens/logo.png" alt="">
+      <div class="titulo_brawlsky">
+        <h1>BrawlSky</h1>
+        <h2>O site BR de consultas sobre brawlhalla</h2>
+      </div>
 
+      <!--NOTICIAS E NOVIDADES-->
+
+      <div class="novidades">
+        
+        <div class="noticias_titulo">
+          <h1 id="noticias_titulo">Notícias recentes</h1>
+        </div>
+
+      <div  class="noticias_total">  
+        
+        <div class="noticias">
+          <img src="https://www.brawlhalla.com/c/uploads/2023/03/LotBpn23_400x225.jpg" alt="">
+          <h1 id="h1_noticias">Comemore o Luck o'the brawl 2023! - Patch 7.05</h1>
+          <p id="p_noticias">Bem-vindo ao Luck o 'the Brawl - a 
+            época do ano em que você veste verde ou será nocauteado! 
+            Estamos comemorando com a nova skin Kern Koji, o emote Pot o' 
+            Gold, o título "In it for the Gold", mais 7 skins sazonais e outros 
+            itens por tempo limitado. Basta seguir as quatro folhas...</p>
+        </div>
+
+        <div class="noticias">
+          <img src="https://www.brawlhalla.com/c/uploads/2023/03/RotationMar1_400x225.jpg" alt="">
+          <h1 id="h1_noticias">BRAWLBALL BASH PARA BRAWL DA SEMANA!</h1>
+          <p id="p_noticias">Forme sua melhor equipe de três ou deixe a fila de matchmaking 
+            acompanhá-lo para uma partida acelerada de Brawlball Bash! Entre no estádio e seja o 
+            primeiro a marcar 3 vezes para vencer! Também atualizamos a 
+            rotação gratuita do Legend, agora com Rayman, Ada, Mordex, Jaeyun,...</p>
+        </div>
+
+        <div class="noticias">
+          <img src="https://www.brawlhalla.com/c/uploads/2023/02/WRFeb22_400x225.jpg" alt="">
+          <h1 id="h1_noticias">CORRESPONDÊNCIAS DE BOTÕES E TAG DE BOLHA!</h1>
+          <p id="p_noticias">Cansado de apenas jogar o jogo? Na semana passada, 
+            o patch 7.04 introduziu o novo recurso: Bot Matches. Agora você pode 
+            organizar seu próprio Grande Torneio! Arcad.exe será vitorioso em uma partida 
+            de rancor de Fangwild “Stock” contra Reprodusktion? Pode um Jirobot de dificuldade Escolhido...</p>
+        </div>
+      
+      </div>
+    
+      </div>
+
+      <!--Historias / armas e outros assuntos-->
+      
+      <div class="historias_legends">
+        <img id="img_historias" src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WerewolfM.png" alt="">
+        <p id="historias_p">Conheça as histórias de cada legend do brawlhalla clicando aqui.</p>
+        <a href="lendas.html">Clique aqui</a>
+      </div>
       
 
+      
+      <script src="menu.js"></script>
       <script src="script.js"></script>
 </body>
 </html>
