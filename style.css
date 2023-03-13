@@ -203,6 +203,14 @@ body {
     
   }
 
+  .noticias_pagina{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+
   .noticias_titulo{
     width: 100%;
     position: relative;
