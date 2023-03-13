@@ -7,6 +7,14 @@ body {
     background-color: rgb(41, 37, 43);
 }
 
+.criador{
+  position: fixed;
+  z-index: 8;
+  color: white;
+  top: 97%;
+  left: 5px;
+}
+
 /*NAV BAR*/
 
 #toggleNavbarButton{
