@@ -161,7 +161,7 @@ body {
   }
 
   h2{
-    color: rgb(90, 78, 122);
+    color: rgb(130, 115, 172);
     font-family: roboto;
     font-style: italic;
     font-size: 20px;
@@ -245,11 +245,10 @@ body {
   /*historias*/
 
   .historias_legends{
-    background-color: white;
-    width: 20%;
+    
+    width: 100%;
     display: block;
     position: relative;
-    border-radius: 20%;
     padding-bottom: 20px;
     justify-items: center;
     margin-left: auto;
@@ -269,13 +268,19 @@ body {
     border-radius: 100px;
   }
 
+  #historias_h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
   #historias_p{
     position: relative;
     text-align: center;
     font-family: roboto;
     padding-top: 20px;
     margin: 15px;
-    color: rgb(60, 42, 66);
+    color: rgb(255, 255, 255);
     
   }
 
