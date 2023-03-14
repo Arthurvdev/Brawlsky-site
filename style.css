@@ -401,7 +401,7 @@ body {
 
   .product:hover {
     letter-spacing: 0.2ch;
-    
+    border-radius: 40px;
   }
   
   .product img {
@@ -409,6 +409,7 @@ body {
     height: auto;
     margin-bottom: 20px;
     border-radius: 50%;
+    transition: 0.5s;
   }
   
   .product h1 {
@@ -450,6 +451,12 @@ body {
     color: black;
     transform: rotate(2deg)
   }
+
+  .product:hover img{
+    border-radius: 10px;
+    background-color: rgb(130, 115, 172);
+  }
+
 
  
 
