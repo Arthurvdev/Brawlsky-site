@@ -9,7 +9,7 @@ function search() {
   const term = searchInput.value.trim().toLowerCase();
   if (term) {
     products.forEach(product => {
-      const name = product.querySelector('h2').textContent.toLowerCase();
+      const name = product.querySelector('h1').textContent.toLowerCase();
       if (name.includes(term)) {
         product.style.display = 'block';
       } else {
