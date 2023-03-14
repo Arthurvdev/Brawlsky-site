@@ -1,37 +1,28 @@
-var slideIndex = 1;
-var slides = document.getElementsByClassName("slide");
-var timer;
 
-// Iniciar o slideshow
-mostrarSlide(slideIndex);
-
-// Função para mudar o slide
-function mudarSlide(n) {
-  clearTimeout(timer);
-  mostrarSlide(slideIndex += n);
-}
-
-// Função para mostrar o slide atual
-function mostrarSlide(n) {
-  // Reiniciar o índice se for maior que o número de slides
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  // Voltar ao último slide se for menor que 1
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  // Esconder todos os slides
-  for (var i = 0; i < slides.length; i++) {
-    slides[i].classList.remove("fade");
-  }
-  // Mostrar o slide atual
-  slides[slideIndex-1].classList.add("fade");
-  // Definir um timer para mudar o slide automaticamente depois de 5 segundos
-  timer = setTimeout(function() {
-    mudarSlide(1);
-  }, 7000);
-}
 
 //Script navbar
+
+const searchInput = document.querySelector('#search-input');
+const products = document.querySelectorAll('.product');
+
+function search() {
+  const term = searchInput.value.trim().toLowerCase();
+  if (term) {
+    products.forEach(product => {
+      const name = product.querySelector('h2').textContent.toLowerCase();
+      if (name.includes(term)) {
+        product.style.display = 'block';
+      } else {
+        product.style.display = 'none';
+      }
+    });
+  } else {
+    products.forEach(product => {
+      product.style.display = 'block';
+    });
+  }
+}
+
+searchInput.addEventListener('keyup', search);
+
 

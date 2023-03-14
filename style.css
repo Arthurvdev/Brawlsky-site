@@ -343,8 +343,8 @@ body {
   #historias_p{
     position: relative;
     text-align: center;
-    font-family: roboto;
-    padding-top: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 5px;
     margin: 15px;
     color: rgb(255, 255, 255);
     
@@ -379,7 +379,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    
+    padding-top: 100px;
   }
   
   .product {
@@ -387,13 +387,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 30%;
-    width: 180px;
+    width: 150px;
     background-color: white;
     transition: 0.3s;
+  
   }
 
   .product:hover {
@@ -413,25 +414,33 @@ body {
     font-size: 35px;
     margin-bottom: 21px;
     color: #041d3a;
-    left: 5px;
-  }
-  
-  .product p {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    text-align: center;
+    width: 180px;
+    display: block;
+    position: relative;
+    left: auto;
+    right: auto;
+    
   }
   
   .product a {
     background-color: rgb(90, 78, 122);
     color: rgb(255, 255, 255);
     border: none;
+    margin-top: -10px;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 100px;
   }
+
 
   .product a:hover {
     background-color: rgb(71, 71, 71);
@@ -501,4 +510,39 @@ body {
     font-family: roboto;
     cursor: pointer;
   }
+  
+/*barra de pesquisa*/
+  .search-bar {
+    display: flex;
+    margin-bottom: -34px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    position: relative;
+    
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    flex-grow: 1;
+    border-radius: 20px;
+    
+  }
+
+  .search-bar input::placeholder{
+    padding-left: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(130, 115, 172);
+
+  }
+
+  
+  
+ 
+  
+ 
   
