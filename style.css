@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(41, 37, 43);
+    background-image: url();
 }
 
 .criador{
@@ -561,6 +562,55 @@ body {
     color: rgb(130, 115, 172);
 
   }
+
+  .armas_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 40px;
+    transition: 0.3s;
+    
+  }
+
+  .armas{
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 40px;
+  }
+
+  .armas:hover #titulo_armas{
+    letter-spacing: 2px;
+    transition: 0.3s;
+  }
+
+  .armas:hover img{
+    transform: scale(0.9);
+    transition: 0.3s;
+  }
+
+  .armas img{
+    transition: 0.3s;
+  }
+
+  .armas:hover{
+     background-color: rgb(91, 91, 136);
+     border-radius: 20px;
+     transition: 0.3s;
+  }
+
+  #titulo_armas{
+    font-size: 28px;
+    left: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    padding-bottom: 10px;
+  }
+
+ 
 
   
   
