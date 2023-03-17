@@ -488,8 +488,7 @@ body {
     font-family: roboto;
     font-size: 100px;
     margin-bottom: 50px;
-    left: 5px;
-    width: 99%;
+    left: 0;
   }
 
   #historia_p{
@@ -563,6 +562,68 @@ body {
 
   }
 
+  /*STATUS LEGENDS*/
+  
+  .valor_legend{
+    position: relative;
+    display: block;
+    background-color: rgb(130, 115, 172);
+    margin-top: 80px;
+  }
+
+  .valor_legend img{
+    width: 30px;
+  }
+
+  .valor_legend h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    left: 0;
+    text-align: center;
+  }
+
+  .preço_span{
+    color: rgb(255, 224, 48);
+  }
+
+  .status_titulo{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .status_titulo h1{
+    font-size: 80px;
+    left: 0;
+    text-align: center;
+  }
+
+  .status_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    gap: 300px;
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 40px;
+    transition: 0.5s;
+    position: relative;
+    width: 80%;
+  }
+
+  .status h1{
+    font-size: 50px;
+    position: relative;
+    left: 0;
+    text-align: center;
+  }
+
+  /*ARMAS*/
+
   .armas_conteiner{
     display: flex;
     flex-wrap: wrap;
@@ -572,6 +633,7 @@ body {
     margin: auto;
     padding-bottom: 40px;
     transition: 0.3s;
+   
     
   }
 
@@ -601,6 +663,8 @@ body {
      transition: 0.3s;
   }
 
+ 
+
   #titulo_armas{
     font-size: 28px;
     left: 0;
@@ -608,9 +672,135 @@ body {
     color: rgb(255, 255, 255);
     transition: 0.3s;
     padding-bottom: 10px;
+    
+  }
+ 
+  /*DESIGN ARMAS*/
+  
+  .armas_introdução{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+    padding-bottom: 40px;
+    transition: 0.3s;
+    padding-top: 90px ;
+    
   }
 
+
+  .armas_introdução p{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    width: 40%;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    
+
+  }
+
+  .armas_introdução img{
+    width: 200px;
+  }
+
+  .texto_armas{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 80px;
+  }
+
+  .texto_armas p{
+    color: #cccccc;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+
+  .kits_armas{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .kits_armas h1{
+    left: 0;
+    font-size: 55px;
+    color: rgb(243, 243, 243);
+    background-color: rgb(130, 115, 172);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .kits_armas h1:hover{
+    letter-spacing: 5px;
+    transition: 0.5s;
+  }
+
+  .ataques_conteiner{
+    padding-top: 80px;
+  }
+
+  .ataques_conteiner h1{
+    font-size: 35px;
+    left: 0;
+    margin-left: 60px;
+    color: rgb(165, 166, 255);
+    
+  }
+
+  .ataques_conteiner p{
+    left: 0;
+    margin-left: 60px;
+    padding-top: 50px;
+    color: #cccccc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 40px;
+    font-size: 20px;
+    width: 70%;
+    font-style: italic;
+  }
+
+
+  .ataques_img_gs{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 40px;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+
+  .ataques_gs{
+    border-radius: 20px;
+  }
  
+
+  .ataques_gs img{
+    padding: 20px;
+    padding-top: 100px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    display: block;
+   
+  }
 
   
   
