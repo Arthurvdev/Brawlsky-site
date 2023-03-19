@@ -905,7 +905,7 @@ body {
     .novidades{
       position: relative;
       padding: 0;
-      padding-bottom: 500px ;
+      padding-bottom: 700px ;
       margin-top: 100px;
       margin-bottom: 0;
       background-color: none;
@@ -926,6 +926,10 @@ body {
     .noticias{
       margin-top: 10px;
       width: 99%;
+    }
+
+    .noticias img{
+      width: 75%;
     }
 
     /*historias legends responsividade*/
