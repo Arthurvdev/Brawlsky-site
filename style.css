@@ -6,6 +6,7 @@
 body {
     background-color: rgb(41, 37, 43);
     background-image: url();
+    overflow-x: hidden;
 }
 
 .criador{
@@ -145,19 +146,36 @@ body {
 
   /*Página incicial*/
 
-  .logo{
-    z-index: 5;
-    width: 30%;
-    float: right;
-    padding-right: 150px;
-    padding-top: 90px;
+  .logo_conteiner{
     position: relative;
+    justify-content: center;
+    z-index: 5;
+    width: 100%;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     
+  }
+
+  .logo_conteiner img{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .logo{
+    width: 300px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .titulo_brawlsky{
     padding: 200px;
-    padding-top: 15%;
+    padding-top: 1%;
     position: relative;
 
   }
@@ -166,21 +184,23 @@ body {
     color: rgb(130, 115, 172);
   }
 
-  h1{
+  .titulo_brawlsky h1{
     color: white;
     font-family: roboto;
     font-size: 130px;
     position: relative;
-    right: 50px;
+    text-align: center;
+  
   }
 
-  h2{
+  .titulo_brawlsky h2{
     color: rgb(130, 115, 172);
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
     height: 70px;
-    right: 50px;
+    text-align: center;
+    
   }
 
   /*Noticias e novidades*/
@@ -189,10 +209,11 @@ body {
     background-color: rgb(90, 78, 122);
     position: relative;
     width: 100%;
-    height: 700px;
+    height: auto;
     justify-content: center;
     position: relative;
     display:inline-block;
+    padding-bottom: 40px;
     
   }
 
@@ -344,16 +365,17 @@ body {
     font-size: 50px;
     text-align: center;
     margin-top: 10px;
-    left: 5px;
     width: 99%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   #historias_p{
     position: relative;
     text-align: center;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 5px;
-    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     color: rgb(255, 255, 255);
     
   }
@@ -429,6 +451,9 @@ body {
     font-size: 25px;
     color: rgb(130, 115, 172);
     left: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+
 
   }
   
@@ -474,12 +499,12 @@ body {
 
 
   .legend_img img{
-    width: 32%;
+    width: 30%;
     display: block;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2%;
+    padding-top: 1%;
 
   }
 
@@ -489,6 +514,7 @@ body {
     font-size: 100px;
     margin-bottom: 50px;
     left: 0;
+    color: rgb(130, 115, 172);
   }
 
   #historia_p{
@@ -537,12 +563,15 @@ body {
 /*barra de pesquisa*/
   .search-bar {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: -34px;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 70px;
     position: relative;
+
   }
   
   .search-bar input[type="text"] {
@@ -581,6 +610,8 @@ body {
     font-size: 40px;
     left: 0;
     text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
   }
 
   .preço_span{
@@ -672,7 +703,7 @@ body {
     color: rgb(255, 255, 255);
     transition: 0.3s;
     padding-bottom: 10px;
-    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
  
   /*DESIGN ARMAS*/
@@ -742,6 +773,7 @@ body {
     width: 100%;
     text-align: center;
     transition: 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   .kits_armas h1:hover{
@@ -758,6 +790,7 @@ body {
     left: 0;
     margin-left: 60px;
     color: rgb(165, 166, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
   }
 
@@ -801,6 +834,151 @@ body {
     display: block;
    
   }
+
+
+  /* RESPONSIVIDADE */
+
+  @media (max-width: 1200px){
+
+    .navbar{
+      width: 100%;
+    }
+
+    /*introdução responsividade*/
+
+    .botões_sociais{  
+      float: right;
+      left: 0;
+      padding-right: 0;
+      
+    }
+
+    .logo_conteiner{
+      justify-content: center;
+      padding-top: 100px;
+    }
+
+    .logo{
+      width: 250px;
+    }
+
+    .titulo_brawlsky{
+      left: 0;
+      margin: 0;
+      padding: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      position: relative;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .titulo_brawlsky h1{
+      font-size: 60px;
+      margin: 0;
+      padding: 0;
+      right: 0;
+      position: relative;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      position: relative;
+      text-align: center;
+    }
+
+    .titulo_brawlsky h2{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      width: 100%;
+      right: 0;
+      font-size: 15px;
+      text-align: center;
+      
+      
+    }
+
+    /*noticias inicial responsividade*/
+
+    .novidades{
+      position: relative;
+      padding: 0;
+      padding-bottom: 500px ;
+      margin-top: 100px;
+      margin-bottom: 0;
+      background-color: none;
+      background: none;
+      justify-items: center;
+      flex-wrap: wrap;
+      display: flex;
+      background-color: rgb(130, 115, 172);
+    }
+
+    .noticias_total{
+      width: 80%;
+      position: relative;
+      padding: 0;
+      height: 1000px;
+    }
+
+    .noticias{
+      margin-top: 10px;
+      width: 99%;
+    }
+
+    /*historias legends responsividade*/
+
+    .historias_legends{
+      margin-top: 0px;
+      position: relative;
+      padding: 0;
+      padding-top: 50px;
+      padding-bottom: 100px;
+      justify-content: center;
+      display: block;
+      flex-wrap: wrap;
+      
+    
+    }
+
+    #historias_h1{
+      font-size: 25px;
+    }
+
+    #historias_p{
+      font-size: 13px;
+      width: 99%;
+      text-align: center;
+
+    }
+
+    .legend_img{
+      padding-top: 5%;
+    }
+
+    .legend_img img{
+      width: 60%;
+      
+    }
+
+    #historia_h1{
+      padding-top: 5%;
+      font-size: 60px;
+    }
+
+    /*armas responsividade*/
+
+    .armas_introdução img{
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+ 
 
   
   
