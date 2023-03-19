@@ -151,10 +151,11 @@ body {
     justify-content: center;
     z-index: 5;
     width: 100%;
-    padding-top: 2%;
+    padding-top: 0%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 0px;
     
   }
 
@@ -163,6 +164,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 410px;
+    padding: 0;
+    
   }
 
   .logo{
@@ -175,19 +179,20 @@ body {
 
   .titulo_brawlsky{
     padding: 200px;
-    padding-top: 1%;
+    padding-top: 0px;
     position: relative;
 
   }
 
   .br{
-    color: rgb(130, 115, 172);
+    color: #8273ac;
   }
 
   .titulo_brawlsky h1{
     color: white;
+    margin-top: -50px;
     font-family: roboto;
-    font-size: 130px;
+    font-size: 110px;
     position: relative;
     text-align: center;
   
