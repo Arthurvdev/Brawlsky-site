@@ -863,8 +863,8 @@ body {
       padding-top: 100px;
     }
 
-    .logo{
-      width: 250px;
+    .logo_conteiner img{
+      width: 300px;
     }
 
     .titulo_brawlsky{
@@ -984,6 +984,10 @@ body {
       margin-bottom: auto;
       width: 150px;
       height: 150px;
+    }
+
+    .ataques_gs img{
+      width: 380px;
     }
   }
 
