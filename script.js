@@ -26,3 +26,4 @@ function search() {
 searchInput.addEventListener('keyup', search);
 
 
+
