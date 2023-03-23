@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(41, 37, 43);
+    background-color: #29252b;
     background-image: url();
     overflow-x: hidden;
 }
@@ -146,6 +146,20 @@ body {
 
   /*Página incicial*/
 
+  .img_banner{
+    position: absolute;
+    z-index: 1;
+
+  }
+
+  .img_banner img{
+    width: 2000px;
+    margin-top: -340px;
+    margin-left: -200px;
+    z-index: 1;
+    opacity: 20%;
+  }
+
   .logo_conteiner{
     position: relative;
     justify-content: center;
@@ -157,6 +171,7 @@ body {
     display: block;
     margin-top: 0px;
     
+    
   }
 
   .logo_conteiner img{
@@ -166,6 +181,7 @@ body {
     display: block;
     width: 410px;
     padding: 0;
+
     
   }
 
@@ -181,6 +197,7 @@ body {
     padding: 200px;
     padding-top: 0px;
     position: relative;
+    z-index: 5;
 
   }
 
@@ -219,6 +236,7 @@ body {
     position: relative;
     display:inline-block;
     padding-bottom: 150px;
+    z-index: 5;
     
   }
 
