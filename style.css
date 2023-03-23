@@ -888,14 +888,14 @@ body {
 
   /*Nomeclaturas*/
 
-  .nomeclatura_titulo{
+  .nomenclatura_titulo{
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
     background-color: #8273ac;
   }
 
-  .nomeclatura_titulo h1{
+  .nomenclatura_titulo h1{
     color: rgb(255, 255, 255);
     font-family: Roboto;
     font-size: 50px;
@@ -903,7 +903,7 @@ body {
     padding-bottom: 50px;
   }
 
-  .nomeclaturas_conteiner{
+  .nomenclaturas_conteiner{
     color: white;
     flex-wrap: wrap;
     display: flex;
@@ -913,7 +913,7 @@ body {
     font-style: italic;
   }
 
-  .nomeclaturas_conteiner h1{
+  .nomenclaturas_conteiner h1{
     width: 100%;
     color: #8273ac;
     padding-top: 20px;
@@ -921,7 +921,7 @@ body {
     font-size: 28px;
   }
 
-  .nomeclaturas_conteiner img{
+  .nomenclaturas_conteiner img{
     width: 100px;
     padding-top: 40px ;
   }
