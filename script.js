@@ -1,5 +1,4 @@
 
-
 //Script navbar
 
 const searchInput = document.querySelector('#search-input');
@@ -24,6 +23,9 @@ function search() {
 }
 
 searchInput.addEventListener('keyup', search);
+
+//
+
 
 
 
