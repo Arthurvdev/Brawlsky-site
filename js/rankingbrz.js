@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const tierIcons = {
   Valhallan: 'https://corehalla.com/_next/image?url=%2Fimages%2Ficons%2Franked%2FValhallan.webp&w=1920&q=75',
   Diamond: 'https://corehalla.com/_next/image?url=%2Fimages%2Ficons%2Franked%2FDiamond.png&w=1920&q=75',
@@ -7,13 +5,14 @@ const tierIcons = {
   Gold: 'https://corehalla.com/_next/image?url=%2Fimages%2Ficons%2Franked%2FGold%201.png&w=1920&q=75',
 };
 
-const Key = process.env.KEY;
-console.log(Key);
 
+const API_KEY = 'C2KZNXSHOPILAEPYOVH6';
 const tableBody = document.querySelector('#my-table tbody');
 const searchBox = document.querySelector('#search-box');
 
 let playersData = [];
+
+
 
 function filterResults(query) {
   const rows = document.querySelectorAll('#my-table tbody tr');
@@ -53,8 +52,8 @@ function renderPlayersData(data) {
 
 
 function fetchRankings(page = 1) {
-
-  fetch(`https://api.brawlhalla.com/rankings/1v1/brz/${page}?api_key=${Key}`)
+  
+  fetch(`https://api.brawlhalla.com/rankings/1v1/brz/${page}?api_key=${API_KEY}`)
     .then(response => response.json())
     .then(data => {
       playersData = playersData.concat(data);
