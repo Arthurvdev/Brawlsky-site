@@ -865,9 +865,11 @@ body {
   }
 
   .patch_conteiner img{
-    width: 100px;
+    width: 55%;
     padding-top: 40px ;
   }
+
+
 
   /*Nomeclaturas*/
 
@@ -1239,6 +1241,10 @@ body {
     .patch_conteiner{
       padding: 20px;
       padding-top: 80px;
+    }
+
+    .patch_conteiner img{
+      width: 100%;
     }
   }
 
