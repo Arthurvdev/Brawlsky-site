@@ -878,7 +878,7 @@ body {
 
   .avatar_conteiner img{
     display:inline;
-    width: 10%;
+    width: 5%;
     padding-top: 40px ;
   }
 
@@ -1118,7 +1118,8 @@ body {
   @media (max-width: 1200px){
 
     .navbar{
-      width: 100%;
+      width: 90%;
+      z-index: 8;
     }
 
     /*introdução responsividade*/
@@ -1127,7 +1128,7 @@ body {
       float: right;
       left: 0;
       padding-right: 0;
-      
+      z-index: 7;
     }
 
     .logo_conteiner{
@@ -1275,21 +1276,20 @@ body {
     /*Avatares RESPONSIVIDADE*/
 
   .avatar_conteiner{
-    display: flex;
     position: relative;
-    padding: 40px;
+    padding: 30px;
 
   }
 
   .avatar_conteiner h1{
     padding-top: 50px;
+    width: 100%;
   }
 
   .avatar_conteiner img{
-    display:inline;
     width: 13%;
-    padding: 10px;
-    padding-top: 40px ;
+    padding: 0px;
+    padding-top: 50px ;
   }
 
     /*PATCH RESPONSIVIDADE*/
