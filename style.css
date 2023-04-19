@@ -882,6 +882,22 @@ body {
     padding-top: 40px ;
   }
 
+  .todos-avatares-conteiner{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #8273ac;
+    border-radius: 40px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .todos-avatares-conteiner img{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 10%;
+  }
+
   /*Patch*/
 
   .patch_conteiner{
