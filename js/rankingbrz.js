@@ -58,8 +58,8 @@ function fetchRankings(page = 1) {
     .then(data => {
       playersData = playersData.concat(data);
 
-      if (data.length == 50) {
-        fetchRankings(page + 1);
+      if (data.length == 25) {
+        fetchRankings(page + 0);
       } else {
         renderPlayersData(playersData);
 
