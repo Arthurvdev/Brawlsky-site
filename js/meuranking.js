@@ -5,7 +5,7 @@ searchBtn.addEventListener('click', searchPlayer);
 
 function searchPlayer() {
   const playerName = document.getElementById('player-name').value;
-  const url = `https://brawsky-api.up.railway.app/`;
+  const url = `https://api.brawlhalla.com/rankings/1v1/brz/1?name=${playerName}&api_key=C2KZNXSHOPILAEPYOVH6`;
 
   fetch(url)
     .then(response => response.json())
@@ -46,4 +46,3 @@ searchInput.addEventListener('keypress', function (event) {
     searchPlayer();
   }
 });
-
