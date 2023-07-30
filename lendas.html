@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="Imagens/logo6.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2935925507413415"
      crossorigin="anonymous"></script>
     <script src="removerhtml.js"></script>
@@ -16,7 +17,7 @@
 </head>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C119RRYVZP"></script>
+<script async src="https://cms.googletagmanager.com/gtag/js?id=G-C119RRYVZP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -25,7 +26,12 @@
   gtag('config', 'G-C119RRYVZP');
 </script>
 
-<body>
+<body onload="tl_carregamento();">
+
+  <div class="carregamento">
+    <div class="c-loader"></div>  
+  </div>
+
 
   <div  class="criador">
     <p>site criado por: Nickemanzero (ArthurVdev)</p>
@@ -33,377 +39,382 @@
     
   <nav class="navbar">
     <ul>
-      <li><a href="index.html">Início</a></li>
-      <li><a href="patch.html">Patch</a></li>
-      <li><a href="noticias.html">Notícias</a></li>
-      <li></li>
-
+      <li><a href="index.html">Início</a></li> 
       <li><h1>Sobre o jogo ↓</h1></li>
       <li><a href="lendas.html">Lendas</a></li>
       <li><a href="armas.html">Armas</a></li>
       <li><a href="avatares.html">Avatares</a></li>
+      <li><a href="cores.html">Cores</a></li>
+      <li><a href="mapas.html">Mapas</a></li>
+      <li><a href="sidekicks.html">Sidekicks</a></li>
+      <li><a href="efeitosdeko.html">Efeitos de K.O.</a></li>
       <li><a href="nomenclaturas.html">Nomenclaturas</a></li>
-      <li></li>
-
       <li><h1>Ranking ↓</h1></li>
       <li><a href="ranking.html">Ranking BRZ | Top 50</a></li>
-      <li><a href="meuranking.html">Verifique seu Rank</a></li>
+      <li><h1>Outros ↓</h1></li>
+      <li><a href="creditos.html">Créditos</a></li>
+      
     </ul>
   </nav>
 
     <button id="toggleNavbarButton">|||</button>
 
     
-    <div class="search-bar">
+    <div class="search-bar" data-aos="fade-down">
       <input type="text" id="search-input" placeholder="Pesquise a lenda aqui">
     </div>
-  <div class="product-container">
-        <div class="product">
-          <img src="https://www.brawlhalla.com/c/uploads/2021/07/bodvar.png" alt="bodvar">
+  <div class="product-container" data-aos="fade-up">
+        <div class="product" >
+          <img src="https://cms.brawlhalla.com/c/uploads/2021/07/bodvar.png" alt="bodvar">
           <h1>Bodvar</h1>
           <a href="legends/bodvar.html">Saiba mais</a>
     </div>
         
         <div class="product">
-          <img src="https://www.brawlhalla.com/c/uploads/2021/07/cassidy.png" alt="cassidy">
+          <img src="https://cms.brawlhalla.com/c/uploads/2021/07/cassidy.png" alt="cassidy">
           <h1>Cassidy</h1>
           <a href="legends/cassidy.html">Saiba mais</a>
         </div>
         
         <div class="product">
-          <img src="https://www.brawlhalla.com/c/uploads/2021/07/orion.png" alt="orion">
+          <img src="https://cms.brawlhalla.com/c/uploads/2021/07/orion.png" alt="orion">
           <h1>Orion</h1>
           <a href="legends/orion.html">Saiba mais</a>
         </div>
 
         <div class="product">
-          <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VraxxM-1.png" alt="lord vraxx">
+          <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VraxxM-1.png" alt="lord vraxx">
           <h1>Lord Vraxx</h1>
           <a href="legends/lordvraxx.html">Saiba mais</a>
         </div>
 
         <div class="product">
-          <img src="https://www.brawlhalla.com/c/uploads/2021/07/gnash.png" alt="gnash">
+          <img src="https://cms.brawlhalla.com/c/uploads/2021/07/gnash.png" alt="gnash">
           <h1>Gnash</h1>
           <a href="legends/gnash.html">Saiba mais</a>
         </div>
 
         <div class="product">
-          <img src="https://www.brawlhalla.com/c/uploads/2021/07/nai.png" alt="queen nai">
+          <img src="https://cms.brawlhalla.com/c/uploads/2021/07/nai.png" alt="queen nai">
           <h1>Queen Nai</h1>
           <a href="legends/queennai.html">Saiba mais</a>
         </div>
 
         <div class="product">
-          <img src="https://www.brawlhalla.com/c/uploads/2021/07/hattori.png"  alt="hattori">
+          <img src="https://cms.brawlhalla.com/c/uploads/2021/07/hattori.png"  alt="hattori">
           <h1>Hattori</h1>
           <a href="legends/hattori.html">Saiba mais</a>
         </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/roland.png" alt="sir roland">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/roland.png" alt="sir roland">
             <h1>Sir Roland</h1>
             <a href="legends/sirroland.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/scarlet.png" alt="scarlet">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/scarlet.png" alt="scarlet">
             <h1>Scarlet</h1>
             <a href="legends/Scarlet.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/thatch.png" alt="thatch">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/thatch.png" alt="thatch">
             <h1>Thatch</h1>
             <a href="legends/Thatch.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/ada.png" alt="ada">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/ada.png" alt="ada">
             <h1>Ada</h1>
             <a href="legends/ada.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/sentinel.png" alt="sentinel">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/sentinel.png" alt="sentinel">
             <h1>Sentinel</h1>
             <a href="legends/sentinel.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/lucien.png" alt="lucien">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/lucien.png" alt="lucien">
             <h1>Lucien</h1>
             <a href="legends/lucien.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/teros.png" alt="teros">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/teros.png" alt="teros">
             <h1>Teros</h1>
             <a href="legends/teros.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValkyrieM.png" alt="brynn">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValkyrieM.png" alt="brynn">
             <h1>Brynn</h1>
             <a href="legends/brynn.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CatM.png" alt="asuri">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CatM.png" alt="asuri">
             <h1>Asuri</h1>
             <a href="legends/asuri.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ApocM.png" alt="barraza">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ApocM.png" alt="barraza">
             <h1>Barraza</h1>
             <a href="legends/barraza.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfM.png" alt="ember">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfM.png" alt="ember">
             <h1>Ember</h1>
             <a href="legends/ember.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AzothM.png" alt="azoth">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AzothM.png" alt="azoth">
             <h1>Azoth</h1>
             <a href="legends/azoth.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SamuraiM.png" alt="koji">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SamuraiM.png" alt="koji">
             <h1>Koji</h1>
             <a href="legends/koji.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DwarfM.png" alt="ulgrim">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DwarfM.png" alt="ulgrim">
             <h1>Ulgrim</h1>
             <a href="legends/ulgrim.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonsterHunterM.png" alt="diana">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonsterHunterM.png" alt="diana">
             <h1>Diana</h1>
             <a href="legends/diana.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BarbarianM.png" alt="jhala">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BarbarianM.png" alt="jhala">
             <h1>Jhala</h1>
             <a href="legends/jhala.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GolemM.png" alt="kor">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GolemM.png" alt="kor">
             <h1>Kor</h1>
             <a href="legends/kor.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonkM.png" alt="wu shang">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_MonkM.png" alt="wu shang">
             <h1>Wu Shang</h1>
             <a href="legends/wushang.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValM.png" alt="val">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ValM.png" alt="val">
             <h1>Val</h1>
             <a href="legends/val.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DragonM.png" alt="ragnir">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_DragonM.png" alt="ragnir">
             <h1>Ragnir</h1>
             <a href="legends/ragnir.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CrossM.png" alt="cross">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CrossM.png" alt="cross">
             <h1>Cross</h1>
             <a href="legends/cross.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AssassinM.png" alt="mirage">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_AssassinM.png" alt="mirage">
             <h1>Mirage</h1>
             <a href="legends/mirage.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ReaperM.png" alt="nix">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ReaperM.png" alt="nix">
             <h1>Nix</h1>
             <a href="legends/nix.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WerewolfM.png" alt="mordex">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WerewolfM.png" alt="mordex">
             <h1>Mordex</h1>
             <a href="legends/mordex.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_KitsuneM.png" alt="yumiko">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_KitsuneM.png" alt="yumiko">
             <h1>Yumiko</h1>
             <a href="legends/yumiko.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpaceHunterM.png" alt="artemis">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpaceHunterM.png" alt="artemis">
             <h1>Artemis</h1>
             <a href="legends/artemis.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThiefM.png" alt="caspian">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThiefM.png" alt="caspian">
             <h1>Caspian</h1>
             <a href="legends/caspian.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CorsairM.png" alt="sidra">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CorsairM.png" alt="sidra">
             <h1>Sidra</h1>
             <a href="legends/sidra.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BruteM.png" alt="xull">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BruteM.png" alt="xull">
             <h1>Xull</h1>
             <a href="legends/xull">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_InuitM-1.png" alt="kaya">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_InuitM-1.png" alt="kaya">
             <h1>Kaya</h1>
             <a href="legends/kaya.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SoldierM.png" alt="isaiah">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SoldierM.png" alt="isaiah">
             <h1>Isaiah</h1>
             <a href="legends/isaiah.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ShinobiM.png" alt="jiro">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ShinobiM.png" alt="jiro">
             <h1>Jiro</h1>
             <a href="legends/jiro.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WuxiaM.png" alt="lin fei">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WuxiaM.png" alt="lin fei">
             <h1>Lin Fei</h1>
             <a href="legends/linfei.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CelestialM.png" alt="zariel">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_CelestialM.png" alt="zariel">
             <h1>Zariel</h1>
             <a href="legends/zariel.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RaymanM.png" alt="rayman brawlhalla">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RaymanM.png" alt="rayman brawlhalla">
             <h1>Rayman</h1>
             <a href="legends/rayman.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfwarM.png" alt="dusk">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ElfwarM.png" alt="dusk">
             <h1>Dusk</h1>
             <a href="legends/dusk.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpellwitchM.png" alt="fait">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SpellwitchM.png" alt="fait">
             <h1>Fait</h1>
             <a href="legends/fait.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThorM.png" alt="thor">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ThorM.png" alt="thor">
             <h1>Thor</h1>
             <a href="legends/thor.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RagefighterM.png" alt="petra">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_RagefighterM.png" alt="petra">
             <h1>Petra</h1>
             <a href="legends/petra.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualRobotM.png" alt="vector">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualRobotM.png" alt="vector">
             <h1>Vector</h1>
             <a href="legends/vector.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VampLordM.png" alt="volkov">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_VampLordM.png" alt="volkov">
             <h1>Volkov</h1>
             <a href="legends/volkov.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GargoyleM.png" alt="onyx">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GargoyleM.png" alt="onyx">
             <h1>Onyx</h1>
             <a href="legends/onyx.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SellswordM.png" alt="jaeyun">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_SellswordM.png" alt="jaeyun">
             <h1>Jaeyun</h1>
             <a href="legends/jaeyun.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualSharkM.png" alt="mako">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_ActualSharkM.png" alt="mako">
             <h1>Mako</h1>
             <a href="legends/mako.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GhostArmorM.png" alt="magyar">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_GhostArmorM.png" alt="magyar">
             <h1>Magyar</h1>
             <a href="legends/magyar.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BountyHunterM.png" alt="reno">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_BountyHunterM.png" alt="reno">
             <h1>Reno</h1>
             <a href="legends/reno.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2021/12/a_Roster_Pose_BirdBardM.png" alt="munin brawlhalla">
+            <img src="https://cms.brawlhalla.com/c/uploads/2021/12/a_Roster_Pose_BirdBardM.png" alt="munin brawlhalla">
             <h1>Munin</h1>
             <a href="legends/munin.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2022/03/a_Roster_Pose_FairyQueenM.png" alt="arcadia brawlhalla">
+            <img src="https://cms.brawlhalla.com/c/uploads/2022/03/a_Roster_Pose_FairyQueenM.png" alt="arcadia brawlhalla">
             <h1>Arcadia</h1>
             <a href="legends/arcadia.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2022/07/a_Roster_Pose_EzioM.png" alt="ezio brawlhalla">
+            <img src="https://cms.brawlhalla.com/c/uploads/2022/07/a_Roster_Pose_EzioM.png" alt="ezio brawlhalla">
             <h1>Ezio</h1>
             <a href="legends/ezio.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2022/12/a_Roster_Pose_LuchadorM.png" alt="tezca brawlhalla">
+            <img src="https://cms.brawlhalla.com/c/uploads/2022/12/a_Roster_Pose_LuchadorM.png" alt="tezca brawlhalla">
             <h1>Tezca</h1>
             <a href="legends/tezca.html">Saiba mais</a>
           </div>
 
           <div class="product">
-            <img src="https://www.brawlhalla.com/c/uploads/2023/03/a_Roster_Pose_SpeedsterM.png" alt="thea brawlhalla">
+            <img src="https://cms.brawlhalla.com/c/uploads/2023/03/a_Roster_Pose_SpeedsterM.png" alt="thea brawlhalla">
             <h1>Thea</h1>
             <a href="legends/thea.html">Saiba mais</a>
+          </div>
+          <div class="product">
+            <img src="https://cms.brawlhalla.com/c/uploads/2023/06/a_Roster_Pose_SentaiM.png" alt="red raptor brawlhalla">
+            <h1>Red Raptor</h1>
+            <a href="legends/redraptor.html">Saiba mais</a>
           </div>
 
           <div class="product">
@@ -412,11 +423,16 @@
             <a href="#">Saiba mais</a>
           </div>
     </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
      
     
   <script src="script.js"></script>
   <script src="menu.js"></script>
-  
+  <script src="loading.js"></script>
  
 </body>
 

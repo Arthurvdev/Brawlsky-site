@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo.png">
+    <link rel="shortcut icon" href="../Imagens/logo6.png">
     <title>Thatch - BrawlSky</title>
 </head>
-<body>
+<body onload="tl_carregamento();">
+  <div class="carregamento">
+    <div class="c-loader"></div>  
+  </div>
     <nav class="navbar">
         <ul>
           <li><a href="../index.html">Início</a></li>
@@ -24,7 +27,7 @@
       <div class="legend_design">
 
         <div class="legend_img">
-            <img src="https://www.brawlhalla.com/c/uploads/2022/02/UpdatedThatch.png" alt="">
+            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/UpdatedThatch.png" alt="thatch brawlhalla">
         </div>
         <div class="historia">
             <h1 id="historia_h1">Thatch</h1>
@@ -52,7 +55,12 @@
 
       </div>
 
-      <script src="../menu.js"></script>
+      <div class="valor_legend">
+        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+           Preço: <span class="preço_span">3.900</span></h1>
+    </div>
+
+      <script src="../menu.js"></script> <script src="../loading.js"></script>
       <script src="../script.js"></script>
 </body>
 </html>

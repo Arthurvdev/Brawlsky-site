@@ -8,7 +8,11 @@
     <link rel="shortcut icon" href="../Imagens/logo6.png">
     <title>Cassidy - BrawlSky</title>
 </head>
-<body>
+<body onload="tl_carregamento();">
+  <div class="carregamento">
+    <div class="c-loader"></div>  
+  </div>
+
     <nav class="navbar">
         <ul>
           <li><a href="../index.html">Início</a></li>
@@ -21,10 +25,12 @@
       <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
+
       <div class="legend_design">
+        
 
         <div class="legend_img">
-            <img src="https://www.brawlhalla.com/c/uploads/2022/02/CassidySplash-1.png" alt="cassidy brawlhalla">
+            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/CassidySplash-1.png" alt="cassidy brawlhalla">
         </div>
         <div class="historia">
             <h1 id="historia_h1">Cassidy</h1>
@@ -58,7 +64,7 @@
           Preço: <span class="preço_span">2.300</span></h1>
     </div>
 
-      <script src="../menu.js"></script>
+      <script src="../menu.js"></script> <script src="../loading.js"></script>
       <script src="../script.js"></script>
 </body>
 </html>

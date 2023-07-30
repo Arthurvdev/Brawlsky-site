@@ -12,6 +12,8 @@
     <meta property="og:site_name" content="Brawlsky" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="Imagens/logo6.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="removerhtml.js"></script>
     <title>BrawlSky</title>
     <meta name="description" content="Brawlsky é um site de brawlhalla que tem tudo que você precisa saber sobre Legends, Armas, novo Patch, eventos e outros assuntos sobre brawlhalla. Site 100% br (brasileiro). Aqui é o seu lugar para saber de tudo sobre brawlahlla.">
@@ -27,40 +29,44 @@
   gtag('config', 'G-C119RRYVZP');
 </script>
 
-<body>
+
+<body onload="tl_carregamento();">
 
     
+    <div class="carregamento">
+      <div class="c-loader"></div>  
+    </div>
+ 
+
     <div  class="criador">
       <p>site criado por: Nickemanzero (ArthurVdev)</p>
     </div>
     
-    <!--
     <nav class="navbar">
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="patch.html">Patch</a></li>
-        <li><a href="noticias.html">Notícias</a></li>
-        <li></li>
-  
+        <li><a href="index.html">Início</a></li> 
         <li><h1>Sobre o jogo ↓</h1></li>
         <li><a href="lendas.html">Lendas</a></li>
         <li><a href="armas.html">Armas</a></li>
         <li><a href="avatares.html">Avatares</a></li>
+        <li><a href="cores.html">Cores</a></li>
+        <li><a href="mapas.html">Mapas</a></li>
+        <li><a href="sidekicks.html">Sidekicks</a></li>
+        <li><a href="efeitosdeko.html">Efeitos de K.O.</a></li>
         <li><a href="nomenclaturas.html">Nomenclaturas</a></li>
-        <li></li>
-  
         <li><h1>Ranking ↓</h1></li>
         <li><a href="ranking.html">Ranking BRZ | Top 50</a></li>
-        <li><a href="meuranking.html">Verifique seu Rank</a></li>
+        <li><h1>Outros ↓</h1></li>
+        <li><a href="creditos.html">Créditos</a></li>
+        
       </ul>
     </nav>
 
-
       <button id="toggleNavbarButton">|||</button>
--->
+
       <!--Botões-->
     
-    <div class="botões_sociais">
+    <div class="botões_sociais" data-aos="fade-down">
 
       <div class="botoes">
         <a href="https://discord.gg/kgXCddu5kS" target="_blank">
@@ -100,16 +106,19 @@
       </div>
       -->
       <div class="img_banner">
-        <img src="Imagens/banner.png" alt="">
+        
       </div>
-
-      <div class="logo_conteiner">
-        <img class="logo" src="Imagens/logo6.png" alt="logo brawlsky">
+        
+      <div class="logo_conteiner" >
+        
+        <img class="logo" src="Imagens/logo6.png" alt="logo brawlsky" data-aos="zoom-in">
       </div>
       
       <div class="titulo_brawlsky">
-        <h1><span class="br">Br</span>awlsky</h1>
-        <h2>SITE EM MANUTENÇÃO - VOLTAREI AO AR EM BREVE</h2>
+        <!-- 
+          <h1><span class="br">Br</span>awlsky</h1>
+        
+        <h2>"O site brasileiro de consultas sobre brawlhalla"</h2>-->
       </div>
 
       
@@ -117,7 +126,8 @@
 
       <!--NOTICIAS E NOVIDADES-->
 
-    <!--
+      <!--
+
       <div class="novidades">
         
         <div class="noticias_titulo">
@@ -152,49 +162,71 @@
             Feiticeiro Infernal Volkov continua! Luminous Paladin Jaeyun rola para a iniciativa e o Gamemaster 
             revela novas Missões Semanais: acerte os adversários 3 vezes enquanto estiver no ar, ganhe partidas...</p>
         </div>
-    
-       
-    
-         -->
-        
-        
-        
       
       </div>
     
       </div>
+    
+    -->
 
+    
       <!--Historias / armas e outros assuntos-->
       
-<!--
       <div class="historias_legends">
-        <img id="img_historias" src="https://www.brawlhalla.com/c/uploads/2021/07/a_Roster_Pose_WerewolfM.png" alt="Mordex brawlhalla">
-        <h1 id="historias_h1">Conheça os legends</h1>
-        <p id="historias_p">Conheça as histórias e informações de cada legend do brawlhalla clicando aqui.</p>
-        <a href="lendas.html">Clique aqui</a>
+        <img id="img_historias" src="https://cms.brawlhalla.com/c/uploads/2022/05/MordexSplash.png" alt="Mordex brawlhalla" data-aos="fade-left">
+        <h1 id="historias_h1" data-aos="fade-right">Conheça os legends</h1>
+        <p id="historias_p" data-aos="fade-right">Descubra a variedade de Legends no Brawlhalla, cada um com habilidades únicas e estilos de luta distintos. Domine as arenas com guerreiros corajosos e criaturas místicas. Torne-se uma lenda e prove seu valor neste jogo de luta competitivo! <br><br>
+        Conheça a história e informações sobre a sua lenda favorita.</p>
+        <a href="lendas.html" data-aos="fade-right">Clique aqui</a>
       </div>
 
--->
+      <div class="conheça_armas">
+        <img id="img_armas" src="https://cms.brawlhalla.com/c/uploads/2022/03/JhalaSplash.png" alt="Jhala brawlhalla" data-aos="fade-right">
+        <h1 id="armas_h1" data-aos="fade-left">Masterize suas armas</h1>
+        <p id="armas_p" data-aos="fade-left">Explore as incríveis armas disponíveis no Brawlhalla e descubra qual se encaixa 
+          perfeitamente com seu estilo de jogo. Com uma seleção diversificada, desde espadas afiadas até lanças 
+          velozes e martelos poderosos, 
+          você encontrará a arma perfeita para dominar seus adversários.</p>
+        <a href="armas.html" data-aos="fade-left">Clique aqui</a>
+      </div>
 
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2935925507413415"
-     crossorigin="anonymous"></script>
-      <!-- retangulo anuncio -->
-      <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-2935925507413415"
-          data-ad-slot="6385382663"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
+     <div class="conteiner_categorias" data-aos="fade-up">
+
+        <div class="categorias"> 
+          <a href="/mapas.html"><img src="/Imagens/mapas.png" alt=""></a>
+          <h1>MAPAS</h1>
+        </div>
+        
+        <div class="categorias">
+          <a href="/cores.html"><img src="/Imagens/cores.png" alt=""></a>
+          <h1>CORES</h1>
+        </div>
+
+        <div class="categorias">
+          <a href="/avatares.html"><img src="/Imagens/avatares.png" alt=""></a>
+          <h1>AVATARES</h1>
+        </div>
+      
+      </div>
+
+      <footer class="footer">
+        <div class="left">
+          <img style="width: 150px ;" src="/Imagens/logo6.png" alt="">
+          
+          <p class="Copyright">Copyright &copy; 2023 Brawlsky - Todos os Direitos Reservados. Brawlsky.com</p>
+        </div>
+        
+      </footer>
+
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
+          AOS.init();
       </script>
-    
-  
-      
-
-      
       <script src="menu.js"></script>
       <script src="script.js"></script>
+      <script src="loading.js"></script>
       
+
 </body>
 </html>

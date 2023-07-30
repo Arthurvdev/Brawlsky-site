@@ -53,13 +53,13 @@ function renderPlayersData(data) {
 
 function fetchRankings(page = 1) {
   
-  fetch(`https://brawsky-api.up.railway.app/`)
+  fetch(`https://brawlsky-api2.up.railway.app/`)
     .then(response => response.json())
     .then(data => {
       playersData = playersData.concat(data);
 
       if (data.length == 25) {
-        fetchRankings(page + 0);
+        fetchRankings(page + 1);
       } else {
         renderPlayersData(playersData);
 
