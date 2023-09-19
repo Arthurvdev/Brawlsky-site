@@ -18,14 +18,13 @@ body {
   top: 0;
   left: 0;
   background-color: #29252b;
-  
   opacity: 100;
   transition: 0.5s;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
-  
+  overflow-x: hidden;
 }
 
 .c-loader{
@@ -54,17 +53,19 @@ body {
   color: white;
   top: 97%;
   left: 5px;
+  opacity: 0%;
 }
 
 /*NAV BAR*/
 
 #toggleNavbarButton{
-  z-index: 8;
+  z-index: 10;
   position: fixed;
   padding: 15px;
   padding-right: 18px;
   padding-left: 18px;
   margin: 10px;
+  margin-top: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #29252b;
   border: solid #29252b 2px;
@@ -142,11 +143,47 @@ body {
 
   /*Página incicial*/
 
-  .img_banner{
+  .conteiner_banner_brawlsky{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("Imagens/banner_brawlsky.png");
+    background-size: 130%;
+    background-repeat: no-repeat;
+  }
+
+  .banner_brawlsky{
+    padding-top: 210px;
+  }
+
+  .banner_brawlsky h1{
+    color:#ffffff;
+    font-size: 110px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+
+  .banner_brawlsky h2{
+    color:rgb(204, 182, 255);
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  
+  
+
+  
+
+  /*.img_banner{
     position: absolute;
     pointer-events: none;
     z-index: 1;
-    margin-top: -200px ;
+    margin-top: 100px ;
     width: 100%;
     padding: 0;
   }
@@ -165,10 +202,9 @@ body {
     padding-top: 0%;
     margin-left: auto;
     margin-right: auto;
-    height: 120vh;
-    display: block;
+    height: 80vh;
+    display: flex;
     opacity: 80%;
-    margin-top: -200px;
     background: rgb(131,58,180);
     background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(78,40,98,1) 50%, rgba(41,37,43,1) 100%);
     
@@ -182,10 +218,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 500px;
+    width: 400px;
     padding: 0;
-    margin-top: 10%; 
-    padding-top: 100px;
+    margin-top: 0%; 
+    padding-top: 80px;
     transition: 0.5s;
   }
 
@@ -217,133 +253,11 @@ body {
 
   }
 
-  .br{
-    color: #8273ac;
-  }
+  */
 
-  .titulo_brawlsky h1{
-    color: white;
-    margin-top: -50px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 110px;
-    position: relative;
-    text-align: center;
-  
-  }
-
-  .titulo_brawlsky h2{
-    color: rgb(224, 224, 224);
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    position: relative;
-    margin-top: -5%;
-    height: 100px;
-    text-align: center;
-    margin-bottom: 1px;
-    
-    
-  }
-
-  /*Noticias e novidades*/
-
-  .novidades{
-    background-color: rgb(90, 78, 122);
-    position: relative;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    position: relative;
-    display:inline-block;
-    padding-bottom: 150px;
-    z-index: 5;
-    
-  }
-
-  .noticias_total{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    
-  }
-
-  .noticias_pagina{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    
-  }
-
-  .noticias_titulo{
-    width: 100%;
-    position: relative;
-    height: 100px;
-  }
-
-  #noticias_titulo{
-    color: white;
-    font-size: 30px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-top: 40px;
-    display: flex;
-    width: 99%;
-    justify-content: center;
-    position: relative;
-    left: 5px;
-    transition: 0.5s;
-  }
-
-  #noticias_titulo:hover{
-    transform: rotate(2deg);
-    transition: 0.5s;
-    letter-spacing: 1px;
-  }
-
-  .noticias{
-    background-color: white;
-    width: 25%;
-    transition: 0.3s;
-    padding: 10px;
-    margin-top: 50px;
-    border-radius: 20px;
-    
-  }
-
-  .noticias img{
-    padding-top: 20px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    position: relative;
-    
-  }
-
-  .noticias a{
-    text-decoration: none;
-  }
-
-  #h1_noticias{
-    text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    left: 5px;
-    margin: 25px;
-    color: rgb(60, 42, 66);
-    text-decoration: none;
-    
-  }
-
-  #p_noticias{
-    color: rgb(60, 42, 66);
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 10px;
-    font-size: 15px;
-  }
 
   .botões_sociais{
-    position: relative;
+    position: absolute;
     z-index: 8;
     left: 85%;
     top: 20px;
@@ -376,7 +290,6 @@ body {
   /*historias*/
 
   .historias_legends{
-    
     width: 100%;
     display: block;
     position: relative;
@@ -384,34 +297,36 @@ body {
     justify-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -10%;
+    margin-top: 10%;
     padding-top: 0px;
     padding-bottom: 50px;
     margin-bottom: 20%;
     list-style: none;
-    
+    overflow-x: hidden;
   }
 
   #img_historias{
     width: 400px;
-    margin-top: -2%;
+    margin-top: 2%;
     z-index: 6;
     margin-right: 10%;
     border-radius: 100px;
     transition: 0.5s;
     position: relative;
     float: right;
+    overflow-x: hidden;
   }
 
   #historias_h1{
     font-size: 50px;
-    margin-top: 10%;
+    margin-top: 0%;
     margin-left: 10%;
     padding-top: 80px;
-    width: 99%;
+    width: 50%;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
   }
 
   #historias_p{
@@ -424,6 +339,7 @@ body {
     padding-bottom: 15px;
     width: 40%;
     color: rgb(255, 255, 255);
+    overflow-x: hidden;
     
   }
 
@@ -441,7 +357,7 @@ body {
     color: white;
     transition: 0.5s;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    overflow-x: hidden;
   }
 
   .historias_legends a:hover{
@@ -463,12 +379,12 @@ body {
     margin-top: 2%;
     margin-bottom: 20%;
     list-style: none;
-
+    
   }
 
   #img_armas{
     padding-top: 20px;
-    width: 380px;
+    width: 350px;
     margin-top: -10%;
     float: left;
     z-index: 2;
@@ -477,6 +393,7 @@ body {
     transition: 0.5s;
     position: relative;
     padding-right: 12%;
+    
   }
 
   #armas_h1{
@@ -487,6 +404,7 @@ body {
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
   }
 
   #armas_p{
@@ -499,6 +417,7 @@ body {
     padding-bottom: 15px;
     width: 80%;
     color: rgb(255, 255, 255);
+    
     
   }
 
@@ -516,7 +435,8 @@ body {
     color: white;
     transition: 0.5s;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    float: left;
+    float: left;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 
   }
 
@@ -1226,6 +1146,7 @@ body {
     color: white;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 50px;
+    overflow-x: hidden;
   }
 
   #p_das_cores{
@@ -1238,6 +1159,7 @@ body {
     padding: 250px;
     padding-top: 20px;
     padding-bottom: 0px;
+    overflow-x: hidden;
   }
 
   .conteiner_cores{
@@ -1252,6 +1174,7 @@ body {
     padding-bottom: 40px;
     transition: 0.3s;
     border-radius: 20px;
+    overflow-x: hidden;
   }
 
   .cores{
@@ -1290,6 +1213,7 @@ body {
     color: white;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 50px;
+    overflow-x: hidden;
   }
 
   #p_dos_sidekicks{
@@ -1629,10 +1553,19 @@ body {
     /*introdução responsividade*/
 
     .botões_sociais{  
-      float: right;
-      left: 0;
-      padding-right: 0;
       z-index: 7;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      float: none;
+      margin: 0;
+      padding: 0;
+      left: 0;
+      top: 100px;
+      margin-right: 10000px;
     }
 
     .logo_conteiner{
@@ -1640,7 +1573,9 @@ body {
       padding-top: 0px;
       position: relative;
       margin-top: 0px;
-      
+      display: flex;
+      width: 100%;
+      flex-direction: column;
     }
 
     
@@ -1650,14 +1585,13 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    display: block;
-    width: 400px;
+    width: 300px;
     padding: 0;
     margin-top: 10%; 
     padding-top: 100px;
     transition: 0.5s;
   }
-      
+
    
 
     .titulo_brawlsky{
@@ -1697,6 +1631,30 @@ body {
       text-align: center;
       
       
+    }
+
+    /*BANNER BRAWLSKY RESPONSIVIDADE*/
+
+    .conteiner_banner_brawlsky{
+      height: 80vh;
+      background-size: 300%;
+    }
+  
+    .banner_brawlsky{
+      
+    }
+  
+    .banner_brawlsky h1{
+      padding-top: 150px;
+      font-size: 50px;
+      color:#ffffff;
+      letter-spacing: 3px;
+    }
+    
+  
+    .banner_brawlsky h2{
+      font-size: 10px;
+      opacity: 0;
     }
 
     /*noticias inicial responsividade*/
@@ -1755,17 +1713,22 @@ body {
       display: block;
       flex-wrap: wrap;
       margin-bottom: 0px;
-    
+      flex-direction: column;
+      
     }
 
     #historias_h1{
       font-size: 25px;
       margin-top: -10%;
+      margin-left: 10%;
+      
+
     }
 
     #historias_p{
       font-size: 13px;
       width: 80%;
+      
 
     }
 
@@ -1774,7 +1737,7 @@ body {
     }
 
     .legend_img img{
-      width: 60%;
+      width: 100%;
       
     }
 
@@ -1805,24 +1768,26 @@ body {
       justify-content: center;
       display: block;
       flex-wrap: wrap;
-      
-    
+      overflow-x: hidden;
     }
 
     #armas_h1{
       font-size: 25px;
       margin-top: -10%;
       margin-left: 10%;
+      overflow-x: hidden;
+      width: 50%;
     }
 
     .conheça_armas a{
       margin-left: 10%;
+      overflow-x: hidden;
     }
 
     #armas_p{
       font-size: 13px;
       width: 80%;
-
+      overflow-x: hidden;
     }
     #img_armas{
       padding-top: 0px;
@@ -1832,8 +1797,30 @@ body {
       margin-left: 20px;
       position: relative;
       float: none;
+      overflow-x: hidden;
     }
       
+
+    /*Categorias responsividade*/
+
+  .conteiner_categorias{
+    width: 100%;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .categorias a img{
+    width: 250px;
+    overflow-x: hidden;
+  }
+
+  .categorias h1{
+    font-size: 20px;
+    overflow-x: hidden;
+  }
+
+
+
 
       
 
@@ -1933,16 +1920,18 @@ body {
     height:100%;
     float: left;
     font-size: 18px;
-    padding: 50px 10px 50px 10px;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
     
   }
   .footer .left{ 
-    width:100%; 
+    width:90%; 
     float:left; 
-    border-bottom:1px #222424 solid;
+    border-bottom:0px #222424 solid;
     border-right:0; 
     margin-bottom:20px; 
-      padding-bottom:20px;
+    padding-bottom:20px;
   }
   .footer .title-footer {
     color: #8273ac;
@@ -1972,18 +1961,20 @@ body {
   /*Responsive*/
   @media (min-width: 1280px) {
     .footer               { padding: 100px 50px 50px 100px; }
-    .footer .Copyright    { font-size: 16px; }
+    .footer .Copyright    { font-size: 12px; }
     .footer form input,
     .footer form textarea { width: 100%; float:left; }
     .footer form button   { padding: 10px 35px; }
+    
   }
   @media (min-width: 768px) {
     
-    .footer .left         { width:48%; border-bottom:0; }
-    .footer .right        { width:48%; padding-left: 4%; border-left: 1px #222424 solid; } 
+    .footer .left         { width:100%; border-bottom:0; margin: 0px; padding: 0px; }
+    .footer .right        { width:100%; padding-left: 0%; border-left: 0px #222424 solid; } 
     .footer form          { margin-top: 30px; }
-    .footer form          { display: block; }
+    .footer form          { display: block ; }
     .footer form button   { float: none; }
+    
   }
  
  
