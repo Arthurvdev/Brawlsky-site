@@ -1271,6 +1271,7 @@ body {
     border: solid #8273ac 2px;
     padding: 20px;
     border-radius: 20px;
+    
   }
 
   .sidekicks h1{
@@ -2000,7 +2001,7 @@ body {
   }
 
   .sidekicks{
-    
+    flex-direction: column;
     margin: 0;
     padding: 20px;
   }
