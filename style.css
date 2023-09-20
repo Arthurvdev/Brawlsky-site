@@ -661,7 +661,7 @@ body {
   }
 
   #voltar_lendas_btn{
-    z-index: 6;
+    z-index: 8;
   position: fixed;
   padding: 15px;
   padding-right: 18px;
@@ -1427,7 +1427,8 @@ body {
     margin-right: auto;
     position: relative;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 10px;
+    padding-bottom: 20px;
     z-index: 6;
   }
   
@@ -2075,5 +2076,7 @@ body {
     
   }
  
+
+
  
   

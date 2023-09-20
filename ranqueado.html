@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="BrawlSky" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://brawlsky.com/" />
+    <meta property="og:image" content="https://brawlsky.com/Imagens/logo6.png" />
+    <meta property="og:description"
+        content="Brawlsky tem tudo sobre brawlhalla, entre, explore e saibas mais sobre cada conteúdo do jogo." />
+    <meta property="og:site_name" content="Brawlsky" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Imagens/logo6.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="removerhtml.js"></script>
+    <title>Ranqueado - Brawlsky</title>
+</head>
+
+<style>
+
+</style>
+
+<body onload="tl_carregamento()">
+
+    <div class="carregamento">
+        <div class="c-loader"></div>
+    </div>
+
+
+    <div class="criador">
+        <p>site criado por: Nickemanzero (ArthurVdev)</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li>
+                <h1>Sobre o jogo ↓</h1>
+            </li>
+            <li><a href="lendas.html">Lendas</a></li>
+            <li><a href="armas.html">Armas</a></li>
+            <li><a href="avatares.html">Avatares</a></li>
+            <li><a href="cores.html">Cores</a></li>
+            <li><a href="mapas.html">Mapas</a></li>
+            <li><a href="sidekicks.html">Sidekicks</a></li>
+            <li><a href="efeitosdeko.html">Efeitos de K.O.</a></li>
+            <li><a href="nomenclaturas.html">Nomenclaturas</a></li>
+            <li><a href="ranqueado.html">Ranqueado</a></li>
+            <li>
+                <h1>Ranking ↓</h1>
+            </li>
+            <li><a href="ranking.html">Ranking BRZ | Top 50</a></li>
+            <li>
+                <h1>Outros ↓</h1>
+            </li>
+            <li><a href="creditos.html">Créditos</a></li>
+
+        </ul>
+    </nav>
+
+    <button id="toggleNavbarButton">|||</button>
+
+    <table class="wikitable" style="text-align:center">
+        <tbody>
+            <tr>
+                <th width="128px">Rank</th>
+                <th>Tier</th>
+                <th>Informações</th>
+            </tr>
+            <tr>
+                <td style="padding:.5em;" colspan="3"><b>Valhallan</b>
+                </td>
+            </tr>
+            <tr>
+                <td><img alt="Valhallan"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1c/Banner_Rank_Valhallan.png/"
+                        decoding="async" loading="lazy" width="80" height="145"
+                        data-image-name="Banner Rank Valhallan.png" data-image-key="Banner_Rank_Valhallan.png"
+                        data-relevant="1">
+                </td>
+                <td>Não possui</td>
+                <td>Para possuir esse elo no <br> server BRZ, esteja entre os <br> 100 Melhores do servidor.
+            </tr>
+            <tr>
+                <td style="padding:.5em;" colspan="3"><b>Diamante</b>
+                </td>
+            </tr>
+            <tr>
+                <td><img alt="Diamond"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/46/Banner_Rank_Diamond.png"
+                        decoding="async" loading="lazy" width="84" height="145"
+                        data-image-name="Banner Rank Diamond.png" data-image-key="Banner_Rank_Diamond.png"
+                        data-relevant="1"
+                        data-src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/46/Banner_Rank_Diamond.png/revision/latest/scale-to-width-down/84?cb=20161110140154"
+                        class=" lazyloaded">
+                </td>
+                <td>Não possui</td>
+                <td>2000+
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:.5em;" colspan="3"><b>Platina</b>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5"><img alt="Banner Rank Platinum"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6e/Banner_Rank_Platinum.png"
+                        decoding="async" loading="lazy" width="102" height="145"
+                        data-image-name="Banner Rank Platinum.png" data-image-key="Banner_Rank_Platinum.png"
+                        data-relevant="1"
+                        data-src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6e/Banner_Rank_Platinum.png/revision/latest/scale-to-width-down/102?cb=20161110140140"
+                        class=" lazyloaded"></td>
+                <td>5</td>
+                <td>1,936 - 1,999
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>1,872 - 1,935
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>1,808 - 1,871
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1,744 - 1,807
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1,680 - 1,743
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:.5em;" colspan="3"><b>Ouro</b>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5"><img alt="Banner Rank Gold"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/69/Banner_Rank_Gold.png"
+                        decoding="async" loading="lazy" width="109" height="145" data-image-name="Banner Rank Gold.png"
+                        data-image-key="Banner_Rank_Gold.png" data-relevant="1"
+                        data-src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/69/Banner_Rank_Gold.png/revision/latest/scale-to-width-down/109?cb=20161110140126"
+                        class=" lazyloaded"></td>
+                <td>5</td>
+                <td>1,622 - 1,679
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>1,564 - 1,621
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>1,506 - 1,563
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1,448 - 1,505
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1,390 - 1,447
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:.5em;" colspan="3"><b>Prata</b>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5"><img alt="Banner Rank Silver"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5c/Banner_Rank_Silver.png/"
+                        decoding="async" loading="lazy" width="119" height="145"
+                        data-image-name="Banner Rank Silver.png" data-image-key="Banner_Rank_Silver.png"
+                        data-relevant="1"
+                        data-src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5c/Banner_Rank_Silver.png/revision/latest/scale-to-width-down/119?cb=20161110140055"
+                        class=" lazyloaded"></td>
+                <td>5</td>
+                <td>1,338 - 1,389
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>1,286 - 1,337
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>1,234 - 1,285
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1,182 - 1,233
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1,130 - 1,181
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:.5em;" colspan="3"><b>Bronze</b>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5"><img alt="Banner Rank Bronze"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a6/Banner_Rank_Bronze.png/"
+                        decoding="async" loading="lazy" width="112" height="145"
+                        data-image-name="Banner Rank Bronze.png" data-image-key="Banner_Rank_Bronze.png"
+                        data-relevant="1"
+                        data-src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a6/Banner_Rank_Bronze.png/revision/latest/scale-to-width-down/112?cb=20161110140114"
+                        class=" lazyloaded"></td>
+                <td>5</td>
+                <td>1,086 - 1,129
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>1,042 - 1,085
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>998 - 1,041
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>954 - 997
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>910 - 953
+                </td>
+            </tr>
+            <tr>
+                <td style="padding:.5em;" colspan="3"><b>Pano</b>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="6"><img alt="Banner Rank Tin"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e1/Banner_Rank_Tin.png/"
+                        decoding="async" loading="lazy" width="112" height="145" data-image-name="Banner Rank Tin.png"
+                        data-image-key="Banner_Rank_Tin.png" data-relevant="1"
+                        data-src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e1/Banner_Rank_Tin.png/revision/latest/scale-to-width-down/112?cb=20161110140036"
+                        class=" lazyloaded"></td>
+                <td>5</td>
+                <td>872 - 909
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>834 - 872
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>796 - 833
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>758 - 795
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>720 - 757
+                </td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>200 - 719
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="avatar_conteiner">
+        <p>
+        <h2>Avatares Ranqueados</h2> <br>
+
+
+        Os Avatares Ranqueados são dados no final de cada temporada classificada para aqueles que jogaram pelo menos 10
+        partidas Classificadas nessa temporada. <br><br>
+
+        O(s) avatar(es) classificado(s) que um jogador recebe é baseado em seu Elo mais alto da temporada (entre o
+        Classificado 1v1 e o Classificado 2v2). <br><br>
+
+        Cada avatar ranqueado termina após 5 níveis, e após a conclusão de outra temporada após esses 5 níveis, um
+        avatar separado é
+        concedido ao jogador. Para explicar melhor, se um jogador participa de 11 temporadas classificadas, ele deve ter
+        (no mínimo) 3 avatares de
+        participação diferentes: um para o nível 5, um para o nível 10 e um para o nível 11. <br><br>
+
+        <strong>Prata<br>
+
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/Avatar_Participation_1.png/"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8c/Avatar_Participation_2.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ec/Avatar_Participation_3.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/20/Avatar_Participation_4.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5b/Avatar_Participation_5.png"
+                alt="avatar de prata brawlhalla"> <br>
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9f/Avatar_Participation_6.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/34/Avatar_Participation_7.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/de/Avatar_Participation_8.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1f/Avatar_Participation_9.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/38/Avatar_Participation_10.png"
+                alt="avatar de prata brawlhalla"> <br>
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d5/Avatar_Participation_11.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3e/Avatar_Participation_12.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ec/Avatar_Participation_13.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2e/Avatar_Participation_14.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d1/Avatar_Participation_15.png"
+                alt="avatar de prata brawlhalla"> <br>
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e1/Avatar_Participation_16.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a5/Avatar_Participation_17.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/58/Avatar_Participation_18.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1f/Avatar_Participation_19.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f8/Avatar_Participation_20.png"
+                alt="avatar de prata brawlhalla"> <br>
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f8/Avatar_Participation_21.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b0/Avatar_Participation_22.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/97/Avatar_Participation_23.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f7/Avatar_Participation_24.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ad/Avatar_Participation_25.png"
+                alt="avatar de prata brawlhalla"> <br>
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0a/Avatar_Participation_26.png"
+                alt="avatar de prata brawlhalla">
+            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e6/Avatar_Participation_27.png"
+                alt="avatar de prata brawlhalla"> <br><br>
+
+            <strong>Ouro<br>
+
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3d/Avatar_Gold_1.png/"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/35/Avatar_Gold_2.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/88/Avatar_Gold_3.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/49/Avatar_Gold_4.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/26/Avatar_Gold_5.png"
+                    alt="avatar de ouro brawlhalla"> <br>
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/04/Avatar_Gold_6.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ee/Avatar_Gold_7.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dc/Avatar_Gold_8.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/57/Avatar_Gold_9.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7d/Avatar_Gold_10.png"
+                    alt="avatar de ouro brawlhalla"> <br>
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/73/Avatar_Gold_11.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/52/Avatar_Gold_12.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/da/Avatar_Gold_13.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7e/Avatar_Gold_14.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/62/Avatar_Gold_15.png"
+                    alt="avatar de ouro brawlhalla"> <br>
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/14/Avatar_Gold_16.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b9/Avatar_Gold_17.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e8/Avatar_Gold_18.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/74/Avatar_Gold_19.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/ba/Avatar_Gold_20.png"
+                    alt="avatar de ouro brawlhalla"> <br>
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a6/Avatar_Gold_21.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8c/Avatar_Gold_22.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9a/Avatar_Gold_23.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a6/Avatar_Gold_24.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/53/Avatar_Gold_25.png"
+                    alt="avatar de ouro brawlhalla"> <br>
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1c/Avatar_Gold_26.png"
+                    alt="avatar de ouro brawlhalla">
+                <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/37/Avatar_Gold_27.png"
+                    alt="avatar de ouro brawlhalla"> <br><br>
+
+                <strong>Platina<br>
+
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0d/Avatar_Platinum_1.png/"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/93/Avatar_Platinum_2.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/09/Avatar_Platinum_3.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ea/Avatar_Platinum_4.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7c/Avatar_Platinum_5.png"
+                        alt="avatar de platina brawlhalla"> <br>
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/64/Avatar_Platinum_6.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d4/Avatar_Platinum_7.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dc/Avatar_Platinum_8.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a4/Avatar_Platinum_9.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Avatar_Platinum_10.png"
+                        alt="avatar de platina brawlhalla"> <br>
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4c/Avatar_Platinum_11.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8e/Avatar_Platinum_12.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dc/Avatar_Platinum_13.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ac/Avatar_Platinum_14.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/11/Avatar_Platinum_15.png"
+                        alt="avatar de platina brawlhalla"> <br>
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/41/Avatar_Platinum_16.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c4/Avatar_Platinum_17.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9f/Avatar_Platinum_18.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c1/Avatar_Platinum_19.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4a/Avatar_Platinum_20.png"
+                        alt="avatar de platina brawlhalla"> <br>
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c1/Avatar_Platinum_21.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f2/Avatar_Platinum_22.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/31/Avatar_Platinum_23.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/77/Avatar_Platinum_24.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f4/Avatar_Platinum_25.png"
+                        alt="avatar de platina brawlhalla"> <br>
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ad/Avatar_Platinum_26.png"
+                        alt="avatar de platina brawlhalla">
+                    <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2b/Avatar_Platinum_27.png"
+                        alt="avatar de platina brawlhalla"> <br><br>
+
+
+                    <strong>Diamante<br>
+
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/37/Avatar_Diamond_1.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2b/Avatar_Diamond_2.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/02/Avatar_Diamond_3.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d1/Avatar_Diamond_4.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/83/Avatar_Diamond_5.png"
+                            alt="avatar de diamante brawlhalla"> <br>
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4a/Avatar_Diamond_6.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/39/Avatar_Diamond_7.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/02/Avatar_Diamond_8.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b2/Avatar_Diamond_9.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/53/Avatar_Diamond_10.png"
+                            alt="avatar de diamante brawlhalla"> <br>
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/68/Avatar_Diamond_11.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4e/Avatar_Diamond_12.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/95/Avatar_Diamond_13.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/75/Avatar_Diamond_14.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/48/Avatar_Diamond_15.png"
+                            alt="avatar de diamante brawlhalla"> <br>
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/79/Avatar_Diamond_16.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9d/Avatar_Diamond_17.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7d/Avatar_Diamond_18.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/88/Avatar_Diamond_19.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/50/Avatar_Diamond_20.png"
+                            alt="avatar de diamante brawlhalla"> <br>
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/47/Avatar_Diamond_21.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c3/Avatar_Diamond_22.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/82/Avatar_Diamond_23.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a7/Avatar_Diamond_24.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/af/Avatar_Diamond_25.png"
+                            alt="avatar de diamante brawlhalla"> <br>
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b6/Avatar_Diamond_26.png"
+                            alt="avatar de diamante brawlhalla">
+                        <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/fb/Avatar_Diamond_27.png"
+                            alt="avatar de diamante brawlhalla"> <br><br>
+
+                        <strong>Valhallan<br>
+
+                            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/fa/Avatar_Valhallan_Emblem_Fallen.png"
+                                alt="Valhallan Emblem Fallen">
+                            <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a0/AniAvatar_Valhallan_Emblem.gif"
+                                alt="Valhallan Emblem"> <br><br>
+
+
+                            </p>
+    </div>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="menu.js"></script>
+    <script src="script.js"></script>
+    <script src="loading.js"></script>
+</body>
+
+</html>
