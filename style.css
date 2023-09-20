@@ -588,7 +588,8 @@ body {
   .legend_img{
     position: relative;
     z-index: 1;
-    
+    overflow-x: hidden;
+    width: 100%;
     
   }
 
@@ -602,9 +603,6 @@ body {
     margin-top: 10px;
     padding-top: 1%;
     z-index: 1;
-    border: solid #8273ac;
-    border-radius: 20%;
-
   }
 
   .historias{
@@ -625,9 +623,8 @@ body {
     margin-bottom: 20px;
     left: 0;
     text-align: center;
-    color: rgb(147, 125, 206);
+    color: rgb(255, 255, 255);
     overflow: hidden;
-    font-style: italic;
     
   }
 
@@ -636,10 +633,9 @@ body {
     padding-top: 10px;
     display: block;
     position: relative;
-    color: white;
-    background-color: #14121a6b;
+    color: rgb(255, 255, 255);
     padding: 30px;
-    border: solid #8273ac;
+    border: 6px dashed rgb(255, 255, 255);
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     margin-bottom: 10px;
     width: 60%;
@@ -714,7 +710,7 @@ body {
   .valor_legend{
     position: relative;
     display: block;
-    background-color: rgb(130, 115, 172);
+    background-color: rgb(109, 98, 145);
     margin-top: 80px;
   }
 
@@ -968,6 +964,9 @@ body {
 
   .ataques_conteiner{
     padding-top: 80px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .ataques_conteiner h1{
@@ -1076,6 +1075,10 @@ body {
 
   /*MAPAS*/
 
+  .titulo_tipos_mapas{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
   .mapas_conteiner{
     display: flex;
     flex-wrap: wrap;
@@ -1093,7 +1096,8 @@ body {
   .mapas_conteiner h1{
     color: white;
     font-size: 20px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
   }
 
   /*EFEITOS DE K.O*/
@@ -1220,7 +1224,7 @@ body {
     color: white;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 50px;
-    overflow-x: hidden;
+    
   }
 
   #p_dos_sidekicks{
@@ -1708,6 +1712,16 @@ body {
 
     /*historias legends responsividade*/
 
+    .historia{
+      width: 100%;
+    }
+
+    .historia p{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      font-size:15px;
+    }
     
 
     .historias_legends{
@@ -1734,18 +1748,15 @@ body {
 
     #historias_p{
       font-size: 13px;
-      width: 80%;
-      
+      width: 100%;
+      padding: 0;
+      margin: 0;
 
     }
 
     .legend_img{
-      padding-top: 5%;
-    }
-
-    .legend_img img{
+      padding-top: 0%;
       width: 100%;
-      
     }
 
     #historia_h1{
@@ -1755,7 +1766,7 @@ body {
     
     #img_historias{
       padding-top: 100px;
-      width: 300px;
+      width: 200px;
       margin-top: 25%;
       z-index: 2;
       margin-left: 20px;
@@ -1833,11 +1844,40 @@ body {
 
     /*armas responsividade*/
 
+    .nomenclaturas_btn{
+      position: fixed;
+      padding: 10px;
+    }
+
+    .kits_armas{
+      padding-bottom: 15px;
+    }
+
     .armas_introdução img{
       margin-top: auto;
       margin-bottom: auto;
       width: 150px;
       height: 150px;
+    }
+
+    .armas_introdução p{
+      width: 80%;
+    }
+
+    .ataques_conteiner{
+      width: 100%;
+      text-align: center;
+    }
+
+    .ataques_conteiner h1{
+      text-align: none;
+      margin-left: 0px;
+    }
+
+    .ataques_conteiner img{
+      width: 80%;
+      margin: 0;
+      
     }
 
     .ataques_gs img{
@@ -1924,8 +1964,19 @@ body {
     padding-top: 50px;
     padding: 30px;
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     font-size: 15px;
+  }
+
+  .conteiner_sidekicks{
+    padding: 0;
+    text-align: center;
+  }
+
+  .sidekicks{
+    
+    margin: 0;
+    padding: 20px;
   }
 
 
