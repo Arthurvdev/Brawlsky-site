@@ -1,68 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Sir Roland - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Sir Roland - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/RolandSplash.png" alt="sir roland brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Sir Roland</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/RolandSplash.png" alt="sir roland brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Sir Roland</h1>
 
-            <p id="historia_p">
-              “Tenha pena. Nem todos os homens colocados no centro do palco descobrem que têm o coração de Roland, nem a alma para fazer grandes feitos.”<br><br>
+      <p id="historia_p">
+        “Tenha pena. Nem todos os homens colocados no centro do palco descobrem que têm o coração de Roland, nem a alma
+        para fazer grandes feitos.”<br><br>
 
-            Shakespeare, Henry IV parte 3 (manuscrito perdido)<br><br>
+        Shakespeare, Henry IV parte 3 (manuscrito perdido)<br><br>
 
-            Como um jovem cavaleiro, o ousado Sir Roland derrotou o lendário Cavaleiro de Jade e, por um breve momento, seus olhos perfuraram o véu entre os mundos. Ele viu a Valquíria Hypernia enquanto ela levantava seu inimigo derrotado. Superado por sua beleza, Roland dedicou sua vida a ganhar glória na esperança de ver a Valquíria novamente. <br><br>
+        Como um jovem cavaleiro, o ousado Sir Roland derrotou o lendário Cavaleiro de Jade e, por um breve momento, seus
+        olhos perfuraram o véu entre os mundos. Ele viu a Valquíria Hypernia enquanto ela levantava seu inimigo
+        derrotado. Superado por sua beleza, Roland dedicou sua vida a ganhar glória na esperança de ver a Valquíria
+        novamente. <br><br>
 
-            Nos cinquenta anos seguintes, o orgulhoso, obstinado e charmoso Roland conquistou mais vitórias, fez mais inimigos e quebrou mais corações do que qualquer cavaleiro de seu tempo. Seu ataque sozinho à Fortaleza de Alsburg inspirou quarenta e sete baladas épicas e uma minissérie Lifetime. Bards escreveu canções sobre a canção que escreveu comemorando sua vitória sobre o Bilious Fire Drake. <br><br>
+        Nos cinquenta anos seguintes, o orgulhoso, obstinado e charmoso Roland conquistou mais vitórias, fez mais
+        inimigos e quebrou mais corações do que qualquer cavaleiro de seu tempo. Seu ataque sozinho à Fortaleza de
+        Alsburg inspirou quarenta e sete baladas épicas e uma minissérie Lifetime. Bards escreveu canções sobre a canção
+        que escreveu comemorando sua vitória sobre o Bilious Fire Drake. <br><br>
 
-            “Como está meu cabelo?” <br><br>
+        “Como está meu cabelo?” <br><br>
 
-            Lord Sir Roland Somerset Montgomery, Duque das Três Ilhas, Senhor de Havershant, Assassino do Dragão Bilioso, Protetor dos Illythianos, Vencedor do Cerco de Alsburg, Haver de uma Grande Barba, Defensor dos Dinamarqueses, Conquistador de Guilardia, Príncipe do Glorioso Verão de 14, Cavaleiro da Ordem do Leão Exaltado, Abade Honorário da Catedral de Canterbury, Campeão da Cidade de Bath, Marechal das Terras Orientais, Cavaleiro da Fivela Carmesim, Almirante dos Mares do Norte, etc.<br><br>
+        Lord Sir Roland Somerset Montgomery, Duque das Três Ilhas, Senhor de Havershant, Assassino do Dragão Bilioso,
+        Protetor dos Illythianos, Vencedor do Cerco de Alsburg, Haver de uma Grande Barba, Defensor dos Dinamarqueses,
+        Conquistador de Guilardia, Príncipe do Glorioso Verão de 14, Cavaleiro da Ordem do Leão Exaltado, Abade
+        Honorário da Catedral de Canterbury, Campeão da Cidade de Bath, Marechal das Terras Orientais, Cavaleiro da
+        Fivela Carmesim, Almirante dos Mares do Norte, etc.<br><br>
 
-        Como um velho em seu leito de morte, Roland finalmente viu Hypernia novamente. Ela não podia permitir que uma morte natural afastasse tal guerreiro de Valhalla, então, com um esboço de sorriso, ela mesma o socou para que ele morresse em batalha e ela pudesse oferecer-lhe um assento no salão da glória. <br><br>
+        Como um velho em seu leito de morte, Roland finalmente viu Hypernia novamente. Ela não podia permitir que uma
+        morte natural afastasse tal guerreiro de Valhalla, então, com um esboço de sorriso, ela mesma o socou para que
+        ele morresse em batalha e ela pudesse oferecer-lhe um assento no salão da glória. <br><br>
 
-            Ninguém em Valhalla sente maior sede de vitória no torneio do que Sir Roland. Ele se alegra com cada vitória e se enfurece com cada derrota. <br><br>
-            </p>
-                
-            
+        Ninguém em Valhalla sente maior sede de vitória no torneio do que Sir Roland. Ele se alegra com cada vitória e
+        se enfurece com cada derrota. <br><br>
+      </p>
 
-            
-        </div>
 
-      </div>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">2.300</span></h1>
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">2.300</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Roland the Hooded">Roland the Hooded</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Roland the Hooded"><img
+                  alt="Roland the Hooded"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/ba/Roland_the_Hooded.png"
+                  decoding="async" loading="lazy" width="198" height="225" data-image-name="Roland the Hooded.png"
+                  data-image-key="Roland_the_Hooded.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/ba/Roland_the_Hooded.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="King Roland">King Roland</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="King Roland"><img alt="King Roland"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/43/King_Roland.png"
+                  decoding="async" loading="lazy" width="194" height="243" data-image-name="King Roland.png"
+                  data-image-key="King_Roland.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/43/King_Roland.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Match Point Roland">Match Point Roland</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Match Point Roland"><img
+                  alt="Match Point Roland"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/00/Match_Point_Roland.png"
+                  decoding="async" loading="lazy" width="198" height="239" data-image-name="Match Point Roland.png"
+                  data-image-key="Match_Point_Roland.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/00/Match_Point_Roland.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Classy Roland">Classy Roland</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Classy Roland"><img alt="Classy Roland"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e1/Classy_Roland.png"
+                  decoding="async" loading="lazy" width="198" height="236" data-image-name="Classy Roland.png"
+                  data-image-key="Classy_Roland.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e1/Classy_Roland.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Valhallentine%27s_Event"
+                <a title="Valhallentine's Event"><img alt="EventIcon Valentines"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Valentines.png"
+                  data-image-key="EventIcon_Valentines.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Valhallentine's">Valhallentine's</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Lion Rampant Roland">Lion Rampant
+                Roland</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Lion Rampant Roland"><img
+                  alt="Lion Rampant Roland"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e3/Lion_Rampant_Roland.png"
+                  decoding="async" loading="lazy" width="193" height="243" data-image-name="Lion Rampant Roland.png"
+                  data-image-key="Lion_Rampant_Roland.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e3/Lion_Rampant_Roland.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="The Mad King">The Mad King</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="The Mad King"><img alt="The Mad King"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ae/The_Mad_King.png"
+                  decoding="async" loading="lazy" width="180" height="243" data-image-name="The Mad King.png"
+                  data-image-key="The_Mad_King.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ae/The_Mad_King.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Lionheart Roland">Lionheart Roland</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Lionheart Roland"><img
+                  alt="Lionheart Roland"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/27/Lionheart_Roland.png"
+                  decoding="async" loading="lazy" width="194" height="243" data-image-name="Lionheart Roland.png"
+                  data-image-key="Lionheart_Roland.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/27/Lionheart_Roland.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Wild Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a title="Wild Chest">Wild
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Roland the Victorious">Roland the
+                Victorious</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Roland the Victorious"><img
+                  alt="Roland the Victorious"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/95/Roland_the_Victorious.png"
+                  decoding="async" loading="lazy" width="198" height="212" data-image-name="Roland the Victorious.png"
+                  data-image-key="Roland_the_Victorious.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/95/Roland_the_Victorious.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="King Knight">King Knight</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="King Knight"><img alt="King Knight"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1e/King_Knight.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="King Knight.png"
+                        data-image-key="King_Knight.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1e/King_Knight.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Fiendish Knight Roland">Fiendish Knight
+                Roland</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Fiendish Knight Roland"><img
+                  alt="Fiendish Knight Roland"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/15/Fiendish_Knight_Roland.png"
+                  decoding="async" loading="lazy" width="198" height="236" data-image-name="Fiendish Knight Roland.png"
+                  data-image-key="Fiendish_Knight_Roland.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/15/Fiendish_Knight_Roland.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a href="/wiki/The_Honorable_Sir_Roland,_Esq."
+                <a title="The Honorable Sir Roland, Esq."><small>The Honorable Sir Roland, Esq.</small></a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a href="/wiki/The_Honorable_Sir_Roland,_Esq."
+                <a title="The Honorable Sir Roland, Esq."><img alt="The Honorable Sir Roland, Esq."
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/58/The_Honorable_Sir_Roland%2C_Esq..png"
+                  decoding="async" loading="lazy" width="196" height="243"
+                  data-image-name="The Honorable Sir Roland, Esq..png"
+                  data-image-key="The_Honorable_Sir_Roland%2C_Esq..png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/58/The_Honorable_Sir_Roland%2C_Esq..png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Anniversary_Event"
+                <a title="Anniversary Event"><img alt="EventIcon Anniversary"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f1/EventIcon_Anniversary.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Anniversary.png"
+                  data-image-key="EventIcon_Anniversary.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f1/EventIcon_Anniversary.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Anniversary">Anniversary</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

@@ -1,66 +1,528 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Ember - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Ember - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/EmberSplash.png" alt="ember brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Ember</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/EmberSplash.png" alt="ember brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Ember</h1>
 
-            <p id="historia_p">"Os estudiosos propõem que a Floresta Fangwild é uma anomalia do espaço-tempo muito parecida com um buraco negro. Ela faz fronteira com muitas realidades e, em teoria, os viajantes podem passar por ela para outros mundos. Mas eles seriam inevitavelmente rasgados em pedaços ao longo do caminho." <br><br>
+      <p id="historia_p">"Os estudiosos propõem que a Floresta Fangwild é uma anomalia do espaço-tempo muito parecida
+        com um buraco negro. Ela faz fronteira com muitas realidades e, em teoria, os viajantes podem passar por ela
+        para outros mundos. Mas eles seriam inevitavelmente rasgados em pedaços ao longo do caminho." <br><br>
 
-              Miscelânea de Smith Cryptobotanica <br><br>
-              
-              Nenhum mortal viu o centro da Floresta Fangwild. A magia é muito densa, o perigo é muito profundo. Não os elfos que vivem nas bordas do Fangwild. Não os aventureiros e tolos que desbravam a floresta em busca de caminhos para outros universos. Não os ghouls e bestas atraídos pelo chamado da magia. Nenhum mortal, exceto Ember. <br><br>
-              
-              Por milhares de anos, Ember caçava os caminhos em constante mudança do Fangwild. Com o lobo Ash e seu corvo Yarra, ela guardou o Fangwild de si mesmo, e protegeu os mundos limítrofes da madeira de eldritch. Ela lutou contra os Primordiais. Ela fez amizade com um Minotauro solitário. Ela resgatou um viking furioso perdido no fundo do coração do Fangwild. Ela montou um dragão selvagem através do turbilhão no coração da floresta. Nos dias antigos, antes de Valhalla, as fronteiras de Fangwild tocaram até mesmo Asgard, e Ember caminhou com os primeiros guerreiros entre as poderosas árvores que formariam suas vigas. <br><br>
-              
-              "Se eu tiver que separar vocês dois novamente, nenhum dos dois vai ficar no Fangwild. E isso vale para todos os dragões daqui."  <br><br>
-              
-              Ember <br><br>
-              
-              Agora, em meio à glória de sua vida após a morte em Valhalla, a mente de Ember está fixada no Fangwild, e o Fangwild chora sua filha. Com Ember indo para Valhalla, o Fangwild caiu na loucura. Torcida e intransitável, suas selvas ameaçam se espalhar pelos muitos reinos que toca. Ember sabe que existem caminhos de e para Valhalla. Ela luta no torneio, esperando que na vitória ela possa encontrar um caminho de volta e acertar as coisas em sua casa na floresta. <br><br>
-                
-            </p>
-                
-            
+        Miscelânea de Smith Cryptobotanica <br><br>
 
-            
-        </div>
+        Nenhum mortal viu o centro da Floresta Fangwild. A magia é muito densa, o perigo é muito profundo. Não os elfos
+        que vivem nas bordas do Fangwild. Não os aventureiros e tolos que desbravam a floresta em busca de caminhos para
+        outros universos. Não os ghouls e bestas atraídos pelo chamado da magia. Nenhum mortal, exceto Ember. <br><br>
 
-      </div>
+        Por milhares de anos, Ember caçava os caminhos em constante mudança do Fangwild. Com o lobo Ash e seu corvo
+        Yarra, ela guardou o Fangwild de si mesmo, e protegeu os mundos limítrofes da madeira de eldritch. Ela lutou
+        contra os Primordiais. Ela fez amizade com um Minotauro solitário. Ela resgatou um viking furioso perdido no
+        fundo do coração do Fangwild. Ela montou um dragão selvagem através do turbilhão no coração da floresta. Nos
+        dias antigos, antes de Valhalla, as fronteiras de Fangwild tocaram até mesmo Asgard, e Ember caminhou com os
+        primeiros guerreiros entre as poderosas árvores que formariam suas vigas. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">900</span></h1>
+        "Se eu tiver que separar vocês dois novamente, nenhum dos dois vai ficar no Fangwild. E isso vale para todos os
+        dragões daqui." <br><br>
+
+        Ember <br><br>
+
+        Agora, em meio à glória de sua vida após a morte em Valhalla, a mente de Ember está fixada no Fangwild, e o
+        Fangwild chora sua filha. Com Ember indo para Valhalla, o Fangwild caiu na loucura. Torcida e intransitável,
+        suas selvas ameaçam se espalhar pelos muitos reinos que toca. Ember sabe que existem caminhos de e para
+        Valhalla. Ela luta no torneio, esperando que na vitória ela possa encontrar um caminho de volta e acertar as
+        coisas em sua casa na floresta. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">900</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Nightshade Ember">Nightshade Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Nightshade Ember"><img
+                  alt="Nightshade Ember"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b4/Nightshade_Ember.png"
+                  decoding="async" loading="lazy" width="198" height="173" data-image-name="Nightshade Ember.png"
+                  data-image-key="Nightshade_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b4/Nightshade_Ember.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Radiant Ember">Radiant Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Radiant Ember"><img alt="Radiant Ember"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/84/Radiant_Ember.png"
+                  decoding="async" loading="lazy" width="198" height="168" data-image-name="Radiant Ember.png"
+                  data-image-key="Radiant_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/84/Radiant_Ember.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Holly Jolly Ember">Holly Jolly Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Holly Jolly Ember"><img
+                  alt="Holly Jolly Ember"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/44/Holly_Jolly_Ember.png"
+                  decoding="async" loading="lazy" width="198" height="172" data-image-name="Holly Jolly Ember.png"
+                  data-image-key="Holly_Jolly_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/44/Holly_Jolly_Ember.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Brawlhallidays Event"><img
+                  alt="EventIcon Winter"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Winter.png"
+                  data-image-key="EventIcon_Winter.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/88/EventIcon_Winter.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                title="Brawlhallidays">Brawlhallidays</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Grovewarden Ember">Grovewarden Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Grovewarden Ember"><img
+                  alt="Grovewarden Ember"
+                  
+                  decoding="async" loading="lazy" width="198" height="196" data-image-name="Grovewarden Ember.png"
+                  data-image-key="Grovewarden_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ad/Grovewarden_Ember.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Fangwild Fawn Ember">Fangwild Fawn
+                Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Fangwild Fawn Ember"><img
+                  alt="Fangwild Fawn Ember"
+                  
+                  decoding="async" loading="lazy" width="198" height="166" data-image-name="Fangwild Fawn Ember.png"
+                  data-image-key="Fangwild_Fawn_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1a/Fangwild_Fawn_Ember.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Ancient Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Ancient Chest">Ancient Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Star Guardian Ember">Star Guardian
+                Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Star Guardian Ember"><img
+                  alt="Star Guardian Ember"
+                  
+                  decoding="async" loading="lazy" width="198" height="168" data-image-name="Star Guardian Ember.png"
+                  data-image-key="Star_Guardian_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f9/Star_Guardian_Ember.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Ember the Hunter">Ember the Hunter</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Ember the Hunter"><img
+                  alt="Ember the Hunter"
+                  
+                  decoding="async" loading="lazy" width="198" height="158" data-image-name="Ember the Hunter.png"
+                  data-image-key="Ember_the_Hunter.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e4/Ember_the_Hunter.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Meadowguard Ember">Meadowguard Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Meadowguard Ember"><img
+                  alt="Meadowguard Ember"
+                  
+                  decoding="async" loading="lazy" width="198" height="158" data-image-name="Meadowguard Ember.png"
+                  data-image-key="Meadowguard_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ea/Meadowguard_Ember.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Wild Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Wild Chest">Wild Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Dragon Heart Ember">Dragon Heart Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Dragon Heart Ember"><img
+                  alt="Dragon Heart Ember"
+                  
+                  decoding="async" loading="lazy" width="198" height="197" data-image-name="Dragon Heart Ember.png"
+                  data-image-key="Dragon_Heart_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e8/Dragon_Heart_Ember.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Metadev Ember">Metadev Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Metadev Ember"><img alt="Metadev Ember"
+                  
+                  decoding="async" loading="lazy" width="198" height="156" data-image-name="Metadev Ember.png"
+                  data-image-key="Metadev_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6a/Metadev_Ember.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px">Not normally obtainable.<br>See <a title="Metadev">Metadev</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Modular Rift Ember">Modular Rift Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Modular Rift Ember"><img
+                  alt="Modular Riff Ember"
+                  
+                  decoding="async" loading="lazy" width="198" height="147" data-image-name="Modular Riff Ember.png"
+                  data-image-key="Modular_Riff_Ember.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/73/Modular_Riff_Ember.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Two - Gold Pass"><img
+                  alt="Season Two - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season Two">Season
+                Two</a> <span style="color: #808080">| Tier 47 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Daryl">Daryl</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Daryl"><img alt="Daryl"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Daryl.png"
+                        data-image-key="Daryl.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a2/Daryl.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Fangwild's Heart Ember">Fangwild's
+                Heart Ember</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Fangwild's Heart Ember"><img
+                        alt="Fangwild's Heart Ember"
+                        
+                        decoding="async" loading="lazy" width="185" height="185"
+                        data-image-name="Fangwild's Heart Ember.png" data-image-key="Fangwild%27s_Heart_Ember.png"
+                        data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0a/Fangwild%27s_Heart_Ember.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Six - Gold Pass"><img
+                  alt="Season Six - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season Six">Season
+                Six</a> <span style="color: #808080">| Tier 85 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

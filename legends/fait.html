@@ -1,68 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Fait - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Fait - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/05/FaitSplash.png" alt="fait brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Fait</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/05/FaitSplash.png" alt="fait brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Fait</h1>
 
-            <p id="historia_p">"Tal era o poder aterrorizante da grande bruxa Fait que ela poderia ordenar que as próprias estrelas revelassem seus segredos mais guardados e revelassem o destino mortal." <br>
-              Códice de Bruxas e Oráculos Ilustres de Grimblast <br><br>
-              
-              Grandes oráculos são raros porque, no momento em que uma bruxa trabalhou durante os muitos anos extenuantes necessários para dominar a linguagem estelar, eles quase certamente perderam o charme e a atitude positiva necessários para que as estrelas quisessem falar com eles. O maior poder de Fait era provavelmente sua boa natureza inabalável. <br><br>
-              
-              Como uma jovem bruxa, Fait saía com as estrelas à noite, que lhe davam visões fugazes do passado, presente e futuro. À luz do dia, ela ganhava dinheiro vendendo fortunas nas ruas de Edasich. À medida que seu poder crescia, ela aprendeu a deduzir o destino de um ser humano a partir das menores visões. <br><br>
-              
-              Mas quando o poderoso Orador da Morte Lord Zothkhan surgiu, Fait se transformou em uma maga de batalha para se opor ao seu exército monstruoso. O mundo logo aprendeu o quão poderoso até mesmo o menor vislumbre do futuro poderia ser na batalha. Sua visão de The Invulnerable Pit Fiend de bruços com uma lâmina de foice enterrada em seu ponto fraco soletrava sua desgraça. Sua previsão de um lobisomem achatado levou-a a atrair o general vampiro para Avalanche Gulch. <br><br>
-              
-              "Bem, eu tenho meus amigos bruxos e eu tenho meus amigos estrela. Com meus amigos bruxos, há muito drama. Meus amigos estrelas são super frios, e nós conversamos sobre tudo. Eu posso realmente ser eu mesmo com eles." <br>
-              Fait <br><br>
-              
-              E uma visão de um Lorde Zothkhan queimado de lava na vida após a morte, recuperando seu amado gato de seu cuidador demoníaco, levou-a a trazer seu próprio gato Butterscotch como uma distração para seu confronto com o Orador da Morte em uma ponte sobre o Monte Inferno. <br><br>
-              
-              Quando Brynn veio oferecer-lhe um lugar em Valhalla, Fait já tinha feito as malas. Em Valhalla Fait é popular, e se juntou a uma banda, um clube do livro, e ganha muito em noites de poker. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">"Tal era o poder aterrorizante da grande bruxa Fait que ela poderia ordenar que as próprias
+        estrelas revelassem seus segredos mais guardados e revelassem o destino mortal." <br>
+        Códice de Bruxas e Oráculos Ilustres de Grimblast <br><br>
 
-            
-        </div>
+        Grandes oráculos são raros porque, no momento em que uma bruxa trabalhou durante os muitos anos extenuantes
+        necessários para dominar a linguagem estelar, eles quase certamente perderam o charme e a atitude positiva
+        necessários para que as estrelas quisessem falar com eles. O maior poder de Fait era provavelmente sua boa
+        natureza inabalável. <br><br>
 
-      </div>
+        Como uma jovem bruxa, Fait saía com as estrelas à noite, que lhe davam visões fugazes do passado, presente e
+        futuro. À luz do dia, ela ganhava dinheiro vendendo fortunas nas ruas de Edasich. À medida que seu poder
+        crescia, ela aprendeu a deduzir o destino de um ser humano a partir das menores visões. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">5.400</span></h1>
+        Mas quando o poderoso Orador da Morte Lord Zothkhan surgiu, Fait se transformou em uma maga de batalha para se
+        opor ao seu exército monstruoso. O mundo logo aprendeu o quão poderoso até mesmo o menor vislumbre do futuro
+        poderia ser na batalha. Sua visão de The Invulnerable Pit Fiend de bruços com uma lâmina de foice enterrada em
+        seu ponto fraco soletrava sua desgraça. Sua previsão de um lobisomem achatado levou-a a atrair o general vampiro
+        para Avalanche Gulch. <br><br>
+
+        "Bem, eu tenho meus amigos bruxos e eu tenho meus amigos estrela. Com meus amigos bruxos, há muito drama. Meus
+        amigos estrelas são super frios, e nós conversamos sobre tudo. Eu posso realmente ser eu mesmo com eles." <br>
+        Fait <br><br>
+
+        E uma visão de um Lorde Zothkhan queimado de lava na vida após a morte, recuperando seu amado gato de seu
+        cuidador demoníaco, levou-a a trazer seu próprio gato Butterscotch como uma distração para seu confronto com o
+        Orador da Morte em uma ponte sobre o Monte Inferno. <br><br>
+
+        Quando Brynn veio oferecer-lhe um lugar em Valhalla, Fait já tinha feito as malas. Em Valhalla Fait é popular, e
+        se juntou a uma banda, um clube do livro, e ganha muito em noites de poker. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Cosmic Fait">Cosmic Fait</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Cosmic Fait"><img alt="Cosmic Fait"
+                  
+                  decoding="async" loading="lazy" width="140" height="243" data-image-name="Cosmic Fait.png"
+                  data-image-key="Cosmic_Fait.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/02/Cosmic_Fait.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Dark Arts Fait">Dark Arts Fait</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Dark Arts Fait"><img alt="Dark Arts Fait"
+                  
+                  decoding="async" loading="lazy" width="168" height="243" data-image-name="Dark Arts Fait.png"
+                  data-image-key="Dark_Arts_Fait.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f3/Dark_Arts_Fait.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Feline Fait">Feline Fait</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Feline Fait"><img alt="Feline Fait"
+                  
+                  decoding="async" loading="lazy" width="153" height="243" data-image-name="Feline Fait.png"
+                  data-image-key="Feline_Fait.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ed/Feline_Fait.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Enchantress">Enchantress</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Enchantress"><img alt="Enchantress"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Enchantress.png"
+                        data-image-key="Enchantress.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/99/Enchantress.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Headmaster Fait">Headmaster Fait</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Headmaster Fait"><img alt="Headmaster Fait"
+                  
+                  decoding="async" loading="lazy" width="159" height="243" data-image-name="Headmaster Fait.png"
+                  data-image-key="Headmaster_Fait.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3c/Headmaster_Fait.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Back to School Event"><img
+                  alt="EventIcon BackToSchool"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon BackToSchool.png"
+                  data-image-key="EventIcon_BackToSchool.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  class="lazyload"></a> <a title="Back to School">Back
+                to School</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Metadev Fait">Metadev Fait</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Metadev Fait"><img alt="Metadev Fait"
+                  
+                  decoding="async" loading="lazy" width="167" height="243" data-image-name="Metadev Fait.png"
+                  data-image-key="Metadev_Fait.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d0/Metadev_Fait.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px">Not normally obtainable.<br>See <a title="Metadev">Metadev</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Star Commander Fait">Star Commander
+                Fait</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Star Commander Fait"><img
+                  alt="Star Commander Fait"
+                  
+                  decoding="async" loading="lazy" width="185" height="243" data-image-name="Star Commander Fait.png"
+                  data-image-key="Star_Commander_Fait.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/eb/Star_Commander_Fait.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Five - Gold Pass"><img
+                  alt="Season Five - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season Five">Season
+                Five</a> <span style="color: #808080">| Tier 47 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

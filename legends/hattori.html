@@ -1,68 +1,584 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Hattori - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Hattori - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/HattoriSplash.png" alt="hattori brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Hattori</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/HattoriSplash.png" alt="hattori brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Hattori</h1>
 
-            <p id="historia_p">
-              “A noite está gelada
-              Sinto o portador da lança se aproximando.
-              Fica mais frio ainda." <br><br>
-              
-                Nº 761 dos Mil Versos de Sokan sobre o Demônio Hattori <br><br>
-              
-              A jovem Hattori era tão dotada com a espada que o imperador ofereceu um prêmio de mil cavalos para quem conseguisse derrotá-la. Durante anos, novos guerreiros vieram ao tribunal todos os dias apenas para serem derrotados. Mas no dia em que o Demônio Kagima chegou para desafiá-la, Hattori sentiu seu poder malévolo e fugiu. Enfurecido, o Demônio sequestrou as três irmãs de Hattori e as levou para seu reino insular. <br><br>
-              
-              Horrorizado com as consequências de suas ações, Hattori construiu um barco de junco e perseguiu o Demônio. Ela estava perdida no mar até que um senhor das cegonhas mostrou a ela as passagens entre o crepúsculo e a noite para o reino do Demônio. Lá Hattori encontrou um mundo bizarro de pedras falantes e barqueiros de oito braços. Na Cidade do Castelo de Onyx, ela conheceu o próprio irmão de Kagima, que se ofereceu para dar a Hattori sua força para derrotar seu irmão, em troca de sua mão em casamento.<br><br>
-              
-              “Uma ninja meio-demônio que vendeu sua alma ao diabo? Bem, essa é uma maneira francamente negativa de ver isso. <br><br>
-              
-              Hattori <br><br>
-              
-              Fiel à sua palavra, o Demônio trocou seu próprio sangue com o de Hattori, e Hattori matou Kagima e libertou suas irmãs. Ela se tornou a Rainha do Reino da Ilha, mas o sangue do demônio queimava nela. Isso levou Hattori a vagar pelas passagens do crepúsculo até que ela descobriu Valhalla. Através do torneio eterno, Hattori sacia o desejo de batalha que ameaça consumi-la. <br><br>
-            </p>
-                
-            
+      <p id="historia_p">
+        “A noite está gelada
+        Sinto o portador da lança se aproximando.
+        Fica mais frio ainda." <br><br>
 
-            
-        </div>
+        Nº 761 dos Mil Versos de Sokan sobre o Demônio Hattori <br><br>
 
-      </div>
+        A jovem Hattori era tão dotada com a espada que o imperador ofereceu um prêmio de mil cavalos para quem
+        conseguisse derrotá-la. Durante anos, novos guerreiros vieram ao tribunal todos os dias apenas para serem
+        derrotados. Mas no dia em que o Demônio Kagima chegou para desafiá-la, Hattori sentiu seu poder malévolo e
+        fugiu. Enfurecido, o Demônio sequestrou as três irmãs de Hattori e as levou para seu reino insular. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
-           Preço: <span class="preço_span">2.300</span></h1>
+        Horrorizado com as consequências de suas ações, Hattori construiu um barco de junco e perseguiu o Demônio. Ela
+        estava perdida no mar até que um senhor das cegonhas mostrou a ela as passagens entre o crepúsculo e a noite
+        para o reino do Demônio. Lá Hattori encontrou um mundo bizarro de pedras falantes e barqueiros de oito braços.
+        Na Cidade do Castelo de Onyx, ela conheceu o próprio irmão de Kagima, que se ofereceu para dar a Hattori sua
+        força para derrotar seu irmão, em troca de sua mão em casamento.<br><br>
+
+        “Uma ninja meio-demônio que vendeu sua alma ao diabo? Bem, essa é uma maneira francamente negativa de ver isso.
+        <br><br>
+
+        Hattori <br><br>
+
+        Fiel à sua palavra, o Demônio trocou seu próprio sangue com o de Hattori, e Hattori matou Kagima e libertou suas
+        irmãs. Ela se tornou a Rainha do Reino da Ilha, mas o sangue do demônio queimava nela. Isso levou Hattori a
+        vagar pelas passagens do crepúsculo até que ela descobriu Valhalla. Através do torneio eterno, Hattori sacia o
+        desejo de batalha que ameaça consumi-la. <br><br>
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">2.300</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Kill Thrill Hattori">Kill Thrill
+                Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Kill Thrill Hattori"><img
+                  alt="Kill Thrill Hattori"
+                  
+                  decoding="async" loading="lazy" width="134" height="243" data-image-name="Kill Thrill Hattori.png"
+                  data-image-key="Kill_Thrill_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/31/Kill_Thrill_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Oni no Hattori">Oni no Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Oni no Hattori"><img alt="Oni no Hattori"
+                  
+                  decoding="async" loading="lazy" width="156" height="243" data-image-name="Oni no Hattori.png"
+                  data-image-key="Oni_no_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/64/Oni_no_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Nightblade Hattori">Nightblade Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Nightblade Hattori"><img
+                  alt="Nightblade Hattori"
+                  
+                  decoding="async" loading="lazy" width="155" height="243" data-image-name="Nightblade Hattori.png"
+                  data-image-key="Nightblade_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/82/Nightblade_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Kitsune Hattori">Kitsune Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Kitsune Hattori"><img alt="Kitsune Hattori"
+                  
+                  decoding="async" loading="lazy" width="130" height="243" data-image-name="Kitsune Hattori.png"
+                  data-image-key="Kitsune_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8e/Kitsune_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Cutting Edge Hattori">Cutting Edge
+                Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Cutting Edge Hattori"><img
+                  alt="Cutting Edge Hattori"
+                  
+                  decoding="async" loading="lazy" width="129" height="243" data-image-name="Cutting Edge Hattori.png"
+                  data-image-key="Cutting_Edge_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d7/Cutting_Edge_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Death Adder Hattori">Death Adder
+                Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Death Adder Hattori"><img
+                  alt="Death Adder Hattori"
+                  
+                  decoding="async" loading="lazy" width="128" height="243" data-image-name="Death Adder Hattori.png"
+                  data-image-key="Death_Adder_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/44/Death_Adder_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Imperial Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Imperial Chest">Imperial Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Demon Bride Hattori">Demon Bride
+                Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Demon Bride Hattori"><img
+                  alt="Demon Bride Hattori"
+                  
+                  decoding="async" loading="lazy" width="140" height="243" data-image-name="Demon Bride Hattori.png"
+                  data-image-key="Demon_Bride_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a2/Demon_Bride_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 200<br><a href="/wiki/Valhallentine%27s_Event"
+                <a title="Valhallentine's Event"><img alt="EventIcon Valentines"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Valentines.png"
+                  data-image-key="EventIcon_Valentines.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                <a title="Valhallentine's">Valhallentine's</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Kabuki Hattori">Kabuki Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Kabuki Hattori"><img alt="Kabuki Hattori"
+                  
+                  decoding="async" loading="lazy" width="126" height="243" data-image-name="Kabuki Hattori.png"
+                  data-image-key="Kabuki_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7e/Kabuki_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Sidewinder Hattori">Sidewinder Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Sidewinder Hattori"><img
+                  alt="Sidewinder Hattori"
+                  
+                  decoding="async" loading="lazy" width="148" height="243" data-image-name="Sidewinder Hattori.png"
+                  data-image-key="Sidewinder_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cf/Sidewinder_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Outlaw Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Outlaw Chest">Outlaw Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="John Cena">John Cena</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="John Cena"><img alt="John Cena"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="John Cena.png"
+                        data-image-key="John_Cena.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/58/John_Cena.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Akuma no Kogo Hattori">Akuma no Kogo
+                Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Akuma no Kogo Hattori"><img
+                        alt="AniAkuma no Kogo Hattori"
+                        
+                        decoding="async" loading="lazy" width="185" height="185"
+                        data-image-name="AniAkuma no Kogo Hattori.gif" data-image-key="AniAkuma_no_Kogo_Hattori.gif"
+                        data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8f/AniAkuma_no_Kogo_Hattori.gif"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season One - Gold Pass"><img
+                  alt="Season One - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season One">Season
+                One</a> <span style="color: #808080">| Tier 85 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Maître d'Hattori">Maître d'Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Maître d'Hattori"><img
+                  alt="Maître d'Hattori"
+                  
+                  decoding="async" loading="lazy" width="130" height="243" data-image-name="Maître d'Hattori.png"
+                  data-image-key="Ma%C3%AEtre_d%27Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2e/Ma%C3%AEtre_d%27Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Anniversary Event"><img
+                  alt="EventIcon Anniversary"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Anniversary.png"
+                  data-image-key="EventIcon_Anniversary.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f1/EventIcon_Anniversary.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                <a title="Anniversary">Anniversary</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Zuko">Zuko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Zuko"><img alt="Zuko"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Zuko.png"
+                        data-image-key="Zuko.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/Zuko.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Neostreet Hattori">Neostreet Hattori</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Neostreet Hattori"><img
+                  alt="Neostreet Hattori"
+                  
+                  decoding="async" loading="lazy" width="134" height="243" data-image-name="Neostreet Hattori.png"
+                  data-image-key="Neostreet_Hattori.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e1/Neostreet_Hattori.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Eight - Gold Pass"><img
+                  alt="Season Eight - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season Eight">Season
+                Eight</a> <span style="color: #808080">| Tier 50 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

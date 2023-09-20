@@ -1,66 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Jiro - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Jiro - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/05/JiroSplash.png" alt="jiro brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Jiro</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/05/JiroSplash.png" alt="jiro brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Jiro</h1>
 
-            <p id="historia_p">"Claro que eu suspeito que ele 'removeu' os 9 xoguns anteriores, mas se ele remover este, eu posso assumir! Não se preocupe, eu tenho tudo resolvido." <br>
-              Em breve será Shogun Mizugawa <br><br>
-              
-              Os shinobi magistrais dos clãs Iga e Koga eram conhecidos por toda parte. Foi por trás dessas diversões inteligentes que a incomparável família Gensoujin exerceu seu ofício. <br><br>
-              
-              Escondido no Reino do Crepúsculo, foi aqui que Jiro treinou quando criança. Desde o início, seus modos imprudentes e heterodoxos o mantiveram no topo de sua classe e em apuros com os anciãos. Quando lhe disseram para "usar a escuridão a seu favor", ele convenceu as sombras de outros estagiários a lutar ao seu lado e estabelecer um recorde escolar. Aperfeiçoando sua própria técnica Saiyokage, ele começou a tomar as sombras dos outros para o bem e partiu por conta própria. <br><br>
-              
-              Se o dojo da família não estava pronto para Jiro, seus alvos no mundo mortal estavam ainda menos preparados. A cada vitória, ele adicionava outra Sombra ao seu arsenal. O reinado do Shogun Mizugawa terminou com o sol poente quando a Sombra de Jiro se estendeu sobre a muralha da fortaleza e o cortou em dois. Ele fisgou e colocou a Lua de Sangue com seu Kusarigama para tornar o Shogun Demônio Yotsunaga mortal. Brevemente. Mais notavelmente, Jiro empregou a técnica proibida da Lâmina do Eclipse Completo e o Shogun Fujiyama desapareceu sob uma enxurrada de Sombras, juntamente com todo o seu exército. <br><br>
-              
-              "Não gostamos de nos gabar, mas estamos meio impressionados com quantas pessoas estão aqui por nossa causa. Eu disse nós? Quero dizer, eu. Apenas um eu." <br>
-              Jiro, olhos se movendo de um lado para o outro e olhando para o teto <br><br>
-              
-              Agora em Valhalla, alguns dizem que Jiro está se escondendo da morte, mas Wu Shang diz que está se escondendo atrás da grande tapeçaria no Grande Salão como parte do torneio anual de esconde-esconde com Kaya e Caspian. Juntos, Jiro e suas sombras sobem no ranking e ainda estão muito felizes em aceitar um contrato pelo preço certo. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">"Claro que eu suspeito que ele 'removeu' os 9 xoguns anteriores, mas se ele remover este, eu
+        posso assumir! Não se preocupe, eu tenho tudo resolvido." <br>
+        Em breve será Shogun Mizugawa <br><br>
 
-            
-        </div>
+        Os shinobi magistrais dos clãs Iga e Koga eram conhecidos por toda parte. Foi por trás dessas diversões
+        inteligentes que a incomparável família Gensoujin exerceu seu ofício. <br><br>
 
-      </div>
+        Escondido no Reino do Crepúsculo, foi aqui que Jiro treinou quando criança. Desde o início, seus modos
+        imprudentes e heterodoxos o mantiveram no topo de sua classe e em apuros com os anciãos. Quando lhe disseram
+        para "usar a escuridão a seu favor", ele convenceu as sombras de outros estagiários a lutar ao seu lado e
+        estabelecer um recorde escolar. Aperfeiçoando sua própria técnica Saiyokage, ele começou a tomar as sombras dos
+        outros para o bem e partiu por conta própria. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">5.400</span></h1>
+        Se o dojo da família não estava pronto para Jiro, seus alvos no mundo mortal estavam ainda menos preparados. A
+        cada vitória, ele adicionava outra Sombra ao seu arsenal. O reinado do Shogun Mizugawa terminou com o sol poente
+        quando a Sombra de Jiro se estendeu sobre a muralha da fortaleza e o cortou em dois. Ele fisgou e colocou a Lua
+        de Sangue com seu Kusarigama para tornar o Shogun Demônio Yotsunaga mortal. Brevemente. Mais notavelmente, Jiro
+        empregou a técnica proibida da Lâmina do Eclipse Completo e o Shogun Fujiyama desapareceu sob uma enxurrada de
+        Sombras, juntamente com todo o seu exército. <br><br>
+
+        "Não gostamos de nos gabar, mas estamos meio impressionados com quantas pessoas estão aqui por nossa causa. Eu
+        disse nós? Quero dizer, eu. Apenas um eu." <br>
+        Jiro, olhos se movendo de um lado para o outro e olhando para o teto <br><br>
+
+        Agora em Valhalla, alguns dizem que Jiro está se escondendo da morte, mas Wu Shang diz que está se escondendo
+        atrás da grande tapeçaria no Grande Salão como parte do torneio anual de esconde-esconde com Kaya e Caspian.
+        Juntos, Jiro e suas sombras sobem no ranking e ainda estão muito felizes em aceitar um contrato pelo preço
+        certo. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Jiro the Specialist">Jiro the
+                Specialist</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Jiro the Specialist"><img
+                  alt="Jiro the Specialist"
+                  
+                  decoding="async" loading="lazy" width="154" height="243" data-image-name="Jiro the Specialist.png"
+                  data-image-key="Jiro_the_Specialist.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/66/Jiro_the_Specialist.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Shinigami Jiro">Shinigami Jiro</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Shinigami Jiro"><img alt="Shinigami Jiro"
+                  
+                  decoding="async" loading="lazy" width="133" height="243" data-image-name="Shinigami Jiro.png"
+                  data-image-key="Shinigami_Jiro.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c3/Shinigami_Jiro.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Shogun Jiro">Shogun Jiro</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Shogun Jiro"><img alt="Shogun Jiro"
+                  
+                  decoding="async" loading="lazy" width="153" height="243" data-image-name="Shogun Jiro.png"
+                  data-image-key="Shogun_Jiro.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5c/Shogun_Jiro.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Komainu Jiro">Komainu Jiro</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Komainu Jiro"><img alt="Komainu Jiro"
+                  
+                  decoding="async" loading="lazy" width="140" height="243" data-image-name="Komainu Jiro.png"
+                  data-image-key="Komainu_Jiro.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/28/Komainu_Jiro.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Exalted Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Exalted Chest">Exalted Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Dullahan Jiro">Dullahan Jiro</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Dullahan Jiro"><img alt="Dullahan Jiro"
+                  
+                  decoding="async" loading="lazy" width="134" height="243" data-image-name="Dullahan Jiro.png"
+                  data-image-key="Dullahan_Jiro.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b1/Dullahan_Jiro.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a href="/wiki/Luck_o%27_the_Brawl_Event"
+                <a title="Luck o' the Brawl Event"><img alt="EventIcon StPatricks"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon StPatricks.png"
+                  data-image-key="EventIcon_StPatricks.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3a/EventIcon_StPatricks.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                <a title="Luck o' the Brawl">Luck o' the Brawl</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Crimson Oni Jiro">Crimson Oni Jiro</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Crimson Oni Jiro"><img
+                  alt="Crimson Oni Jiro"
+                  
+                  decoding="async" loading="lazy" width="130" height="243" data-image-name="Crimson Oni Jiro.png"
+                  data-image-key="Crimson_Oni_Jiro.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/fa/Crimson_Oni_Jiro.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season One - Gold Pass"><img
+                  alt="Season One - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season One">Season
+                One</a> <span style="color: #808080">| Tier 71 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Leonardo">Leonardo</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Leonardo"><img alt="Leonardo (lock-in)"
+                        
+                        decoding="async" loading="lazy" width="178" height="185"
+                        data-image-name="Leonardo (lock-in).png" data-image-key="Leonardo_%28lock-in%29.png"
+                        data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ee/Leonardo_%28lock-in%29.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Oendan Jiro">Oendan Jiro</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Oendan Jiro"><img alt="Oendan Jiro"
+                  
+                  decoding="async" loading="lazy" width="198" height="198" data-image-name="Oendan Jiro.png"
+                  data-image-key="Oendan_Jiro.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/24/Oendan_Jiro.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Back to School Event"><img
+                  alt="EventIcon BackToSchool"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon BackToSchool.png"
+                  data-image-key="EventIcon_BackToSchool.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  class="lazyload"></a> <a title="Back to School">Back
+                to School</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Yoshimitsu">Yoshimitsu</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Yoshimitsu"><img alt="Yoshimitsu"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Yoshimitsu.png"
+                        data-image-key="Yoshimitsu.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e2/Yoshimitsu.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

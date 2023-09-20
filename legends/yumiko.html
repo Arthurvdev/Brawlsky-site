@@ -1,70 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Yumiko - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Yumiko - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/05/Yumiko1.png" alt="yumiko brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Yumiko</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/05/Yumiko1.png" alt="yumiko brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Yumiko</h1>
 
-            <p id="historia_p">"Hattori, você se lembra da história do sábio espírito da raposa e seu martelo mágico gigante? Sim, eu também não!"
-              Koji depois de uma surra de um recém-chegado ao Grande Torneio" <br><br>
-              
-              Qualquer Valquíria podia ver que a costureira cega era um espírito de raposa de séculos de idade disfarçado. Apenas a meia-Valquíria viu um grande Valhallan. Desde tempos imemoriais, a aldeia japonesa de Aoku sentou-se em paz à beira da grande floresta do norte. <br><br>
-              
-              Então a floresta mudou. <br><br>
-              
-              Os invernos ficavam amargos e o frio parecia fluir para fora da própria floresta. Da floresta também vieram grandes lobos – primeiro em um e dois e depois em grandes matilhas. A floresta passou a ser chamada de Kiba, The Fang, e os aldeões temiam. <br><br>
-              
-              Para os aldeões, Yumiko, a costureira cega, era uma alma feliz – com medo de cães e despertada para a raiva apenas por bordados de má qualidade. Ninguém jamais soube que, aos 537 anos, ela pegou um arco pela primeira vez e entrou em guerra com os monstros do Kiba. <br><br>
-              
-              "Deixe-me contar-lhe a história da costureira cega e dos mil lobos."
-              Yumiko <br><br>
-              
-              No primeiro inverno, ela resgatou uma criança de lobo errante, no segundo inverno ela matou uma matilha de lobos para proteger o Tororu hibernando. Ano após ano, o ataque cresceu, assim como sua habilidade. No vigésimo quinto ano, ela derrotou um exército Tengu, matou um dragão e percebeu que deveria enfrentar esse mistério em sua fonte. Cansada, mas determinada, ela viajou profundamente para a floresta. Lá ela lutou contra a bruxa Ukionna e quebrou o vínculo entre o mundo de Yumiko e a floresta retorcida que corrompia sua terra. Nos momentos finais da batalha, uma valquíria apareceu. Sem uma palavra, Yumiko pulou no cavalo voador e foi feliz para dormir. <br><br>
-              
-              Yumiko está feliz em lutar no torneio, enquanto ela sente que tem mais um grande ato para realizar, mas espera pacientemente. Yumiko recua ao ver Mordex, mexe com Scarlet em sua oficina, e tem um vínculo silencioso com o enigmático Asuri. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">"Hattori, você se lembra da história do sábio espírito da raposa e seu martelo mágico gigante?
+        Sim, eu também não!"
+        Koji depois de uma surra de um recém-chegado ao Grande Torneio" <br><br>
 
-            
-        </div>
+        Qualquer Valquíria podia ver que a costureira cega era um espírito de raposa de séculos de idade disfarçado.
+        Apenas a meia-Valquíria viu um grande Valhallan. Desde tempos imemoriais, a aldeia japonesa de Aoku sentou-se em
+        paz à beira da grande floresta do norte. <br><br>
 
-      </div>
+        Então a floresta mudou. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
-           Preço: <span class="preço_span">5.400</span></h1>
+        Os invernos ficavam amargos e o frio parecia fluir para fora da própria floresta. Da floresta também vieram
+        grandes lobos – primeiro em um e dois e depois em grandes matilhas. A floresta passou a ser chamada de Kiba, The
+        Fang, e os aldeões temiam. <br><br>
+
+        Para os aldeões, Yumiko, a costureira cega, era uma alma feliz – com medo de cães e despertada para a raiva
+        apenas por bordados de má qualidade. Ninguém jamais soube que, aos 537 anos, ela pegou um arco pela primeira vez
+        e entrou em guerra com os monstros do Kiba. <br><br>
+
+        "Deixe-me contar-lhe a história da costureira cega e dos mil lobos."
+        Yumiko <br><br>
+
+        No primeiro inverno, ela resgatou uma criança de lobo errante, no segundo inverno ela matou uma matilha de lobos
+        para proteger o Tororu hibernando. Ano após ano, o ataque cresceu, assim como sua habilidade. No vigésimo quinto
+        ano, ela derrotou um exército Tengu, matou um dragão e percebeu que deveria enfrentar esse mistério em sua
+        fonte. Cansada, mas determinada, ela viajou profundamente para a floresta. Lá ela lutou contra a bruxa Ukionna e
+        quebrou o vínculo entre o mundo de Yumiko e a floresta retorcida que corrompia sua terra. Nos momentos finais da
+        batalha, uma valquíria apareceu. Sem uma palavra, Yumiko pulou no cavalo voador e foi feliz para dormir.
+        <br><br>
+
+        Yumiko está feliz em lutar no torneio, enquanto ela sente que tem mais um grande ato para realizar, mas espera
+        pacientemente. Yumiko recua ao ver Mordex, mexe com Scarlet em sua oficina, e tem um vínculo silencioso com o
+        enigmático Asuri. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Tokyo Yumiko">Tokyo Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Tokyo Yumiko"><img alt="Tokyo Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a9/Tokyo_Yumiko.png"
+                  decoding="async" loading="lazy" width="198" height="238" data-image-name="Tokyo Yumiko.png"
+                  data-image-key="Tokyo_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a9/Tokyo_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Lil' Yumiko">Lil' Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Lil' Yumiko"><img alt="Lil' Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6b/Lil%27_Yumiko.png"
+                  decoding="async" loading="lazy" width="198" height="231" data-image-name="Lil' Yumiko.png"
+                  data-image-key="Lil%27_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6b/Lil%27_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Cursed Mask Yumiko">Cursed Mask Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Cursed Mask Yumiko"><img
+                  alt="Cursed Mask Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e2/Cursed_Mask_Yumiko.png"
+                  decoding="async" loading="lazy" width="198" height="239" data-image-name="Cursed Mask Yumiko.png"
+                  data-image-key="Cursed_Mask_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e2/Cursed_Mask_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Fox Spirit Yumiko">Fox Spirit Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Fox Spirit Yumiko"><img
+                  alt="Fox Spirit Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/10/Fox_Spirit_Yumiko.png"
+                  decoding="async" loading="lazy" width="198" height="243" data-image-name="Fox Spirit Yumiko.png"
+                  data-image-key="Fox_Spirit_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/10/Fox_Spirit_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Wild Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a title="Wild Chest">Wild
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Punkin Spice Yumiko">Punkin Spice
+                Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Punkin Spice Yumiko"><img
+                  alt="Punkin Spice Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/31/Punkin_Spice_Yumiko.png"
+                  decoding="async" loading="lazy" width="198" height="242" data-image-name="Punkin Spice Yumiko.png"
+                  data-image-key="Punkin_Spice_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/31/Punkin_Spice_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Brawlhalloween_Event"
+                <a title="Brawlhalloween Event"><img alt="EventIcon Halloween"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/EventIcon_Halloween.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Halloween.png"
+                  data-image-key="EventIcon_Halloween.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/EventIcon_Halloween.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Brawlhalloween">Brawlhalloween</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Matsuri Yumiko">Matsuri Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Matsuri Yumiko"><img alt="Matsuri Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/55/Matsuri_Yumiko.png"
+                  decoding="async" loading="lazy" width="195" height="243" data-image-name="Matsuri Yumiko.png"
+                  data-image-key="Matsuri_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/55/Matsuri_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Madame Yumiko">Madame Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Madame Yumiko"><img alt="Madame Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/29/Madame_Yumiko.png"
+                  decoding="async" loading="lazy" width="198" height="238" data-image-name="Madame Yumiko.png"
+                  data-image-key="Madame_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/29/Madame_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Royal Order Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Royal Order Chest">Royal Order
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Arctic Fox Yumiko">Arctic Fox Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Arctic Fox Yumiko"><img
+                  alt="Arctic Fox Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/20/Arctic_Fox_Yumiko.png"
+                  decoding="async" loading="lazy" width="190" height="243" data-image-name="Arctic Fox Yumiko.png"
+                  data-image-key="Arctic_Fox_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/20/Arctic_Fox_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="High Frequency Yumiko">High Frequency
+                Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="High Frequency Yumiko"><img
+                  alt="High Frequency Yumiko"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1c/High_Frequency_Yumiko.png"
+                  decoding="async" loading="lazy" width="198" height="243" data-image-name="High Frequency Yumiko.png"
+                  data-image-key="High_Frequency_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1c/High_Frequency_Yumiko.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Two - Gold Pass"><img
+                  alt="Season Two - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season Two">Season
+                Two</a> <span style="color: #808080">| Tier 71 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Caelestis Yumiko">Caelestis Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Caelestis Yumiko"><img
+                  alt="Caelestis Yumiko"
+                  
+                  decoding="async" loading="lazy" width="198" height="241" data-image-name="Caelestis Yumiko.png"
+                  data-image-key="Caelestis_Yumiko.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/57/Caelestis_Yumiko.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a href="/wiki/Valhallentine%27s_Event"
+                <a title="Valhallentine's Event"><img alt="EventIcon Valentines"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Valentines.png"
+                  data-image-key="EventIcon_Valentines.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                <a title="Valhallentine's">Valhallentine's</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Inari Yumiko">Inari Yumiko</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Inari Yumiko"><img alt="Inari Yumiko"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Inari Yumiko.png"
+                        data-image-key="Inari_Yumiko.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/ce/Inari_Yumiko.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

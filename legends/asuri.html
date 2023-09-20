@@ -1,71 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <script src="../removerhtml.js"></script>
-    <title>Asuri - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <script src="../removerhtml.js"></script>
+  <title>Asuri - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/AsuriSplash.png" alt="asuri brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Asuri</h1>
 
-            <p id="historia_p">“De onde você tirou isso? Catistão? Ou foi Meownmar? <br><br>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/AsuriSplash.png" alt="asuri brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Asuri</h1>
 
-              Lucien, para Brynn, que não está ouvindo <br><br>
-              
-              As aldeias ao longo do rio Arit, na fronteira do Punjab, tinham orgulho de seu guardião. Orgulhoso e mais do que um pouco assustado. O Tigre foi um presente de Rama, disseram, embora um presente raramente visto. Anos podem se passar com apenas uma pegada gigante na lama da margem do rio para provar que o Tigre ainda rondava as florestas entre as aldeias. <br><br>
-              
-              Mas quando invasores do norte ou soldados do sul vinham para roubar e oprimir, os sinais do Tigre apareciam - corpos de invasores no alto das árvores, um aspirante a senhor da guerra espancado em sua tenda, todo um acampamento de bandidos destruído como se um tufão havia atingido. E os aldeões se perguntavam se havia alguém no mundo tão ignorante ou tão arrogante a ponto de ser indiferente a seu protetor. <br><br>
-              
-              Quanto ao Tigre, ela mal se lembrava de ser uma menina. Ela se lembrava de ter doze anos e descobrir com horror que sua outrora nobre família, os protetores ungidos do vale, agora enriquecia quando forasteiros vinham para saquear. Ela se lembrou de seu tio perverso amarrando-a no altar do templo e conjurando o espírito do tigre para devorá-la. E ela se lembrava de lutar – lutar tanto e com tanta força que no final ela não sabia quem havia devorado quem. <br><br>
-              
-              “Este lugar é meu agora.” <br><br>
-              
-              Asuri, olhando para Valhalla <br> <br>
-              
-              Em Valhalla, Asuri reivindicou o Torneio como seu território e ataca os desafiantes de seu domínio com fúria selvagem. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">“De onde você tirou isso? Catistão? Ou foi Meownmar? <br><br>
 
-            
-        </div>
+        Lucien, para Brynn, que não está ouvindo <br><br>
 
-      </div>
+        As aldeias ao longo do rio Arit, na fronteira do Punjab, tinham orgulho de seu guardião. Orgulhoso e mais do que
+        um pouco assustado. O Tigre foi um presente de Rama, disseram, embora um presente raramente visto. Anos podem se
+        passar com apenas uma pegada gigante na lama da margem do rio para provar que o Tigre ainda rondava as florestas
+        entre as aldeias. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">3.900</span></h1>
+        Mas quando invasores do norte ou soldados do sul vinham para roubar e oprimir, os sinais do Tigre apareciam -
+        corpos de invasores no alto das árvores, um aspirante a senhor da guerra espancado em sua tenda, todo um
+        acampamento de bandidos destruído como se um tufão havia atingido. E os aldeões se perguntavam se havia alguém
+        no mundo tão ignorante ou tão arrogante a ponto de ser indiferente a seu protetor. <br><br>
+
+        Quanto ao Tigre, ela mal se lembrava de ser uma menina. Ela se lembrava de ter doze anos e descobrir com horror
+        que sua outrora nobre família, os protetores ungidos do vale, agora enriquecia quando forasteiros vinham para
+        saquear. Ela se lembrou de seu tio perverso amarrando-a no altar do templo e conjurando o espírito do tigre para
+        devorá-la. E ela se lembrava de lutar – lutar tanto e com tanta força que no final ela não sabia quem havia
+        devorado quem. <br><br>
+
+        “Este lugar é meu agora.” <br><br>
+
+        Asuri, olhando para Valhalla <br> <br>
+
+        Em Valhalla, Asuri reivindicou o Torneio como seu território e ataca os desafiantes de seu domínio com fúria
+        selvagem. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">3.900</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Cat Burglar Asuri">Cat Burglar Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Cat Burglar Asuri"><img
+                  alt="Cat Burglar Asuri"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6b/Cat_Burglar_Asuri.png"
+                  decoding="async" loading="lazy" width="198" height="158" data-image-name="Cat Burglar Asuri.png"
+                  data-image-key="Cat_Burglar_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6b/Cat_Burglar_Asuri.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Awakened Asuri">Awakened Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Awakened Asuri"><img alt="Awakened Asuri"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7d/Awakened_Asuri.png"
+                  decoding="async" loading="lazy" width="198" height="181" data-image-name="Awakened Asuri.png"
+                  data-image-key="Awakened_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7d/Awakened_Asuri.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Lynx Asuri">Lynx Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Lynx Asuri"><img alt="Lynx Asuri"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1f/Lynx_Asuri.png"
+                  decoding="async" loading="lazy" width="198" height="176" data-image-name="Lynx Asuri.png"
+                  data-image-key="Lynx_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/1f/Lynx_Asuri.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Swashbuckler Asuri">Swashbuckler Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Swashbuckler Asuri"><img
+                  alt="Swashbuckler Asuri"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/da/Swashbuckler_Asuri.png"
+                  decoding="async" loading="lazy" width="198" height="156" data-image-name="Swashbuckler Asuri.png"
+                  data-image-key="Swashbuckler_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/da/Swashbuckler_Asuri.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Apex Predator Asuri">Apex Predator
+                Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Apex Predator Asuri"><img
+                  alt="Apex Predator Asuri"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/44/Apex_Predator_Asuri.png"
+                  decoding="async" loading="lazy" width="198" height="158" data-image-name="Apex Predator Asuri.png"
+                  data-image-key="Apex_Predator_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/44/Apex_Predator_Asuri.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Cosmic Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Cosmic Chest">Cosmic Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Mecha Asuri">Mecha Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Mecha Asuri"><img alt="Mecha Asuri"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/04/Mecha_Asuri.png"
+                  decoding="async" loading="lazy" width="198" height="165" data-image-name="Mecha Asuri.png"
+                  data-image-key="Mecha_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/04/Mecha_Asuri.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="First Day Asuri">First Day Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="First Day Asuri"><img alt="First Day Asuri"
+                  
+                  decoding="async" loading="lazy" width="198" height="153" data-image-name="First Day Asuri.png"
+                  data-image-key="First_Day_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/64/First_Day_Asuri.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Back to School Event"><img
+                  alt="EventIcon BackToSchool"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon BackToSchool.png"
+                  data-image-key="EventIcon_BackToSchool.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  class="lazyload"></a> <a title="Back to School">Back
+                to School</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Badlands Asuri">Badlands Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Badlands Asuri"><img alt="Badlands Asuri"
+                  
+                  decoding="async" loading="lazy" width="198" height="181" data-image-name="Badlands Asuri.png"
+                  data-image-key="Badlands_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b0/Badlands_Asuri.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Outlaw Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Outlaw Chest">Outlaw Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Skel-asuri">Skel-asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Skel-asuri"><img alt="Skel-asuri"
+                  
+                  decoding="async" loading="lazy" width="198" height="167" data-image-name="Skel-asuri.png"
+                  data-image-key="Skel-asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/30/Skel-asuri.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Brawlhalloween Event"><img
+                  alt="EventIcon Halloween"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Halloween.png"
+                  data-image-key="EventIcon_Halloween.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/EventIcon_Halloween.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                title="Brawlhalloween">Brawlhalloween</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Metadev Asuri">Metadev Asuri</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Metadev Asuri"><img alt="Metadev Asuri"
+                  
+                  decoding="async" loading="lazy" width="198" height="165" data-image-name="Metadev Asuri.png"
+                  data-image-key="Metadev_Asuri.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d7/Metadev_Asuri.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px">Not normally obtainable.<br>See <a title="Metadev">Metadev</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Tigress">Tigress</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Tigress"><img alt="Tigress"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Tigress.png"
+                        data-image-key="Tigress.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ea/Tigress.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

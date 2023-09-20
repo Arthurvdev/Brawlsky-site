@@ -1,68 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Ulgrim - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Ulgrim - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/03/UlgrimSplash.png" alt="ulgrim brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Ulgrim</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/03/UlgrimSplash.png" alt="ulgrim brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Ulgrim</h1>
 
-            <p id="historia_p">"Quando o fogo queima e o fole se agita, então os anéis de martelo e a bigorna cantam, o metal feroz brilha e os feixes do Maker." <br><br>
+      <p id="historia_p">"Quando o fogo queima e o fole se agita, então os anéis de martelo e a bigorna cantam, o metal
+        feroz brilha e os feixes do Maker." <br><br>
 
-              Filhos de Ivaldi forjam canção. <br><br>
-              
-              Os Filhos de Ivaldi são os mestres artesãos originais de Asgard. Eles são os primeiros e os melhores. Desde que o mundo começou, Ulgrim criou artefatos incomparáveis nas Grandes Forjas. <br><br>
-              
-              Graças a Loki e seus modos de jogo, um par de arrivistas ferreiros anões de Nidavellir fez o martelo de Thor e roubou o lugar de prestígio dos Filhos. Mesmo que eles tenham falhado a alça, que os Sons resmungam que é a única parte da criação de martelos que leva alguma habilidade real, os novos ferreiros ainda eram celebrados. Essa amarga rivalidade duraria séculos, ambos os lados constantemente tentando desfazer o outro. <br><br>
-              
-              Mas quando o cometa desmoronou, era Ulgrim para o qual os deuses se voltaram mais uma vez. Só ele tinha os materiais para construir o que eles precisavam. Por séculos, ele colheu centenas de itens impossíveis, o coração de um dragão ainda flamejante, o núcleo de uma estrela moribunda, a esinita do reino inferior. Nada muito raro, e nenhum meu muito perigoso ou muito longe para Ulgrim. O nome dos Filhos foi finalmente restaurado em uma armadura dourada. <br><br>
-              
-              "Faça o que fizer, não faça uma piada de sete anões... Mas ele é definitivamente "Anão Mal-humorado". <br><br>
-              
-              Sentinela para um Teros em sua maioria desatenta <br><br>
-              
-              Agora ele empunha suas criações impecáveis de Ivaldi na arena, provando sua perfeição a cada vitória. Quando ele não está no ringue, muitas vezes ele pode ser encontrado discutindo com Scarlet em seus métodos de construção de engenhoca. Mas sempre ele fica de olho em Orion e fica por perto. Alguns dizem por orgulho, outros dizem que é preocupação com o que acontecerá se a armadura falhar. <br><br>
-                
-            </p>
-                
-            
+        Filhos de Ivaldi forjam canção. <br><br>
 
-            
-        </div>
+        Os Filhos de Ivaldi são os mestres artesãos originais de Asgard. Eles são os primeiros e os melhores. Desde que
+        o mundo começou, Ulgrim criou artefatos incomparáveis nas Grandes Forjas. <br><br>
 
-      </div>
+        Graças a Loki e seus modos de jogo, um par de arrivistas ferreiros anões de Nidavellir fez o martelo de Thor e
+        roubou o lugar de prestígio dos Filhos. Mesmo que eles tenham falhado a alça, que os Sons resmungam que é a
+        única parte da criação de martelos que leva alguma habilidade real, os novos ferreiros ainda eram celebrados.
+        Essa amarga rivalidade duraria séculos, ambos os lados constantemente tentando desfazer o outro. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
-           Preço: <span class="preço_span">5.400</span></h1>
+        Mas quando o cometa desmoronou, era Ulgrim para o qual os deuses se voltaram mais uma vez. Só ele tinha os
+        materiais para construir o que eles precisavam. Por séculos, ele colheu centenas de itens impossíveis, o coração
+        de um dragão ainda flamejante, o núcleo de uma estrela moribunda, a esinita do reino inferior. Nada muito raro,
+        e nenhum meu muito perigoso ou muito longe para Ulgrim. O nome dos Filhos foi finalmente restaurado em uma
+        armadura dourada. <br><br>
+
+        "Faça o que fizer, não faça uma piada de sete anões... Mas ele é definitivamente "Anão Mal-humorado". <br><br>
+
+        Sentinela para um Teros em sua maioria desatenta <br><br>
+
+        Agora ele empunha suas criações impecáveis de Ivaldi na arena, provando sua perfeição a cada vitória. Quando ele
+        não está no ringue, muitas vezes ele pode ser encontrado discutindo com Scarlet em seus métodos de construção de
+        engenhoca. Mas sempre ele fica de olho em Orion e fica por perto. Alguns dizem por orgulho, outros dizem que é
+        preocupação com o que acontecerá se a armadura falhar. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Star Miner Ulgrim">Star Miner Ulgrim</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Star Miner Ulgrim"><img
+                  alt="Star Miner Ulgrim"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/42/Star_Miner_Ulgrim.png"
+                  decoding="async" loading="lazy" width="198" height="232" data-image-name="Star Miner Ulgrim.png"
+                  data-image-key="Star_Miner_Ulgrim.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/42/Star_Miner_Ulgrim.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Arcanium Ulgrim">Arcanium Ulgrim</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Arcanium Ulgrim"><img alt="Arcanium Ulgrim"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/27/Arcanium_Ulgrim.png"
+                  decoding="async" loading="lazy" width="188" height="243" data-image-name="Arcanium Ulgrim.png"
+                  data-image-key="Arcanium_Ulgrim.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/27/Arcanium_Ulgrim.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Apprentice Ulgrim">Apprentice Ulgrim</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Apprentice Ulgrim"><img
+                  alt="Apprentice Ulgrim"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/54/Apprentice_Ulgrim.png"
+                  decoding="async" loading="lazy" width="198" height="239" data-image-name="Apprentice Ulgrim.png"
+                  data-image-key="Apprentice_Ulgrim.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/54/Apprentice_Ulgrim.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Dragonport Ulgrim">Dragonport Ulgrim</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Dragonport Ulgrim"><img
+                  alt="Dragonport Ulgrim"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6d/Dragonport_Ulgrim.png"
+                  decoding="async" loading="lazy" width="189" height="243" data-image-name="Dragonport Ulgrim.png"
+                  data-image-key="Dragonport_Ulgrim.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6d/Dragonport_Ulgrim.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Jotun Ulgrim">Jotun Ulgrim</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Jotun Ulgrim"><img alt="Jotun Ulgrim"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5c/Jotun_Ulgrim.png"
+                  decoding="async" loading="lazy" width="198" height="241" data-image-name="Jotun Ulgrim.png"
+                  data-image-key="Jotun_Ulgrim.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5c/Jotun_Ulgrim.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Ragnarok Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a href="/wiki/Ragnarok_Chest"
+                <a title="Ragnarok Chest">Ragnarok Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Warborn Ulgrim">Warborn Ulgrim</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Warborn Ulgrim"><img alt="Warborn Ulgrim"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0d/Warborn_Ulgrim.png"
+                  decoding="async" loading="lazy" width="197" height="243" data-image-name="Warborn Ulgrim.png"
+                  data-image-key="Warborn_Ulgrim.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0d/Warborn_Ulgrim.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 200<br><a href="/wiki/Luck_o%27_the_Brawl_Event"
+                <a title="Luck o' the Brawl Event"><img alt="EventIcon StPatricks"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3a/EventIcon_StPatricks.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon StPatricks.png"
+                  data-image-key="EventIcon_StPatricks.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3a/EventIcon_StPatricks.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Luck o' the Brawl">Luck o' the Brawl</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Macho Man">Macho Man</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Macho Man"><img alt="Macho Man"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/83/Macho_Man.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Macho Man.png"
+                        data-image-key="Macho_Man.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/83/Macho_Man.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Master Blacksmith Ulgrim">Master
+                Blacksmith Ulgrim</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Master Blacksmith Ulgrim"><img
+                  alt="Master Blacksmith Ulgrim"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4c/Master_Blacksmith_Ulgrim.png"
+                  decoding="async" loading="lazy" width="184" height="243"
+                  data-image-name="Master Blacksmith Ulgrim.png" data-image-key="Master_Blacksmith_Ulgrim.png"
+                  data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4c/Master_Blacksmith_Ulgrim.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Three - Gold Pass"><img
+                  alt="Season Three - Gold Pass"
+                  src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season Three">Season
+                Three</a> <span style="color: #808080">| Tier 47 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Mad Doctor Ulgrim">Mad Doctor Ulgrim</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Mad Doctor Ulgrim"><img
+                  alt="Mad Doctor Ulgrim"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/98/Mad_Doctor_Ulgrim.png"
+                  decoding="async" loading="lazy" width="198" height="241" data-image-name="Mad Doctor Ulgrim.png"
+                  data-image-key="Mad_Doctor_Ulgrim.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/98/Mad_Doctor_Ulgrim.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 200<br><a title="Brawlhalloween Event"><img
+                  alt="EventIcon Halloween"
+                  src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Halloween.png"
+                  data-image-key="EventIcon_Halloween.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/EventIcon_Halloween.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                <a title="Brawlhalloween">Brawlhalloween</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

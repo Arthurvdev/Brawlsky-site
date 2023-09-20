@@ -1,68 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Queen Nai - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Queen Nai - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/NaiSplash.png" alt="queen nai brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Queen Nai</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/NaiSplash.png" alt="queen nai brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Queen Nai</h1>
 
-            <p id="historia_p">
-              “Assim está escrito que a rainha guerreira deve andar por aí e vexar os Deuses Estranhos em sua própria casa. Ela irá derrotá-los em testes de sua própria concepção e arrancar os louros de suas coroas. E na batalha final ela gritará, e nossos Deuses Antigos responderão com fúria, destruindo tudo para que o ciclo possa recomeçar.” <br><br>
+      <p id="historia_p">
+        “Assim está escrito que a rainha guerreira deve andar por aí e vexar os Deuses Estranhos em sua própria casa.
+        Ela irá derrotá-los em testes de sua própria concepção e arrancar os louros de suas coroas. E na batalha final
+        ela gritará, e nossos Deuses Antigos responderão com fúria, destruindo tudo para que o ciclo possa recomeçar.”
+        <br><br>
 
-              A Profecia da Rainha Jaguar <br><br>
-              
-              Centenas de anos de guerra e peste reduziram o outrora poderoso Império do Reino Jaguar a uma sombra de sua antiga glória. Nem as brilhantes vitórias no campo de batalha nem a astuta feitiçaria da grande Rainha Nai poderiam conter a maré de declínio de seu povo ou de seus deuses - um outrora grande panteão agora quase extinto. <br><br>
-              
-              Vendo que o destino de sua civilização estava selado, Nai fez um plano. Ela lançou um feitiço, atraindo para si a essência dos onze deuses sobreviventes do Reino Jaguar. E quando, durante a Batalha de Ixanocala, uma Valquíria ofereceu a Nai um lugar em Valhalla, ela aceitou, carregando Xanlecutli, o Coatl, Eba, a Serpente, e nove outros deuses doentes com ela para o grande salão. <br><br>
-              
-              “Nossas crenças não são tão diferentes. Por exemplo, sua noção de ‘Ragnarok’ está mais ou menos correta, você só não tem uma visão geral.” <br><br>
-              
-              Nai para um Bödvar confuso <br><br>
-              
-              Em Valhalla, Nai é uma guerreira consumada e passou a amar o lugar. No entanto, ela nunca perde de vista seu propósito - suas vitórias alimentam os deuses de seu povo e, pouco a pouco, eles se recuperam. <br><br>
-              
-              Nai acredita que os contos de Ragnarok representam a obscura compreensão dos asgardianos de que a criação é cíclica e que Asgard deve ser destruída para que o mundo seja renovado e para que seus deuses governem novamente. <br><br>
-            </p>
-                
-            
+        A Profecia da Rainha Jaguar <br><br>
 
-            
-        </div>
+        Centenas de anos de guerra e peste reduziram o outrora poderoso Império do Reino Jaguar a uma sombra de sua
+        antiga glória. Nem as brilhantes vitórias no campo de batalha nem a astuta feitiçaria da grande Rainha Nai
+        poderiam conter a maré de declínio de seu povo ou de seus deuses - um outrora grande panteão agora quase
+        extinto. <br><br>
 
-      </div>
+        Vendo que o destino de sua civilização estava selado, Nai fez um plano. Ela lançou um feitiço, atraindo para si
+        a essência dos onze deuses sobreviventes do Reino Jaguar. E quando, durante a Batalha de Ixanocala, uma
+        Valquíria ofereceu a Nai um lugar em Valhalla, ela aceitou, carregando Xanlecutli, o Coatl, Eba, a Serpente, e
+        nove outros deuses doentes com ela para o grande salão. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">2.300</span></h1>
+        “Nossas crenças não são tão diferentes. Por exemplo, sua noção de ‘Ragnarok’ está mais ou menos correta, você só
+        não tem uma visão geral.” <br><br>
+
+        Nai para um Bödvar confuso <br><br>
+
+        Em Valhalla, Nai é uma guerreira consumada e passou a amar o lugar. No entanto, ela nunca perde de vista seu
+        propósito - suas vitórias alimentam os deuses de seu povo e, pouco a pouco, eles se recuperam. <br><br>
+
+        Nai acredita que os contos de Ragnarok representam a obscura compreensão dos asgardianos de que a criação é
+        cíclica e que Asgard deve ser destruída para que o mundo seja renovado e para que seus deuses governem
+        novamente. <br><br>
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">2.300</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Snake Charmer Nai">Snake Charmer Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Snake Charmer Nai"><img
+                  alt="Snake Charmer Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/Snake_Charmer_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="200" data-image-name="Snake Charmer Nai.png"
+                  data-image-key="Snake_Charmer_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/Snake_Charmer_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Snake Goddess Nai">Snake Goddess Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Snake Goddess Nai"><img
+                  alt="Snake Goddess Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5e/Snake_Goddess_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="233" data-image-name="Snake Goddess Nai.png"
+                  data-image-key="Snake_Goddess_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5e/Snake_Goddess_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Tomb Tamer Nai">Tomb Tamer Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Tomb Tamer Nai"><img alt="Tomb Tamer Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/54/Tomb_Tamer_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="205" data-image-name="Tomb Tamer Nai.png"
+                  data-image-key="Tomb_Tamer_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/54/Tomb_Tamer_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Date Night Nai">Date Night Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Date Night Nai"><img alt="Date Night Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/52/Date_Night_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="202" data-image-name="Date Night Nai.png"
+                  data-image-key="Date_Night_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/52/Date_Night_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Valhallentine%27s_Event"
+                <a title="Valhallentine's Event"><img alt="EventIcon Valentines"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Valentines.png"
+                  data-image-key="EventIcon_Valentines.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Valhallentine's">Valhallentine's</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Empress Nai">Empress Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Empress Nai"><img alt="Empress Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ef/Empress_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="220" data-image-name="Empress Nai.png"
+                  data-image-key="Empress_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/ef/Empress_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Winged Serpent Nai">Winged Serpent Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Winged Serpent Nai"><img
+                  alt="Winged Serpent Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c4/Winged_Serpent_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="215" data-image-name="Winged Serpent Nai.png"
+                  data-image-key="Winged_Serpent_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c4/Winged_Serpent_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Ancient Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a title="Ancient Chest">Ancient
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Galaxy X Nai">Galaxy X Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Galaxy X Nai"><img alt="Galaxy X Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dc/Galaxy_X_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="210" data-image-name="Galaxy X Nai.png"
+                  data-image-key="Galaxy_X_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dc/Galaxy_X_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Nidhogg Nai">Nidhogg Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Nidhogg Nai"><img alt="Nidhogg Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6d/Nidhogg_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="212" data-image-name="Nidhogg Nai.png"
+                  data-image-key="Nidhogg_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6d/Nidhogg_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Ragnarok Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a href="/wiki/Ragnarok_Chest"
+                <a title="Ragnarok Chest">Ragnarok Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Lady of the Dead Nai">Lady of the Dead
+                Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Lady of the Dead Nai"><img
+                  alt="Lady of the Dead Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/12/Lady_of_the_Dead_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="227" data-image-name="Lady of the Dead Nai.png"
+                  data-image-key="Lady_of_the_Dead_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/12/Lady_of_the_Dead_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Asuka">Asuka</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Asuka"><img alt="Asuka"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/72/Asuka.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Asuka.png"
+                        data-image-key="Asuka.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/72/Asuka.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="High Priestess Nai">High Priestess Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="High Priestess Nai"><img
+                  alt="High Priestess Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0b/High_Priestess_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="217" data-image-name="High Priestess Nai.png"
+                  data-image-key="High_Priestess_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0b/High_Priestess_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Four - Gold Pass"><img
+                  alt="Season Four - Gold Pass"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class=" ls-is-cached lazyloaded"></a> <a href="/wiki/Battle_Pass/Season_Four"
+                <a title="Battle Pass/Season Four">Season Four</a> <span style="color: #808080">| Tier 47 Reward</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Sea Krait Nai">Sea Krait Nai</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Sea Krait Nai"><img alt="Sea Krait Nai"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a9/Sea_Krait_Nai.png"
+                  decoding="async" loading="lazy" width="198" height="214" data-image-name="Sea Krait Nai.png"
+                  data-image-key="Sea_Krait_Nai.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a9/Sea_Krait_Nai.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Heatwave_Event"
+                <a title="Heatwave Event"><img alt="EventIcon Summer"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Summer.png"
+                  data-image-key="EventIcon_Summer.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Heatwave">Heatwave</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

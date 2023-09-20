@@ -1,68 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Teros - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Teros - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/TerosSplash.png" alt="teros brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Teros</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/TerosSplash.png" alt="teros brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Teros</h1>
 
-            <p id="historia_p">“Procurando na câmara do dragão, encontramos outra passagem que desce. Pelos cálculos do anão, estávamos agora vinte níveis abaixo da fortaleza em ruínas. Depois de uma longa descida, emergimos no centro de um vasto labirinto de pedra.” <br><br>
+      <p id="historia_p">“Procurando na câmara do dragão, encontramos outra passagem que desce. Pelos cálculos do anão,
+        estávamos agora vinte níveis abaixo da fortaleza em ruínas. Depois de uma longa descida, emergimos no centro de
+        um vasto labirinto de pedra.” <br><br>
 
-              Flynkin Furfoot, único sobrevivente da expedição de Heroes for Hire para Perigo <br><br>
-              
-              O menino órfão Teros confiava em seu terrível rosto e instinto de violência repentina para sobreviver nas ruas de Dragonport. Ele sobreviveu como carregador de pedras e cobrador de dívidas até que, nos fossos dos gladiadores, encontrou sua verdadeira vocação no combate imprudente. <br><br>
-              
-              Ele prosperou no ringue, esmagando inimigos mais inteligentes com fúria implacável e astúcia animal. No final, ele só poderia ser colocado contra o raro ogro ou gigante, e ele passou a viver uma vida errante. <br><br>
-              
-              Por um tempo, ele conquistou um lugar na Floresta Fangwild, deixando de lado um wyvern e um clã hobgoblin. Mais tarde, ele se juntou à Legião de Ferro, virando a maré da Batalha de Orc Pass para o Lorde Zumbi. Seu mandato como capanga do mago terminou normalmente - com o mago maligno gritando para ele: "Acabe com eles!" enquanto foge por um portal mágico. Ele viveu por um tempo nas profundezas da Montanha Perigo, onde encontrou um estranho conforto no labirinto de túneis abandonados. <br><br>
-              
-              “Eu odeio 'aventureiros'. Sempre tão certo, tão certo. Como se tivessem um feitiço que pudesse distinguir o bem do mal, o certo do errado. <br><br>
-              
-              teros <br><br>
-              
-              Em Valhalla, Teros é indiferente às regras ou intenções do Torneio, mas sente uma alegria selvagem em todas as batalhas. Sua visita noturna ao salão do hidromel é anunciada por multidões de Valhallans em fuga. <br><br>
-                
-            </p>
-                
-            
+        Flynkin Furfoot, único sobrevivente da expedição de Heroes for Hire para Perigo <br><br>
 
-            
-        </div>
+        O menino órfão Teros confiava em seu terrível rosto e instinto de violência repentina para sobreviver nas ruas
+        de Dragonport. Ele sobreviveu como carregador de pedras e cobrador de dívidas até que, nos fossos dos
+        gladiadores, encontrou sua verdadeira vocação no combate imprudente. <br><br>
 
-      </div>
+        Ele prosperou no ringue, esmagando inimigos mais inteligentes com fúria implacável e astúcia animal. No final,
+        ele só poderia ser colocado contra o raro ogro ou gigante, e ele passou a viver uma vida errante. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">3.900</span></h1>
+        Por um tempo, ele conquistou um lugar na Floresta Fangwild, deixando de lado um wyvern e um clã hobgoblin. Mais
+        tarde, ele se juntou à Legião de Ferro, virando a maré da Batalha de Orc Pass para o Lorde Zumbi. Seu mandato
+        como capanga do mago terminou normalmente - com o mago maligno gritando para ele: "Acabe com eles!" enquanto
+        foge por um portal mágico. Ele viveu por um tempo nas profundezas da Montanha Perigo, onde encontrou um estranho
+        conforto no labirinto de túneis abandonados. <br><br>
+
+        “Eu odeio 'aventureiros'. Sempre tão certo, tão certo. Como se tivessem um feitiço que pudesse distinguir o bem
+        do mal, o certo do errado. <br><br>
+
+        teros <br><br>
+
+        Em Valhalla, Teros é indiferente às regras ou intenções do Torneio, mas sente uma alegria selvagem em todas as
+        batalhas. Sua visita noturna ao salão do hidromel é anunciada por multidões de Valhallans em fuga. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">3.900</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Iron Legion Teros">Iron Legion Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Iron Legion Teros"><img
+                  alt="Iron Legion Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/53/Iron_Legion_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="188" data-image-name="Iron Legion Teros.png"
+                  data-image-key="Iron_Legion_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/53/Iron_Legion_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Ready to Riot Teros">Ready to Riot
+                Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Ready to Riot Teros"><img
+                  alt="Ready To Riot Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/fd/Ready_to_Riot_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="214" data-image-name="Ready to Riot Teros.png"
+                  data-image-key="Ready_to_Riot_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/fd/Ready_to_Riot_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Rift Dweller Teros">Rift Dweller Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Rift Dweller Teros"><img
+                  alt="Rift Dweller Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d9/Rift_Dweller_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="167" data-image-name="Rift Dweller Teros.png"
+                  data-image-key="Rift_Dweller_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d9/Rift_Dweller_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Wreck the Halls Teros">Wreck the Halls
+                Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Wreck the Halls Teros"><img
+                  alt="Wreck the Halls Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2e/Wreck_the_Halls_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="198" data-image-name="Wreck the Halls Teros.png"
+                  data-image-key="Wreck_the_Halls_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2e/Wreck_the_Halls_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Brawlhallidays_Event"
+                <a title="Brawlhallidays Event"><img alt="EventIcon Winter"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/88/EventIcon_Winter.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Winter.png"
+                  data-image-key="EventIcon_Winter.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/88/EventIcon_Winter.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Brawlhallidays">Brawlhallidays</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="The Yetee Teros">The Yetee Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="The Yetee Teros"><img alt="The Yetee Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a9/The_Yetee_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="158" data-image-name="The Yetee Teros.png"
+                  data-image-key="The_Yetee_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a9/The_Yetee_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 72px">Bonus with purchase Brawlhalla merchandise from <a target="_blank"
+                rel="nofollow noreferrer noopener" class="external text"
+                href="https://theyetee.com/collections/brawlhalla">The Yetee</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Forgeheart Teros">Forgeheart Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Forgeheart Teros"><img
+                  alt="Forgeheart Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/39/Forgeheart_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="166" data-image-name="Forgeheart Teros.png"
+                  data-image-key="Forgeheart_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/39/Forgeheart_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 72px"><a title="Odin's Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a title="Odin's Chest">Odin's
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Mecha Teros">Mecha Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Mecha Teros"><img alt="Mecha Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/70/Mecha_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="169" data-image-name="Mecha Teros.png"
+                  data-image-key="Mecha_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/70/Mecha_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="God King Teros">God King Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="God King Teros"><img alt="God King Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6d/God_King_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="182" data-image-name="God King Teros.png"
+                  data-image-key="God_King_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6d/God_King_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 72px"><a title="Sandstorm Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a href="/wiki/Sandstorm_Chest"
+                <a title="Sandstorm Chest">Sandstorm Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Gatekeeper Teros">Gatekeeper Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Gatekeeper Teros"><img
+                  alt="Gatekeeper Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3c/Gatekeeper_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="167" data-image-name="Gatekeeper Teros.png"
+                  data-image-key="Gatekeeper_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3c/Gatekeeper_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Gruagach">Gruagach</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Gruagach"><img alt="Gruagach"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a2/Gruagach.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Gruagach.png"
+                        data-image-key="Gruagach.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a2/Gruagach.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 240</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Roman Reigns">Roman Reigns</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Roman Reigns"><img alt="Roman Reigns"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6f/Roman_Reigns.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Roman Reigns.png"
+                        data-image-key="Roman_Reigns.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6f/Roman_Reigns.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Hall Minotaur Teros">Hall Minotaur
+                Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Hall Minotaur Teros"><img
+                  alt="Hall Minotaur Teros"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/db/Hall_Minotaur_Teros.png"
+                  decoding="async" loading="lazy" width="198" height="197" data-image-name="Hall Minotaur Teros.png"
+                  data-image-key="Hall_Minotaur_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/db/Hall_Minotaur_Teros.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 72px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Back_to_School_Event"
+                <a title="Back to School Event"><img alt="EventIcon BackToSchool"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon BackToSchool.png"
+                  data-image-key="EventIcon_BackToSchool.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  class="lazyload"></a> <a title="Back to School">Back
+                to School</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Metadev Teros">Metadev Teros</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Metadev Teros"><img alt="Metadev Teros"
+                  
+                  decoding="async" loading="lazy" width="198" height="193" data-image-name="Metadev Teros.png"
+                  data-image-key="Metadev_Teros.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/87/Metadev_Teros.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 72px">Not normally obtainable.<br>See <a title="Metadev">Metadev</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

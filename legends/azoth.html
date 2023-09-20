@@ -1,69 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Azoth - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Azoth - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/03/AzothSplash.png" alt="azoth brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Azoth</h1>
 
-            <p id="historia_p">"Fa'zul e seus cultistas azotianos encontraram o mapa e até agora buscam as sete pedras da alma. Vocês, os maiores guerreiros da terra, devem encontrar as pedras diante de Fa'zul. Se você falhar, Fa'zul usará as pedras para invocar o Lichlord Azoth do reino da morte e da condenação de Elyria."
-              Alta Sacerdotisa Alerial <br><br>
-              
-              O rei Azoth, o Grande, jurou que seu império duraria por toda a eternidade. Mergulhando na magia sombria e antiga, seu feiticeiro da corte criou sete pedras da alma que, quando reunidas, poderiam convocar Azoth das garras da própria morte para cumprir seu juramento. <br><br>
-              
-              Mil anos depois de sua morte, seu império quase esquecido, acólitos devotados reuniram as pedras da alma. O Azoth acordado estava tão brilhante e implacável na batalha como sempre, se fisicamente um pouco pior para o desgaste. Ele reforjou seu império, e assim começou o primeiro reinado de Lichlord Azoth. Somente depois de uma saga de heroísmo sem precedentes, os servos da luz foram capazes de derrotar Azoth e espalhar as pedras da alma. As Valquírias, impressionadas tanto com a proeza de batalha de Azoth quanto com sua aderência, ofereceram ao lich um assento em Valhalla. <br><br>
-              
-              Mas o voto não foi esquecido. Os cultistas azotianos reuniram as pedras da alma novamente, e Azoth encontrou-se de volta a Elyria. Mais uma vez, apenas heróis empurrados para o limite absoluto de valor e sorte o derrotaram. Senhor Azoth, o Poderoso. Assotos, o Terrível. Azothus Triunfante – uma e outra vez Azoth foi convocado de Valhalla para reprisar seu papel como o flagelo dos vivos. <br><br>
-              
-              "Não, eu não sei quanto tempo eu vou ficar fora. Apenas alimente meu gato." <br><br>
-              
-              Azoth para Hattori <br><br>
-              
-              Bem-vindo à vida após a morte de Azoth. Ele ficaria mais do que feliz em ficar aposentado em Asgard, desfrutando de alguma leitura, uma batalha ocasional e a companhia de seu gato Dander. Mas a maldição da vida eterna não é facilmente quebrada. Pela Antiga Lei, mesmo a maldição mais hedionda deve conter a semente de sua ruína. Azoth poderia quebrar o pesado ciclo de imortalidade através de dez mil atos altruístas. Ele avalia que, se os cuidados com animais de estimação contarem, ele pode estar em um. <br><br>
-                
-            </p>
-                
-            
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/03/AzothSplash.png" alt="azoth brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Azoth</h1>
 
-            
-        </div>
+      <p id="historia_p">"Fa'zul e seus cultistas azotianos encontraram o mapa e até agora buscam as sete pedras da
+        alma. Vocês, os maiores guerreiros da terra, devem encontrar as pedras diante de Fa'zul. Se você falhar, Fa'zul
+        usará as pedras para invocar o Lichlord Azoth do reino da morte e da condenação de Elyria."
+        Alta Sacerdotisa Alerial <br><br>
 
-      </div>
+        O rei Azoth, o Grande, jurou que seu império duraria por toda a eternidade. Mergulhando na magia sombria e
+        antiga, seu feiticeiro da corte criou sete pedras da alma que, quando reunidas, poderiam convocar Azoth das
+        garras da própria morte para cumprir seu juramento. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">5.400</span></h1>
+        Mil anos depois de sua morte, seu império quase esquecido, acólitos devotados reuniram as pedras da alma. O
+        Azoth acordado estava tão brilhante e implacável na batalha como sempre, se fisicamente um pouco pior para o
+        desgaste. Ele reforjou seu império, e assim começou o primeiro reinado de Lichlord Azoth. Somente depois de uma
+        saga de heroísmo sem precedentes, os servos da luz foram capazes de derrotar Azoth e espalhar as pedras da alma.
+        As Valquírias, impressionadas tanto com a proeza de batalha de Azoth quanto com sua aderência, ofereceram ao
+        lich um assento em Valhalla. <br><br>
+
+        Mas o voto não foi esquecido. Os cultistas azotianos reuniram as pedras da alma novamente, e Azoth encontrou-se
+        de volta a Elyria. Mais uma vez, apenas heróis empurrados para o limite absoluto de valor e sorte o derrotaram.
+        Senhor Azoth, o Poderoso. Assotos, o Terrível. Azothus Triunfante – uma e outra vez Azoth foi convocado de
+        Valhalla para reprisar seu papel como o flagelo dos vivos. <br><br>
+
+        "Não, eu não sei quanto tempo eu vou ficar fora. Apenas alimente meu gato." <br><br>
+
+        Azoth para Hattori <br><br>
+
+        Bem-vindo à vida após a morte de Azoth. Ele ficaria mais do que feliz em ficar aposentado em Asgard, desfrutando
+        de alguma leitura, uma batalha ocasional e a companhia de seu gato Dander. Mas a maldição da vida eterna não é
+        facilmente quebrada. Pela Antiga Lei, mesmo a maldição mais hedionda deve conter a semente de sua ruína. Azoth
+        poderia quebrar o pesado ciclo de imortalidade através de dez mil atos altruístas. Ele avalia que, se os
+        cuidados com animais de estimação contarem, ele pode estar em um. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Baron Azoth">Baron Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Baron Azoth"><img alt="Baron Azoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/98/Baron_Azoth.png"
+                  decoding="async" loading="lazy" width="198" height="185" data-image-name="Baron Azoth.png"
+                  data-image-key="Baron_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/98/Baron_Azoth.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Lichlord Azoth">Lichlord Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Lichlord Azoth"><img alt="Lichlord Azoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/96/Lichlord_Azoth.png"
+                  decoding="async" loading="lazy" width="198" height="179" data-image-name="Lichlord Azoth.png"
+                  data-image-key="Lichlord_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/96/Lichlord_Azoth.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Annihilator Azoth">Annihilator Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Annihilator Azoth"><img
+                  alt="Annihilator Azoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e4/Annihilator_Azoth.png"
+                  decoding="async" loading="lazy" width="198" height="158" data-image-name="Annihilator Azoth.png"
+                  data-image-key="Annihilator_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e4/Annihilator_Azoth.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Deep One Azoth">Deep One Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Deep One Azoth"><img alt="Deep One Azoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a4/Deep_One_Azoth.png"
+                  decoding="async" loading="lazy" width="198" height="165" data-image-name="Deep One Azoth.png"
+                  data-image-key="Deep_One_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a4/Deep_One_Azoth.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Sky Scourge Azoth">Sky Scourge Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Sky Scourge Azoth"><img
+                  alt="Sky Scourge Azoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2b/Sky_Scourge_Azoth.png"
+                  decoding="async" loading="lazy" width="198" height="179" data-image-name="Sky Scourge Azoth.png"
+                  data-image-key="Sky_Scourge_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2b/Sky_Scourge_Azoth.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Skysail Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a title="Skysail Chest">Skysail
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Ancient Azoth">Ancient Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Ancient Azoth"><img alt="Ancient Azoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b8/Ancient_Azoth.png"
+                  decoding="async" loading="lazy" width="198" height="169" data-image-name="Ancient Azoth.png"
+                  data-image-key="Ancient_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b8/Ancient_Azoth.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Muerto Azoth">Muerto Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Muerto Azoth"><img alt="Muerto Azoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cf/Muerto_Azoth.png"
+                  decoding="async" loading="lazy" width="198" height="210" data-image-name="Muerto Azoth.png"
+                  data-image-key="Muerto_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cf/Muerto_Azoth.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Necromancer Azoth">Necromancer Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Necromancer Azoth"><img
+                  alt="Necromancer Azoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/51/Necromancer_Azoth.png"
+                  decoding="async" loading="lazy" width="198" height="173" data-image-name="Necromancer Azoth.png"
+                  data-image-key="Necromancer_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/51/Necromancer_Azoth.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Island Azoth">Island Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Island Azoth"><img alt="Island Azoth"
+                  
+                  decoding="async" loading="lazy" width="198" height="185" data-image-name="Island Azoth.png"
+                  data-image-key="Island_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/fb/Island_Azoth.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Heatwave Event"><img
+                  alt="EventIcon Summer"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Summer.png"
+                  data-image-key="EventIcon_Summer.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  class="lazyload"></a> <a title="Heatwave">Heatwave</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Ehzot Azoth">Ehzot Azoth</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Ehzot Azoth"><img alt="Ehzot Azoth"
+                  
+                  decoding="async" loading="lazy" width="198" height="184" data-image-name="Ehzot Azoth.png"
+                  data-image-key="Ehzot_Azoth.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f7/Ehzot_Azoth.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Four - Gold Pass"><img
+                  alt="Season Four - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season Four">Season
+                Four</a> <span style="color: #808080">| Tier 71 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

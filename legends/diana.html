@@ -1,70 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Diana - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Diana - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/03/DianaSplash.png" alt="diana brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Diana</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/03/DianaSplash.png" alt="diana brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Diana</h1>
 
-            <p id="historia_p">"Pai nosso, que reina eterno no sono carmesim. Por favor, entregue-nos de Diana. Ela matou Cytorax e Bob na semana passada, e acho que ela está de volta porque o prédio está pegando fogo." <br><br>
+      <p id="historia_p">"Pai nosso, que reina eterno no sono carmesim. Por favor, entregue-nos de Diana. Ela matou
+        Cytorax e Bob na semana passada, e acho que ela está de volta porque o prédio está pegando fogo." <br><br>
 
-              De uma oração apressada de Alan, sacerdote de Belzar. <br><br>
-              
-              Por mil anos, a Ordem do Leão Exaltado defendeu a sociedade mundana do sobrenatural com uma combinação de treinamento de elite e armamento exótico. <br><br>
-              
-              Como comandante dos caçadores da Ordem, Diana levou a população de vampiros da Europa para o exílio e eliminou o auto-nomeado Diplomata Unseelie. Ela matou o Rei Louco da Batávia, depois matou o Rei Louco Vampiro da Batávia, e finalmente matou o Rei Louco Vampiro Fantasma da Batávia. Ela é a heroína nacional da Batávia. <br><br>
-              
-              Mas quando descobriu a corrupção na própria Ordem, Diana caiu em uma armadilha. Invadindo as câmaras do Supremo Patriach, Diana foi tomada por magia negra que a levou a um sono mortal. Ela lutou por momentos de vigília – vislumbrando os subporões da Ordem, uma floresta sinuosa de espinhos e, finalmente, de uma extensão de escuridão cheia de gritos. <br><br>
-              
-              Diana acordou nas margens de Nastrond, uma terra nas profundezas de Helheim. Os mortos sem fim sentiram o calor desconhecido da mortalidade e se aglomeraram para consumi-lo. E assim ela lutou. Ela manteve os condenados à distância por onze dias antes que a própria Deusa Hel a encontrasse e expulsasse o encrenqueiro. Uma Valquíria encontrou Diana perdida entre mundos, e ofereceu-lhe um lugar em Valhalla. <br><br>
-              
-              "Preciso de uma dúzia de bombas de prata viva, cinco litros de água benta, duzentas balas de prata. E uma estaca se você tiver."  <br><br>
-              
-              Diana a Otávio, Intendente da Ordem <br><br>
-              
-              Em Valhalla, Diana é uma combatente implacável e uma força para a justiça. Mas ela vê que monstros como Azoth e Mordex são permitidos no céu do guerreiro, e planeja sua destruição. <br><br>
-                
-            </p>
-                
-            
+        De uma oração apressada de Alan, sacerdote de Belzar. <br><br>
 
-            
-        </div>
+        Por mil anos, a Ordem do Leão Exaltado defendeu a sociedade mundana do sobrenatural com uma combinação de
+        treinamento de elite e armamento exótico. <br><br>
 
-      </div>
+        Como comandante dos caçadores da Ordem, Diana levou a população de vampiros da Europa para o exílio e eliminou o
+        auto-nomeado Diplomata Unseelie. Ela matou o Rei Louco da Batávia, depois matou o Rei Louco Vampiro da Batávia,
+        e finalmente matou o Rei Louco Vampiro Fantasma da Batávia. Ela é a heroína nacional da Batávia. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">5.400</span></h1>
+        Mas quando descobriu a corrupção na própria Ordem, Diana caiu em uma armadilha. Invadindo as câmaras do Supremo
+        Patriach, Diana foi tomada por magia negra que a levou a um sono mortal. Ela lutou por momentos de vigília –
+        vislumbrando os subporões da Ordem, uma floresta sinuosa de espinhos e, finalmente, de uma extensão de escuridão
+        cheia de gritos. <br><br>
+
+        Diana acordou nas margens de Nastrond, uma terra nas profundezas de Helheim. Os mortos sem fim sentiram o calor
+        desconhecido da mortalidade e se aglomeraram para consumi-lo. E assim ela lutou. Ela manteve os condenados à
+        distância por onze dias antes que a própria Deusa Hel a encontrasse e expulsasse o encrenqueiro. Uma Valquíria
+        encontrou Diana perdida entre mundos, e ofereceu-lhe um lugar em Valhalla. <br><br>
+
+        "Preciso de uma dúzia de bombas de prata viva, cinco litros de água benta, duzentas balas de prata. E uma estaca
+        se você tiver." <br><br>
+
+        Diana a Otávio, Intendente da Ordem <br><br>
+
+        Em Valhalla, Diana é uma combatente implacável e uma força para a justiça. Mas ela vê que monstros como Azoth e
+        Mordex são permitidos no céu do guerreiro, e planeja sua destruição. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Bitten Diana">Bitten Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Bitten Diana"><img alt="Bitten Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/df/Bitten_Diana.png"
+                  decoding="async" loading="lazy" width="168" height="243" data-image-name="Bitten Diana.png"
+                  data-image-key="Bitten_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/df/Bitten_Diana.png"
+                  class=" ls-is-cached lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Survivor Diana">Survivor Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Survivor Diana"><img alt="Survivor Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8e/Survivor_Diana.png"
+                  decoding="async" loading="lazy" width="198" height="235" data-image-name="Survivor Diana.png"
+                  data-image-key="Survivor_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8e/Survivor_Diana.png"
+                  class=" ls-is-cached lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Wyrmslayer Diana">Wyrmslayer Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Wyrmslayer Diana"><img
+                  alt="Wyrmslayer Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/29/Wyrmslayer_Diana.png"
+                  decoding="async" loading="lazy" width="198" height="243" data-image-name="Wyrmslayer Diana.png"
+                  data-image-key="Wyrmslayer_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/29/Wyrmslayer_Diana.png"
+                  class=" ls-is-cached lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Shadowstalker Diana">Shadowstalker
+                Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Shadowstalker Diana"><img
+                  alt="Shadowstalker Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/01/Shadowstalker_Diana.png"
+                  decoding="async" loading="lazy" width="177" height="243" data-image-name="Shadowstalker Diana.png"
+                  data-image-key="Shadowstalker_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/01/Shadowstalker_Diana.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Demonkin Diana">Demonkin Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Demonkin Diana"><img alt="Demonkin Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/89/Demonkin_Diana.png"
+                  decoding="async" loading="lazy" width="196" height="243" data-image-name="Demonkin Diana.png"
+                  data-image-key="Demonkin_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/89/Demonkin_Diana.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Brawlhalloween_Event"
+                title="Brawlhalloween Event"><img alt="EventIcon Halloween"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/EventIcon_Halloween.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Halloween.png"
+                  data-image-key="EventIcon_Halloween.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/EventIcon_Halloween.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                title="Brawlhalloween">Brawlhalloween</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Elven Ranger Diana">Elven Ranger Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Elven Ranger Diana"><img
+                  alt="Elven Ranger Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4a/Elven_Ranger_Diana.png"
+                  decoding="async" loading="lazy" width="186" height="243" data-image-name="Elven Ranger Diana.png"
+                  data-image-key="Elven_Ranger_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4a/Elven_Ranger_Diana.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Dragon's Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a 
+                title="Dragon's Chest">Dragon's Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Cryptomage Diana">Cryptomage Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Cryptomage Diana"><img
+                  alt="Cryptomage Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8f/Cryptomage_Diana.png"
+                  decoding="async" loading="lazy" width="179" height="243" data-image-name="Cryptomage Diana.png"
+                  data-image-key="Cryptomage_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8f/Cryptomage_Diana.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Pool Party Diana">Pool Party Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Pool Party Diana"><img
+                  alt="Pool Party Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/fe/Pool_Party_Diana.png"
+                  decoding="async" loading="lazy" width="170" height="243" data-image-name="Pool Party Diana.png"
+                  data-image-key="Pool_Party_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/fe/Pool_Party_Diana.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Heatwave_Event"
+                title="Heatwave Event"><img alt="EventIcon Summer"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Summer.png"
+                  data-image-key="EventIcon_Summer.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  class=" lazyloaded"></a> <a title="Heatwave">Heatwave</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Lionguard Diana">Lionguard Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Lionguard Diana"><img alt="Lionguard Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4c/Lionguard_Diana.png"
+                  decoding="async" loading="lazy" width="185" height="243" data-image-name="Lionguard Diana.png"
+                  data-image-key="Lionguard_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4c/Lionguard_Diana.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Exalted Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" lazyloaded"></a>&nbsp;<a title="Exalted Chest">Exalted Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Lara Croft">Lara Croft</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Lara Croft"><img alt="Lara Croft"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7a/Lara_Croft.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Lara Croft.png"
+                        data-image-key="Lara_Croft.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7a/Lara_Croft.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 300<br><small>Comes with <a 
+                  title="Survivor Lara Croft">Survivor Lara Croft</a></small></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Survivor Lara Croft">Survivor Lara
+                Croft</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Survivor Lara Croft"><img alt="Survivor Lara Croft"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/92/Survivor_Lara_Croft.png"
+                        decoding="async" loading="lazy" width="185" height="185"
+                        data-image-name="Survivor Lara Croft.png" data-image-key="Survivor_Lara_Croft.png"
+                        data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/92/Survivor_Lara_Croft.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 300<br>Comes with <a 
+                title="Lara Croft">Lara Croft</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Spellbreaker Diana">Spellbreaker Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Spellbreaker Diana"><img
+                  alt="Spellbreaker Diana"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0f/Spellbreaker_Diana.png"
+                  decoding="async" loading="lazy" width="187" height="243" data-image-name="Spellbreaker Diana.png"
+                  data-image-key="Spellbreaker_Diana.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0f/Spellbreaker_Diana.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0 ;"><a title="Soulbound Diana">Soulbound Diana</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Soulbound Diana"><img alt="Soulbound Diana"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cc/Soulbound_Diana.png"
+                        decoding="async" loading="lazy" width="176" height="185" data-image-name="Soulbound Diana.png"
+                        data-image-key="Soulbound_Diana.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cc/Soulbound_Diana.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Four - Gold Pass"><img
+                  alt="Season Four - Gold Pass"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class=" lazyloaded"></a> <a 
+                title="Battle Pass/Season Four">Season Four</a> <span style="color: #808080">| Tier 85 Reward</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

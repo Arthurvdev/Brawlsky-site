@@ -1,68 +1,480 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Jhala - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Jhala - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/03/JhalaSplash.png" alt="jhala brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Jhala</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/03/JhalaSplash.png" alt="jhala brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Jhala</h1>
 
-            <p id="historia_p">"O épico de Ogedai 'Mil Contos de Jhala Ininterrupto' é a maior literatura a emergir da Era dos Problemas. Se alguma verdadeira rainha bárbara existiu como a raiz desses contos estranhos, talvez nunca saibamos." <br><br>
+      <p id="historia_p">"O épico de Ogedai 'Mil Contos de Jhala Ininterrupto' é a maior literatura a emergir da Era dos
+        Problemas. Se alguma verdadeira rainha bárbara existiu como a raiz desses contos estranhos, talvez nunca
+        saibamos." <br><br>
 
-              A "História da Era Problemática" de Aristófano <br><br>
-              
-              A vida era dura para os aldeões resistentes do Ikrusk. Eles sobreviveram a invernos gelados à sombra do Monte Tragédia, amontoando-se em torno de piscinas do fogo do inferno que chovia eternamente de seu pico. Um bom verão foi quando os enxames de escorpiões diluíram os vampiros. De dia, eles cuidavam do gado, e à noite eles expulsavam as armaduras assombradas que caíam do céu. As dificuldades os tornavam duros, e a maioria dos inimigos em potencial estava impressionada o suficiente para deixá-los em paz. <br><br>
-              
-              Não é assim O Senhor das Escamas. Montando o Dragão da Conflagração, ele queimou a aldeia até o chão e depois alguns. A jovem Jhala sobreviveu apenas porque estava suspensa com segurança no ar, escalando a massa do dragão com machado e faca. No céu sobre sua cidade em chamas, Jhala derrubou O Senhor das Escamas e assumiu o controle do Dragão. No entanto, era tarde demais para sua casa. Montado no grande wyrm, Jhala partiu. <br><br>
-              
-              Assim começou o maior épico de aventura da época. Jhala roubou o Cetro da Invencibilidade do (anteriormente) Rei Invencível. Ela superou o Senhor da Guerra Orc em combate único, ganhando o título (puramente honorário) de "Amigo". Ela ganhou a cidade de Dragonport em um concurso de bebida com a rainha pirata. O próprio Apolo deu a Jhala o título de "Leão Exaltado" depois que ela liderou os exércitos de todos os Thera para a vitória contra Ehzot, o Senhor Zumbi. <br><br>
-              
-              "Não anote isso. Ninguém acreditaria." <br><br>
-              
-              Jhala, para seu ajudante Ogedai depois de matar o Ogro de Inverno com um sinal de "Cuidado com o Ogro" <br><br>
-              
-              Jhala leva o glamour de Valhalla a passos largos, pensando a qualquer momento que ela poderia estar de volta ao escorpião assado e à precipitação improvavelmente violenta. Mas, enquanto isso, isso também é divertido. <br><br>
-                
-            </p>
-                
-            
+        A "História da Era Problemática" de Aristófano <br><br>
 
-            
-        </div>
+        A vida era dura para os aldeões resistentes do Ikrusk. Eles sobreviveram a invernos gelados à sombra do Monte
+        Tragédia, amontoando-se em torno de piscinas do fogo do inferno que chovia eternamente de seu pico. Um bom verão
+        foi quando os enxames de escorpiões diluíram os vampiros. De dia, eles cuidavam do gado, e à noite eles
+        expulsavam as armaduras assombradas que caíam do céu. As dificuldades os tornavam duros, e a maioria dos
+        inimigos em potencial estava impressionada o suficiente para deixá-los em paz. <br><br>
 
-      </div>
+        Não é assim O Senhor das Escamas. Montando o Dragão da Conflagração, ele queimou a aldeia até o chão e depois
+        alguns. A jovem Jhala sobreviveu apenas porque estava suspensa com segurança no ar, escalando a massa do dragão
+        com machado e faca. No céu sobre sua cidade em chamas, Jhala derrubou O Senhor das Escamas e assumiu o controle
+        do Dragão. No entanto, era tarde demais para sua casa. Montado no grande wyrm, Jhala partiu. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">5.400</span></h1>
+        Assim começou o maior épico de aventura da época. Jhala roubou o Cetro da Invencibilidade do (anteriormente) Rei
+        Invencível. Ela superou o Senhor da Guerra Orc em combate único, ganhando o título (puramente honorário) de
+        "Amigo". Ela ganhou a cidade de Dragonport em um concurso de bebida com a rainha pirata. O próprio Apolo deu a
+        Jhala o título de "Leão Exaltado" depois que ela liderou os exércitos de todos os Thera para a vitória contra
+        Ehzot, o Senhor Zumbi. <br><br>
+
+        "Não anote isso. Ninguém acreditaria." <br><br>
+
+        Jhala, para seu ajudante Ogedai depois de matar o Ogro de Inverno com um sinal de "Cuidado com o Ogro" <br><br>
+
+        Jhala leva o glamour de Valhalla a passos largos, pensando a qualquer momento que ela poderia estar de volta ao
+        escorpião assado e à precipitação improvavelmente violenta. Mas, enquanto isso, isso também é divertido.
+        <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Warlord Jhala">Warlord Jhala</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Warlord Jhala"><img alt="Warlord Jhala"
+                  
+                  decoding="async" loading="lazy" width="187" height="243" data-image-name="Warlord Jhala.png"
+                  data-image-key="Warlord_Jhala.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f7/Warlord_Jhala.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Speedmetal Jhala">Speedmetal Jhala</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Speedmetal Jhala"><img
+                  alt="Speedmetal Jhala"
+                  
+                  decoding="async" loading="lazy" width="187" height="243" data-image-name="Speedmetal Jhala.png"
+                  data-image-key="Speedmetal_Jhala.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/24/Speedmetal_Jhala.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Orc Raider Jhala">Orc Raider Jhala</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Orc Raider Jhala"><img
+                  alt="Orc Raider Jhala"
+                  
+                  decoding="async" loading="lazy" width="185" height="243" data-image-name="Orc Raider Jhala.png"
+                  data-image-key="Orc_Raider_Jhala.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e9/Orc_Raider_Jhala.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Silver Age Jhala">Silver Age Jhala</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Silver Age Jhala"><img
+                  alt="Silver Age Jhala"
+                  
+                  decoding="async" loading="lazy" width="185" height="243" data-image-name="Silver Age Jhala.png"
+                  data-image-key="Silver_Age_Jhala.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b9/Silver_Age_Jhala.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Sky Scourge Jhala">Sky Scourge Jhala</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Sky Scourge Jhala"><img
+                  alt="Sky Scourge Jhala"
+                  
+                  decoding="async" loading="lazy" width="198" height="238" data-image-name="Sky Scourge Jhala.png"
+                  data-image-key="Sky_Scourge_Jhala.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/10/Sky_Scourge_Jhala.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="New School Jhala">New School Jhala</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="New School Jhala"><img
+                  alt="New School Jhala"
+                  
+                  decoding="async" loading="lazy" width="168" height="243" data-image-name="New School Jhala.png"
+                  data-image-key="New_School_Jhala.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f9/New_School_Jhala.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Brawl City Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Brawl City Chest">Brawl City
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Queen of Scales Jhala">Queen of Scales
+                Jhala</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Queen of Scales Jhala"><img
+                  alt="Queen of Scales Jhala"
+                  
+                  decoding="async" loading="lazy" width="175" height="243" data-image-name="Queen of Scales Jhala.png"
+                  data-image-key="Queen_of_Scales_Jhala.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e7/Queen_of_Scales_Jhala.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Forgeborne Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Forgeborne Chest">Forgeborne
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Finn">Finn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Finn"><img alt="Finn"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Finn.png"
+                        data-image-key="Finn.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cf/Finn.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Gallowglass Jhala">Gallowglass Jhala</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Gallowglass Jhala"><img
+                  alt="Gallowglass Jhala"
+                  
+                  decoding="async" loading="lazy" width="190" height="243" data-image-name="Gallowglass Jhala.png"
+                  data-image-key="Gallowglass_Jhala.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/32/Gallowglass_Jhala.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a href="/wiki/Luck_o%27_the_Brawl_Event"
+                <a title="Luck o' the Brawl Event"><img alt="EventIcon StPatricks"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon StPatricks.png"
+                  data-image-key="EventIcon_StPatricks.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3a/EventIcon_StPatricks.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                <a title="Luck o' the Brawl">Luck o' the Brawl</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Maggie">Maggie</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Maggie"><img alt="Maggie"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Maggie.png"
+                        data-image-key="Maggie.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/89/Maggie.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Simon Belmont">Simon Belmont</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Simon Belmont"><img alt="Simon Belmont"
+                        
+                        decoding="async" loading="lazy" width="117" height="185" data-image-name="Simon Belmont.png"
+                        data-image-key="Simon_Belmont.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/59/Simon_Belmont.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

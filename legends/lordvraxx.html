@@ -1,69 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Lord Vraxx - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Lord Vraxx - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/VraxxSplash.png" alt="lord vraxx brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Lord Vraxx</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/VraxxSplash.png" alt="lord vraxx brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Lord Vraxx</h1>
 
-            <p id="historia_p">
-              “Lorde Vraxx nós te adoramos. Tão forte e inteligente e ótimo.
-              Não atire, frite ou nos prenda. Não esmague ou imole.
-              Não nos corte em pedaços. Não nos jogue na baía.
-              Somos leais, verdadeiros e fiéis. Você está ótimo hoje. <br><br>
-              
-              241ª estrofe do Hino Imperial Vraxxiano <br><br>
-              
-              O pai de Vraxx era o Governador-Tirano do Planeta Gelo Roldakk-9, e o jovem Vraxx passou sua infância como a maioria dos nobres Zhaktari - em um tanque. Como um piloto cadete na Academia Zhaktar para Conquista e Subjugação, ele se destacou em brigas de cães espaciais, lutas de cães espaciais, julgando os fracos e imolação planetária.<br><br>
-              
-              Como um jovem senhor da guerra, Vraxx destruiu Roldakk por abrigar seu professor de piano na infância e logo construiu um império impressionante por meio do medo, intimidação, combate espacial brilhante e medo. No entanto, a extraordinária proeza militar de Vraxx sempre foi prejudicada pelo excesso de confiança, arrogância, regozijo, tramas de vingança impraticáveis e auto-indulgência geral. Ele vaporizou um planeta porque não gostou da cor de suas praias e desintegrou tantos generais de baixo desempenho que o posto de tenente-coronel ficou conhecido como "o ponto ideal". <br><br>
-              
-              “Agora, Lance Starchampion, eu venci você no duelo de espadas a laser, assim como venci em tudo o mais. Mas vou mantê-lo vivo o tempo suficiente para testemunhar minha vitória final. <br><br>
-              
-              Lord Vraxx <br><br>
-              
-              Em Valhalla, a ambição nua e as intrigas incessantes de Vraxx são reconfortantes constantes. Ele despreza os heróis que não são da realeza, e apenas Nai, Bödvar, Hattori e Orion são dignos de atenção direta. O bem mais valioso de Vraxx é tudo o que ele possui, então não toque. <br><br>
-            </p>
-                
-            
+      <p id="historia_p">
+        “Lorde Vraxx nós te adoramos. Tão forte e inteligente e ótimo.
+        Não atire, frite ou nos prenda. Não esmague ou imole.
+        Não nos corte em pedaços. Não nos jogue na baía.
+        Somos leais, verdadeiros e fiéis. Você está ótimo hoje. <br><br>
 
-            
-        </div>
+        241ª estrofe do Hino Imperial Vraxxiano <br><br>
 
-      </div>
+        O pai de Vraxx era o Governador-Tirano do Planeta Gelo Roldakk-9, e o jovem Vraxx passou sua infância como a
+        maioria dos nobres Zhaktari - em um tanque. Como um piloto cadete na Academia Zhaktar para Conquista e
+        Subjugação, ele se destacou em brigas de cães espaciais, lutas de cães espaciais, julgando os fracos e imolação
+        planetária.<br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">2.300</span></h1>
+        Como um jovem senhor da guerra, Vraxx destruiu Roldakk por abrigar seu professor de piano na infância e logo
+        construiu um império impressionante por meio do medo, intimidação, combate espacial brilhante e medo. No
+        entanto, a extraordinária proeza militar de Vraxx sempre foi prejudicada pelo excesso de confiança, arrogância,
+        regozijo, tramas de vingança impraticáveis e auto-indulgência geral. Ele vaporizou um planeta porque não gostou
+        da cor de suas praias e desintegrou tantos generais de baixo desempenho que o posto de tenente-coronel ficou
+        conhecido como "o ponto ideal". <br><br>
+
+        “Agora, Lance Starchampion, eu venci você no duelo de espadas a laser, assim como venci em tudo o mais. Mas vou
+        mantê-lo vivo o tempo suficiente para testemunhar minha vitória final. <br><br>
+
+        Lord Vraxx <br><br>
+
+        Em Valhalla, a ambição nua e as intrigas incessantes de Vraxx são reconfortantes constantes. Ele despreza os
+        heróis que não são da realeza, e apenas Nai, Bödvar, Hattori e Orion são dignos de atenção direta. O bem mais
+        valioso de Vraxx é tudo o que ele possui, então não toque. <br><br>
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">2.300</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Vraxx the Viking">Vraxx the Viking</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Vraxx the Viking"><img
+                  alt="Vraxx the Viking"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c3/Vraxx_the_Viking.png"
+                  decoding="async" loading="lazy" width="146" height="243" data-image-name="Vraxx the Viking.png"
+                  data-image-key="Vraxx_the_Viking.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c3/Vraxx_the_Viking.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Supreme Ruler Vraxx">Supreme Ruler
+                Vraxx</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Supreme Ruler Vraxx"><img
+                  alt="Supreme Ruler Vraxx"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/68/Supreme_Ruler_Vraxx.png"
+                  decoding="async" loading="lazy" width="155" height="243" data-image-name="Supreme Ruler Vraxx.png"
+                  data-image-key="Supreme_Ruler_Vraxx.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/68/Supreme_Ruler_Vraxx.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Vraxx the King">Vraxx the King</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Vraxx the King"><img alt="Vraxx the King"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9b/Vraxx_the_King.png"
+                  decoding="async" loading="lazy" width="166" height="243" data-image-name="Vraxx the King.png"
+                  data-image-key="Vraxx_the_King.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9b/Vraxx_the_King.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Dark Matter Vraxx">Dark Matter Vraxx</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Dark Matter Vraxx"><img
+                  alt="Dark Matter Vraxx"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ab/Dark_Matter_Vraxx.png"
+                  decoding="async" loading="lazy" width="149" height="243" data-image-name="Dark Matter Vraxx.png"
+                  data-image-key="Dark_Matter_Vraxx.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ab/Dark_Matter_Vraxx.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="General Vraxx">General Vraxx</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="General Vraxx"><img alt="General Vraxx"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a1/General_Vraxx.png"
+                  decoding="async" loading="lazy" width="145" height="243" data-image-name="General Vraxx.png"
+                  data-image-key="General_Vraxx.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a1/General_Vraxx.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Cosmic Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a title="Cosmic Chest">Cosmic
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Space Dogfighter Vraxx">Space Dogfighter
+                Vraxx</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Space Dogfighter Vraxx"><img
+                  alt="Space Dogfighter Vraxx"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/55/Space_Dogfighter_Vraxx.png"
+                  decoding="async" loading="lazy" width="127" height="243" data-image-name="Space Dogfighter Vraxx.png"
+                  data-image-key="Space_Dogfighter_Vraxx.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/55/Space_Dogfighter_Vraxx.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Wasteland Vraxx">Wasteland Vraxx</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Wasteland Vraxx"><img alt="Wasteland Vraxx"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/09/Wasteland_Vraxx.png"
+                  decoding="async" loading="lazy" width="148" height="243" data-image-name="Wasteland Vraxx.png"
+                  data-image-key="Wasteland_Vraxx.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/09/Wasteland_Vraxx.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 200</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Princess Bubblegum">Princess Bubblegum</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Princess Bubblegum"><img alt="AniPrincess Bubblegum"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dc/AniPrincess_Bubblegum.gif"
+                        decoding="async" loading="lazy" width="185" height="185"
+                        data-image-name="AniPrincess Bubblegum.gif" data-image-key="AniPrincess_Bubblegum.gif"
+                        data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dc/AniPrincess_Bubblegum.gif"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Professor Vraxx">Professor Vraxx</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Professor Vraxx"><img alt="Professor Vraxx"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c1/Professor_Vraxx.png"
+                  decoding="async" loading="lazy" width="153" height="243" data-image-name="Professor Vraxx.png"
+                  data-image-key="Professor_Vraxx.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c1/Professor_Vraxx.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Back_to_School_Event"
+                <a title="Back to School Event"><img alt="EventIcon BackToSchool"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon BackToSchool.png"
+                  data-image-key="EventIcon_BackToSchool.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Back to School">Back to School</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Vraxxy Jones">Vraxxy Jones</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Vraxxy Jones"><img alt="Vraxxy Jones"
+                  
+                  decoding="async" loading="lazy" width="149" height="243" data-image-name="Vraxxy Jones.png"
+                  data-image-key="Vraxxy_Jones.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/41/Vraxxy_Jones.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Heatwave Event"><img
+                  alt="EventIcon Summer"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Summer.png"
+                  data-image-key="EventIcon_Summer.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  class="lazyload"></a> <a title="Heatwave">Heatwave</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

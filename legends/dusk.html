@@ -1,66 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Dusk - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Dusk - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/05/DuskSplash.png" alt="dusk brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Dusk</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/05/DuskSplash.png" alt="dusk brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Dusk</h1>
 
-            <p id="historia_p">"Crepúsculo era o único prisioneiro aqui que importava. Agora as paredes estão quebradas em pedaços e ele se foi. Então acho que estou aposentado." <br>
-              Illidar, Guardião da Prisão de Elondil <br><br>
-              
-              Se há uma coisa que o Rei Élfico se arrepende acima de tudo, é não matar Dusk completamente o suficiente. Foi o Mestre Artífice Crepúsculo que teceu o poderoso tecido de feitiços que criou os grandes batalhões de golem. Foi o Crepúsculo que liderou o ataque do golem a Asgard. E quando os elfos foram derrotados por Thor e as valquírias, foi Dusk quem o Rei Élfico culpou. <br><br>
-              
-              Crepúsculo foi jogado na prisão de Elondil, e por quatrocentos anos, lá ele ficou. Mas ele não foi derrotado. Por duzentos anos, em uma cela nua e sem luz, Dusk forjou a ferramenta que o libertaria – uma esfera feita de pedra e magia. E, por mais duzentos anos, Dusk aprendeu sozinho a empunha-lo, ligando o Orbe à sua vontade e transformando a ferramenta em uma arma. <br><br>
-              
-              Quando ele estava pronto, o orbe quebrou paredes e guardas, e Dusk escapou de Aelfheim para a grande floresta de Fangwild. O Guardião do Fangwild não estava preparado para a estranha nova arma que Dusk empunha e caiu em sua emboscada. Intitulando-se o novo Senhor do Fangwild, ele reuniu o poder da floresta de eldritch e esquemas para derrubar Aelfheim e Asgard. <br><br>
-              
-              "Eu uso a magia do povo élfico para fazer a desgraça dos deuses, não biscoitos OU presentes para você." <br>
-              Crepúsculo para Kaya <br><br>
-              
-              Mas o Fangwild não é tão fácil de dominar, e agora o Crepúsculo está em Valhalla. No entanto, suas ambições são profundas e ele está planejando algo grande. O Dusk e a nova arma que ele empunha tomaram o Grande Torneio de assalto. Ember e Ragnir o detestam como um traidor, mas sua intensidade e ambição o reuniram entre as lendas menos escrupulosas. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">"Crepúsculo era o único prisioneiro aqui que importava. Agora as paredes estão quebradas em
+        pedaços e ele se foi. Então acho que estou aposentado." <br>
+        Illidar, Guardião da Prisão de Elondil <br><br>
 
-            
-        </div>
+        Se há uma coisa que o Rei Élfico se arrepende acima de tudo, é não matar Dusk completamente o suficiente. Foi o
+        Mestre Artífice Crepúsculo que teceu o poderoso tecido de feitiços que criou os grandes batalhões de golem. Foi
+        o Crepúsculo que liderou o ataque do golem a Asgard. E quando os elfos foram derrotados por Thor e as
+        valquírias, foi Dusk quem o Rei Élfico culpou. <br><br>
 
-      </div>
+        Crepúsculo foi jogado na prisão de Elondil, e por quatrocentos anos, lá ele ficou. Mas ele não foi derrotado.
+        Por duzentos anos, em uma cela nua e sem luz, Dusk forjou a ferramenta que o libertaria – uma esfera feita de
+        pedra e magia. E, por mais duzentos anos, Dusk aprendeu sozinho a empunha-lo, ligando o Orbe à sua vontade e
+        transformando a ferramenta em uma arma. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">5.400</span></h1>
+        Quando ele estava pronto, o orbe quebrou paredes e guardas, e Dusk escapou de Aelfheim para a grande floresta de
+        Fangwild. O Guardião do Fangwild não estava preparado para a estranha nova arma que Dusk empunha e caiu em sua
+        emboscada. Intitulando-se o novo Senhor do Fangwild, ele reuniu o poder da floresta de eldritch e esquemas para
+        derrubar Aelfheim e Asgard. <br><br>
+
+        "Eu uso a magia do povo élfico para fazer a desgraça dos deuses, não biscoitos OU presentes para você." <br>
+        Crepúsculo para Kaya <br><br>
+
+        Mas o Fangwild não é tão fácil de dominar, e agora o Crepúsculo está em Valhalla. No entanto, suas ambições são
+        profundas e ele está planejando algo grande. O Dusk e a nova arma que ele empunha tomaram o Grande Torneio de
+        assalto. Ember e Ragnir o detestam como um traidor, mas sua intensidade e ambição o reuniram entre as lendas
+        menos escrupulosas. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Raven Shaman Dusk">Raven Shaman Dusk</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Raven Shaman Dusk"><img
+                  alt="Raven Shaman Dusk"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/55/Raven_Shaman_Dusk.png"
+                  decoding="async" loading="lazy" width="198" height="222" data-image-name="Raven Shaman Dusk.png"
+                  data-image-key="Raven_Shaman_Dusk.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/55/Raven_Shaman_Dusk.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Thornwood Dusk">Thornwood Dusk</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Thornwood Dusk"><img alt="Thornwood Dusk"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a6/Thornwood_Dusk.png"
+                  decoding="async" loading="lazy" width="198" height="219" data-image-name="Thornwood Dusk.png"
+                  data-image-key="Thornwood_Dusk.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/a6/Thornwood_Dusk.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Imperial Lord Dusk">Imperial Lord Dusk</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Imperial Lord Dusk"><img
+                  alt="Imperial Lord Dusk"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/92/Imperial_Lord_Dusk.png"
+                  decoding="async" loading="lazy" width="198" height="241" data-image-name="Imperial Lord Dusk.png"
+                  data-image-key="Imperial_Lord_Dusk.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/92/Imperial_Lord_Dusk.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Nimue">Nimue</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Nimue"><img alt="Nimue"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3b/Nimue.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Nimue.png"
+                        data-image-key="Nimue.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3b/Nimue.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Dusk Till Dawn">Dusk Till Dawn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Dusk Till Dawn"><img alt="Dusk Till Dawn"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f0/Dusk_Till_Dawn.png"
+                  decoding="async" loading="lazy" width="198" height="222" data-image-name="Dusk Till Dawn.png"
+                  data-image-key="Dusk_Till_Dawn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f0/Dusk_Till_Dawn.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Brawlhalloween_Event"
+                title="Brawlhalloween Event"><img alt="EventIcon Halloween"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/EventIcon_Halloween.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Halloween.png"
+                  data-image-key="EventIcon_Halloween.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/EventIcon_Halloween.png"
+                  class=" lazyloaded"></a> <a class="mw-redirect"
+                title="Brawlhalloween">Brawlhalloween</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Date Night Dusk">Date Night Dusk</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Date Night Dusk"><img alt="Date Night Dusk"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/22/Date_Night_Dusk.png"
+                  decoding="async" loading="lazy" width="198" height="219" data-image-name="Date Night Dusk.png"
+                  data-image-key="Date_Night_Dusk.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/22/Date_Night_Dusk.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Valhallentine%27s_Event"
+                title="Valhallentine's Event"><img alt="EventIcon Valentines"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Valentines.png"
+                  data-image-key="EventIcon_Valentines.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  class=" lazyloaded"></a> <a class="mw-redirect"
+                title="Valhallentine's">Valhallentine's</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Deathcap Dusk">Deathcap Dusk</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Deathcap Dusk"><img alt="Deathcap Dusk"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b0/Deathcap_Dusk.png"
+                  decoding="async" loading="lazy" width="198" height="220" data-image-name="Deathcap Dusk.png"
+                  data-image-key="Deathcap_Dusk.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b0/Deathcap_Dusk.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Six - Gold Pass"><img
+                  alt="Season Six - Gold Pass"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class=" ls-is-cached lazyloaded"></a> <a
+                title="Battle Pass/Season Six">Season Six</a> <span style="color: #808080">| Tier 47 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

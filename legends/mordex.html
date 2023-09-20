@@ -1,68 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Mordex - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Mordex - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/05/MordexSplash.png" alt="mordex brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Mordex</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/05/MordexSplash.png" alt="mordex brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Mordex</h1>
 
-            <p id="historia_p">"E pensar que o próprio intendente da minha Ordem, Octavius Mordex, era um lobisomem fedorento o tempo todo." 
-              Diana contando a Ada a história de sua traição <br><br>
-              
-              Não é fácil se tornar um licantropo de propósito. Uma mordida de lobisomem raramente funciona, porque a mordida é quase sempre seguida por ser comida por um lobisomem. Então, quando Octavius Mordex, Mestre Caçador da Ordem do Leão Exaltado, foi ordenado a levar sua equipe para o norte congelado para caçar uma praga de lobisomens e gigantes de gelo, ele sabia que tinha que planejar sua traição com cuidado. <br><br>
-              
-              Mordex tinha entrado na nobre Ordem não para fazer o bem, mas para se aproximar dos monstros cujos poderes ele tanto desejava. Ele derrubou o Culto da Bruxa do Gelo, mas relatou que seu Tomo de Rituais "se perdeu no fogo". Ele destruiu o Wraith de Darkmoor, mas secretamente tomou a grande foice Cull do demônio para si. E agora ele viu sua chance de ganhar poder de um tipo totalmente novo. <br><br>
-              
-              Um ano depois, Mordex retornou do norte com um conto de horror e vitória. Preso em uma tempestade de gelo profana, sua equipe cercada por lobisomens e gigantes, ele contou uma história de fome, desespero e batalha heroica. Ele foi o único sobrevivente. Ninguém questionou que o próprio Mordex parecia muito bem alimentado. <br><br>
-              
-              "Sim, bem, ela deveria ter suspeitado de algo quando me encontrou dormindo debaixo da varanda." 
-              Mordex <br><br>
-              
-              Aclamação e promoção se seguiram. Logo, apenas a vigilância de outro caçador, Diana, ficou entre ele e seu alvo final: as Virensas de Gêmeos - um artefato amaldiçoado escondido nas abóbadas mais profundas da Ordem. Invocando magia negra, ele emboscou Diana e escapou com seu prêmio. <br><br>
-              
-              Em Valhalla, Mordex fica horrorizado e encantado ao descobrir que o monstro é sua verdadeira forma. Valhalla forma alianças estranhas, e Mordex encontra-se de acordo com os gostos de Thatch e Azoth, para a fúria de seu inimigo. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">"E pensar que o próprio intendente da minha Ordem, Octavius Mordex, era um lobisomem fedorento
+        o tempo todo."
+        Diana contando a Ada a história de sua traição <br><br>
 
-            
-        </div>
+        Não é fácil se tornar um licantropo de propósito. Uma mordida de lobisomem raramente funciona, porque a mordida
+        é quase sempre seguida por ser comida por um lobisomem. Então, quando Octavius Mordex, Mestre Caçador da Ordem
+        do Leão Exaltado, foi ordenado a levar sua equipe para o norte congelado para caçar uma praga de lobisomens e
+        gigantes de gelo, ele sabia que tinha que planejar sua traição com cuidado. <br><br>
 
-      </div>
+        Mordex tinha entrado na nobre Ordem não para fazer o bem, mas para se aproximar dos monstros cujos poderes ele
+        tanto desejava. Ele derrubou o Culto da Bruxa do Gelo, mas relatou que seu Tomo de Rituais "se perdeu no fogo".
+        Ele destruiu o Wraith de Darkmoor, mas secretamente tomou a grande foice Cull do demônio para si. E agora ele
+        viu sua chance de ganhar poder de um tipo totalmente novo. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">5.400</span></h1>
+        Um ano depois, Mordex retornou do norte com um conto de horror e vitória. Preso em uma tempestade de gelo
+        profana, sua equipe cercada por lobisomens e gigantes, ele contou uma história de fome, desespero e batalha
+        heroica. Ele foi o único sobrevivente. Ninguém questionou que o próprio Mordex parecia muito bem alimentado.
+        <br><br>
+
+        "Sim, bem, ela deveria ter suspeitado de algo quando me encontrou dormindo debaixo da varanda."
+        Mordex <br><br>
+
+        Aclamação e promoção se seguiram. Logo, apenas a vigilância de outro caçador, Diana, ficou entre ele e seu alvo
+        final: as Virensas de Gêmeos - um artefato amaldiçoado escondido nas abóbadas mais profundas da Ordem. Invocando
+        magia negra, ele emboscou Diana e escapou com seu prêmio. <br><br>
+
+        Em Valhalla, Mordex fica horrorizado e encantado ao descobrir que o monstro é sua verdadeira forma. Valhalla
+        forma alianças estranhas, e Mordex encontra-se de acordo com os gostos de Thatch e Azoth, para a fúria de seu
+        inimigo. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="North Wind Mordex">North Wind Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="North Wind Mordex"><img
+                  alt="North Wind Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/be/North_Wind_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="159" data-image-name="North Wind Mordex.png"
+                  data-image-key="North_Wind_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/be/North_Wind_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Iron Legion Mordex">Iron Legion Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Iron Legion Mordex"><img
+                  alt="Iron Legion Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d6/Iron_Legion_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="166" data-image-name="Iron Legion Mordex.png"
+                  data-image-key="Iron_Legion_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d6/Iron_Legion_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Celestial Mordex">Celestial Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Celestial Mordex"><img
+                  alt="Celestial Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9f/Celestial_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="175" data-image-name="Celestial Mordex.png"
+                  data-image-key="Celestial_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/9f/Celestial_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Dog Days Mordex">Dog Days Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Dog Days Mordex"><img alt="Dog Days Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4d/Dog_Days_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="155" data-image-name="Dog Days Mordex.png"
+                  data-image-key="Dog_Days_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4d/Dog_Days_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Heatwave_Event"
+                <a title="Heatwave Event"><img alt="EventIcon Summer"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Summer.png"
+                  data-image-key="EventIcon_Summer.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Heatwave">Heatwave</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Fenrir Mordex">Fenrir Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Fenrir Mordex"><img alt="Fenrir Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/10/Fenrir_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="177" data-image-name="Fenrir Mordex.png"
+                  data-image-key="Fenrir_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/10/Fenrir_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Ragnarok Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a href="/wiki/Ragnarok_Chest"
+                <a title="Ragnarok Chest">Ragnarok Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Dunewalker Mordex">Dunewalker Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Dunewalker Mordex"><img
+                  alt="Dunewalker Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f3/Dunewalker_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="182" data-image-name="Dunewalker Mordex.png"
+                  data-image-key="Dunewalker_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f3/Dunewalker_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Mad Dog Mordex">Mad Dog Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Mad Dog Mordex"><img alt="Mad Dog Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3b/Mad_Dog_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="186" data-image-name="Mad Dog Mordex.png"
+                  data-image-key="Mad_Dog_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/3/3b/Mad_Dog_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Synthwave Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a href="/wiki/Synthwave_Chest"
+                <a title="Synthwave Chest">Synthwave Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Daimio">Daimio</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Daimio"><img alt="Daimio"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6a/Daimio.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Daimio.png"
+                        data-image-key="Daimio.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6a/Daimio.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Black Diamond Mordex">Black Diamond
+                Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Black Diamond Mordex"><img
+                  alt="Black Diamond Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d6/Black_Diamond_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="166" data-image-name="Black Diamond Mordex.png"
+                  data-image-key="Black_Diamond_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d6/Black_Diamond_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Tai Lung">Tai Lung</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Tai Lung"><img alt="Tai Lung (lock-in)"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b6/Tai_Lung_%28lock-in%29.png"
+                        decoding="async" loading="lazy" width="185" height="185"
+                        data-image-name="Tai Lung (lock-in).png" data-image-key="Tai_Lung_%28lock-in%29.png"
+                        data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/b/b6/Tai_Lung_%28lock-in%29.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Octavius Mordex">Octavius Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Octavius Mordex"><img
+                  alt="AniOctavius Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f5/AniOctavius_Mordex.gif"
+                  decoding="async" loading="lazy" width="198" height="213" data-image-name="AniOctavius Mordex.gif"
+                  data-image-key="AniOctavius_Mordex.gif" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/f5/AniOctavius_Mordex.gif"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Four - Gold Pass"><img
+                  alt="Season Four - Gold Pass"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class=" ls-is-cached lazyloaded"></a> <a href="/wiki/Battle_Pass/Season_Four"
+                <a title="Battle Pass/Season Four">Season Four</a> <span style="color: #808080">| Tier 1 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Brawldog Mordex">Brawldog Mordex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Brawldog Mordex"><img alt="Brawldog Mordex"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d4/Brawldog_Mordex.png"
+                  decoding="async" loading="lazy" width="198" height="198" data-image-name="Brawldog Mordex.png"
+                  data-image-key="Brawldog_Mordex.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/d4/Brawldog_Mordex.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Back_to_School_Event"
+                <a title="Back to School Event"><img alt="EventIcon BackToSchool"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon BackToSchool.png"
+                  data-image-key="EventIcon_BackToSchool.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Back to School">Back to School</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Termidex">Termidex</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Termidex"><img alt="Termidex"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/54/Termidex.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Termidex.png"
+                        data-image-key="Termidex.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/54/Termidex.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Eight - Gold Pass"><img
+                  alt="Season Eight - Gold Pass"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class=" ls-is-cached lazyloaded"></a> <a href="/wiki/Battle_Pass/Season_Eight"
+                <a title="Battle Pass/Season Eight">Season Eight</a> <span style="color: #808080">| Tier 85 Reward</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

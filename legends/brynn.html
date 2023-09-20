@@ -1,67 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Brynn - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Brynn - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-      
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/BrynnSplash.png" alt="brynn brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Brynn</h1>
 
-            <p id="historia_p">“Criança, você é minha filha e uma Valquíria – uma deusa. Seu pai era um mortal, é verdade, mas era um grande guerreiro, talvez o maior. Portanto, não reclame comigo que os elfos sussurram nas suas costas. Ignore-os - eles sabem que você ofusca todos eles. Ou passá-los à espada. <br><br>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/BrynnSplash.png" alt="brynn brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Brynn</h1>
 
-              A Valquíria Hypernia para uma jovem Brynn <br><br>
-              
-              As crianças são raras entre os imortais de Asgard, e todo imortal com algum coração veio a amar a filha de Hypernia, a herdeira da beleza impossível de sua mãe imortal e do charme lendário de seu pai humano. Brynn cresceu em todos os cantos de Asgard. Ela fez dela sua escola e seu playground. Criada para ser uma Valquíria, ela ainda pode ferrar um cavalo de oito patas, tecer os fios do destino com as Norns e amaldiçoar uma faixa azul em Dwarvish. <br><br>
-              
-              Como Valquíria, seu senso para a mente mortal a ajudou a identificar a grandeza nos lugares mais improváveis, não apenas em príncipes em campos de batalha, segurando suas espadas no alto. Três de suas escolhas mais chocantes venceram o Grande Torneio. Mas Asgard é uma vasta sociedade, e alguns não veem Brynn como uma verdadeira Asgardiana, enquanto seu sucesso gerou ciúme e admiração. <br><br>
-              
-              “A maioria das Valquírias são muito tradicionais para ver a grandeza onde eu a encontro. Você se lembra de seus rostos quando eu trouxe o minotauro para Valhalla?” <br><br>
-              
-              Brynn, bebendo com Heimdall <br><br>
-              
-              Brynn foi atraída para o torneio pelo desejo de estudar esses mortais. Ela pertence a eles? Ela observou, aprendeu seus costumes e acabou amando sua bravura e coragem. Agora ela compete pelo puro prazer, sua sede humana pela luta surpreende a todos, inclusive a si mesma. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">“Criança, você é minha filha e uma Valquíria – uma deusa. Seu pai era um mortal, é verdade, mas
+        era um grande guerreiro, talvez o maior. Portanto, não reclame comigo que os elfos sussurram nas suas costas.
+        Ignore-os - eles sabem que você ofusca todos eles. Ou passá-los à espada. <br><br>
 
-            
-        </div>
+        A Valquíria Hypernia para uma jovem Brynn <br><br>
 
-      </div>
+        As crianças são raras entre os imortais de Asgard, e todo imortal com algum coração veio a amar a filha de
+        Hypernia, a herdeira da beleza impossível de sua mãe imortal e do charme lendário de seu pai humano. Brynn
+        cresceu em todos os cantos de Asgard. Ela fez dela sua escola e seu playground. Criada para ser uma Valquíria,
+        ela ainda pode ferrar um cavalo de oito patas, tecer os fios do destino com as Norns e amaldiçoar uma faixa azul
+        em Dwarvish. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">900</span></h1>
+        Como Valquíria, seu senso para a mente mortal a ajudou a identificar a grandeza nos lugares mais improváveis,
+        não apenas em príncipes em campos de batalha, segurando suas espadas no alto. Três de suas escolhas mais
+        chocantes venceram o Grande Torneio. Mas Asgard é uma vasta sociedade, e alguns não veem Brynn como uma
+        verdadeira Asgardiana, enquanto seu sucesso gerou ciúme e admiração. <br><br>
+
+        “A maioria das Valquírias são muito tradicionais para ver a grandeza onde eu a encontro. Você se lembra de seus
+        rostos quando eu trouxe o minotauro para Valhalla?” <br><br>
+
+        Brynn, bebendo com Heimdall <br><br>
+
+        Brynn foi atraída para o torneio pelo desejo de estudar esses mortais. Ela pertence a eles? Ela observou,
+        aprendeu seus costumes e acabou amando sua bravura e coragem. Agora ela compete pelo puro prazer, sua sede
+        humana pela luta surpreende a todos, inclusive a si mesma. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">900</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Aesir-Forged Brynn">Aesir-Forged Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Aesir-Forged Brynn"><img
+                  alt="Aesir-Forged Brynn"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dd/Aesir-Forged_Brynn.png"
+                  decoding="async" loading="lazy" width="112" height="243" data-image-name="Aesir-Forged Brynn.png"
+                  data-image-key="Aesir-Forged_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/d/dd/Aesir-Forged_Brynn.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Shieldmaiden Brynn">Shieldmaiden Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Shieldmaiden Brynn"><img
+                  alt="Shieldmaiden Brynn"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c7/Shieldmaiden_Brynn.png"
+                  decoding="async" loading="lazy" width="124" height="243" data-image-name="Shieldmaiden Brynn.png"
+                  data-image-key="Shieldmaiden_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c7/Shieldmaiden_Brynn.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 80</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Fallen Brynn">Fallen Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Fallen Brynn"><img alt="Fallen Brynn"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/07/Fallen_Brynn.png"
+                  decoding="async" loading="lazy" width="104" height="243" data-image-name="Fallen Brynn.png"
+                  data-image-key="Fallen_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/07/Fallen_Brynn.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Eternal Love Brynn">Eternal Love Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Eternal Love Brynn"><img
+                  alt="Eternal Love Brynn"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c3/Eternal_Love_Brynn.png"
+                  decoding="async" loading="lazy" width="104" height="243" data-image-name="Eternal Love Brynn.png"
+                  data-image-key="Eternal_Love_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c3/Eternal_Love_Brynn.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Valhallentine%27s_Event"
+                title="Valhallentine's Event"><img alt="EventIcon Valentines"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Valentines.png"
+                  data-image-key="EventIcon_Valentines.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                title="Valhallentine's">Valhallentine's</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Cinderguard Brynn">Cinderguard Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Cinderguard Brynn"><img
+                  alt="Cinderguard Brynn"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/95/Cinderguard_Brynn.png"
+                  decoding="async" loading="lazy" width="100" height="243" data-image-name="Cinderguard Brynn.png"
+                  data-image-key="Cinderguard_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/95/Cinderguard_Brynn.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Metadev Brynn">Metadev Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Metadev Brynn"><img alt="Metadev Brynn"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ac/Metadev_Brynn.png"
+                  decoding="async" loading="lazy" width="92" height="243" data-image-name="Metadev Brynn.png"
+                  data-image-key="Metadev_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/ac/Metadev_Brynn.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px">Not normally obtainable.<br>See <a title="Metadev">Metadev</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Völsung Brynn">Völsung Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Völsung Brynn"><img alt="Volsung Brynn"
+                  
+                  decoding="async" loading="lazy" width="90" height="243" data-image-name="Volsung Brynn.png"
+                  data-image-key="Volsung_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8f/Volsung_Brynn.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Harpy Brynn">Harpy Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Harpy Brynn"><img alt="Harpy Brynn"
+                  
+                  decoding="async" loading="lazy" width="108" height="243" data-image-name="Harpy Brynn.png"
+                  data-image-key="Harpy_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5a/Harpy_Brynn.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Forbidden Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Forbidden Chest">Forbidden Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Witchfire Brynn">Witchfire Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Witchfire Brynn"><img alt="Witchfire Brynn"
+                  
+                  decoding="async" loading="lazy" width="109" height="243" data-image-name="Witchfire Brynn.png"
+                  data-image-key="Witchfire_Brynn.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/82/Witchfire_Brynn.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Barbara">Barbara</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Barbara"><img alt="Barbara"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Barbara.png"
+                        data-image-key="Barbara.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cb/Barbara.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Aurora Brynn">Aurora Brynn</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Aurora Brynn"><img alt="Aurora Brynn"
+                        
+                        decoding="async" loading="lazy" width="185" height="170" data-image-name="Aurora Brynn.png"
+                        data-image-key="Aurora_Brynn.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4c/Aurora_Brynn.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Three - Gold Pass"><img
+                  alt="Season Three - Gold Pass"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class="lazyload"></a> <a title="Battle Pass/Season Three">Season
+                Three</a> <span style="color: #808080">| Tier 85 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Eivor">Eivor (Female)</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Eivor"><img alt="Eivor (Female)"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Eivor (Female).png"
+                        data-image-key="Eivor_%28Female%29.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7b/Eivor_%28Female%29.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Eivor">Eivor (Male)</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Eivor"><img alt="Eivor (Male)"
+                        
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Eivor (Male).png"
+                        data-image-key="Eivor_%28Male%29.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5c/Eivor_%28Male%29.png"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300<br>Comes with <a title="Eivor">Eivor (Female)</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

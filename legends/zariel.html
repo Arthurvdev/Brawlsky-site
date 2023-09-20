@@ -1,67 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <title>Zariel - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <title>Zariel - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/05/ZarielSplash.png" alt="zariel brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Zariel</h1>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/05/ZarielSplash.png" alt="zariel brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Zariel</h1>
 
-            <p id="historia_p">"Um guerreiro Serafim na Hóstia do Paladium é uma arma pura e perfeita da santa justiça. Zariel não será contaminado pela ralé de Odin." <br>
-              Tauriel, Porteiro do Elysium <br><br>
-              
-              Zariel está em uma missão de Deus – especificamente o deus Paladium, a divindade guerreira da Santa Justiça que habita no abençoado Elysium. Em Elysium também, Zariel residia, um soldado santo no exército celestial perfeito de Paladium que está pronto para lutar contra as hordas de demônios que um dia serão libertadas da Geena. <br><br>
-              
-              Eras atrás, Elysium foi visitado pelo líder de outro panteão – Odin, o Pai de Todos. O Deus Viking ficou impressionado com o poderoso anfitrião e ciumento de Paladium. Retornando a Asgard, Odin enviou suas valquírias para levantar seu próprio exército para o fim dos tempos. Naturalmente, Paladium zombou – nenhuma horda viking grosseira poderia igualar sua mais excelente e sagrada hoste. <br><br>
-              
-              Mas recentemente, Paladium ouviu rumores de que a intensa rivalidade das valquírias para trazer de volta os melhores guerreiros deu frutos. E ele ouviu sussurros de que, através do caos e do absurdo do Grande Torneio de Valhalla, o exército desordenado de Odin da vida após a morte se forjou em uma força formidável. Paladium enviou Zariel para investigar. <br><br>
-              
-              "Mortal ou anjo, homem ou mulher – estou acima de tais distinções primitivas. No entanto, este teste me dirá que tipo de pão eu sou. Centeio, estou esperando." <br>
-              Zariel, saindo com Ada e aprendendo sobre "a internet" <br><br>
-              
-              Em Valhalla, Zariel entrou no torneio para medir essa equipe heterogênea. No entanto, as batalhas do Grande Torneio têm um fascínio para qualquer guerreiro, e a participação sem emoção de Zariel está começando a dar lugar à diversão. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">"Um guerreiro Serafim na Hóstia do Paladium é uma arma pura e perfeita da santa justiça. Zariel
+        não será contaminado pela ralé de Odin." <br>
+        Tauriel, Porteiro do Elysium <br><br>
 
-            
-        </div>
+        Zariel está em uma missão de Deus – especificamente o deus Paladium, a divindade guerreira da Santa Justiça que
+        habita no abençoado Elysium. Em Elysium também, Zariel residia, um soldado santo no exército celestial perfeito
+        de Paladium que está pronto para lutar contra as hordas de demônios que um dia serão libertadas da Geena.
+        <br><br>
 
-      </div>
+        Eras atrás, Elysium foi visitado pelo líder de outro panteão – Odin, o Pai de Todos. O Deus Viking ficou
+        impressionado com o poderoso anfitrião e ciumento de Paladium. Retornando a Asgard, Odin enviou suas valquírias
+        para levantar seu próprio exército para o fim dos tempos. Naturalmente, Paladium zombou – nenhuma horda viking
+        grosseira poderia igualar sua mais excelente e sagrada hoste. <br><br>
 
-      <div class="valor_legend">
-        <h1>
-          <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
-           Preço: <span class="preço_span">5.400</span></h1>
+        Mas recentemente, Paladium ouviu rumores de que a intensa rivalidade das valquírias para trazer de volta os
+        melhores guerreiros deu frutos. E ele ouviu sussurros de que, através do caos e do absurdo do Grande Torneio de
+        Valhalla, o exército desordenado de Odin da vida após a morte se forjou em uma força formidável. Paladium enviou
+        Zariel para investigar. <br><br>
+
+        "Mortal ou anjo, homem ou mulher – estou acima de tais distinções primitivas. No entanto, este teste me dirá que
+        tipo de pão eu sou. Centeio, estou esperando." <br>
+        Zariel, saindo com Ada e aprendendo sobre "a internet" <br><br>
+
+        Em Valhalla, Zariel entrou no torneio para medir essa equipe heterogênea. No entanto, as batalhas do Grande
+        Torneio têm um fascínio para qualquer guerreiro, e a participação sem emoção de Zariel está começando a dar
+        lugar à diversão. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+  <div class="valor_legend">
+    <h1>
+      <img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">5.400</span>
+    </h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Darkheart Zariel">Darkheart Zariel</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Darkheart Zariel"><img
+                  alt="Darkheart Zariel"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/89/Darkheart_Zariel.png"
+                  decoding="async" loading="lazy" width="109" height="243" data-image-name="Darkheart Zariel.png"
+                  data-image-key="Darkheart_Zariel.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/89/Darkheart_Zariel.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Archangel Zariel">Archangel Zariel</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Archangel Zariel"><img
+                  alt="Archangel Zariel"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8e/Archangel_Zariel.png"
+                  decoding="async" loading="lazy" width="117" height="243" data-image-name="Archangel Zariel.png"
+                  data-image-key="Archangel_Zariel.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/8e/Archangel_Zariel.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Urban Guardian Zariel">Urban Guardian
+                Zariel</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Urban Guardian Zariel"><img
+                  alt="Urban Guardian Zariel"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/70/Urban_Guardian_Zariel.png"
+                  decoding="async" loading="lazy" width="140" height="243" data-image-name="Urban Guardian Zariel.png"
+                  data-image-key="Urban_Guardian_Zariel.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/70/Urban_Guardian_Zariel.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Outerworld Zariel">Outerworld Zariel</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Outerworld Zariel"><img
+                  alt="Outerworld Zariel"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/ff/Outerworld_Zariel.png"
+                  decoding="async" loading="lazy" width="111" height="243" data-image-name="Outerworld Zariel.png"
+                  data-image-key="Outerworld_Zariel.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/f/ff/Outerworld_Zariel.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Revenant Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a href="/wiki/Revenant_Chest"
+                <a title="Revenant Chest">Revenant Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Secret Admirer Zariel">Secret Admirer
+                Zariel</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Secret Admirer Zariel"><img
+                  alt="Secret Admirer Zariel"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/05/Secret_Admirer_Zariel.png"
+                  decoding="async" loading="lazy" width="139" height="243" data-image-name="Secret Admirer Zariel.png"
+                  data-image-key="Secret_Admirer_Zariel.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/05/Secret_Admirer_Zariel.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140<br><a href="/wiki/Valhallentine%27s_Event"
+                <a title="Valhallentine's Event"><img alt="EventIcon Valentines"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Valentines.png"
+                  data-image-key="EventIcon_Valentines.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  class=" ls-is-cached lazyloaded"></a> <a class="mw-redirect"
+                <a title="Valhallentine's">Valhallentine's</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Archfiend Zariel">Archfiend Zariel</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Archfiend Zariel"><img
+                  alt="Archfiend Zariel"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/61/Archfiend_Zariel.png"
+                  decoding="async" loading="lazy" width="125" height="243" data-image-name="Archfiend Zariel.png"
+                  data-image-key="Archfiend_Zariel.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/61/Archfiend_Zariel.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season One - Gold Pass"><img
+                  alt="Season One - Gold Pass"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png"
+                  class=" ls-is-cached lazyloaded"></a> <a href="/wiki/Battle_Pass/Season_One"
+                <a title="Battle Pass/Season One">Season One</a> <span style="color: #808080">| Tier 47 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Beachside Zariel">Beachside Zariel</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Beachside Zariel"><img
+                  alt="Beachside Zariel"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e3/Beachside_Zariel.png"
+                  decoding="async" loading="lazy" width="115" height="243" data-image-name="Beachside Zariel.png"
+                  data-image-key="Beachside_Zariel.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/e/e3/Beachside_Zariel.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Heatwave Event"><img
+                  alt="EventIcon Summer"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Summer.png"
+                  data-image-key="EventIcon_Summer.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/65/EventIcon_Summer.png"
+                  class="lazyload"></a> <a title="Heatwave">Heatwave</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Devil Jin">Devil Jin</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" <a title="Epic Skin"><img alt="Epic Skin"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class=" ls-is-cached lazyloaded"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Devil Jin"><img alt="Devil Jin"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/86/Devil_Jin.png"
+                        decoding="async" loading="lazy" width="185" height="185" data-image-name="Devil Jin.png"
+                        data-image-key="Devil_Jin.png" data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/86/Devil_Jin.png"
+                        class=" lazyloaded"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>

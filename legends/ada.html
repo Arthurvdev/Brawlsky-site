@@ -1,71 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="shortcut icon" href="../Imagens/logo6.png">
-    <script src="../removerhtml.js"></script>
-    <title>Ada - BrawlSky</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="shortcut icon" href="../Imagens/logo6.png">
+  <script src="../removerhtml.js"></script>
+  <title>Ada - BrawlSky</title>
 </head>
+
 <body onload="tl_carregamento();">
   <div class="carregamento">
-    <div class="c-loader"></div>  
+    <div class="c-loader"></div>
   </div>
 
-    <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../lendas.html">Lendas</a></li>
-          <li><a href="../armas.html">Armas</a></li>
-          <li><a href="../atualizações.html">Atualizações</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="../index.html">Início</a></li>
+      <li><a href="../lendas.html">Lendas</a></li>
+      <li><a href="../armas.html">Armas</a></li>
+      <li><a href="../atualizações.html">Atualizações</a></li>
+    </ul>
+  </nav>
 
-      <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
+  <a id="voltar_lendas_btn" href="../lendas.html"><button>Voltar</button></a>
 
 
-      <div class="legend_design">
+  <div class="legend_design">
 
-        
-        <div class="legend_img">
-            <img src="https://cms.brawlhalla.com/c/uploads/2022/02/AdaSplash.png" alt="ada brawlhalla">
-        </div>
-        <div class="historia">
-            <h1 id="historia_h1">Ada</h1>
 
-            <p id="historia_p">“O alvo Ada está confirmado. O suspeito está armado e localizado nos fundos do sexto andar... e no telhado... e duas vezes no terceiro andar. Todas as unidades, os protocolos de vigilância estão comprometidos. Ignore as comunicações de rádio. Defina Aim Augmentation como Manual. Desprezo . . . [embaralhado] . . . à vista . . . [embaralhado] . . . entrada . . . [embaralhado] . . . abaixo . . . [música de elevador]” <br><br>
+    <div class="legend_img">
+      <img src="https://cms.brawlhalla.com/c/uploads/2022/02/AdaSplash.png" alt="ada brawlhalla">
+    </div>
+    <div class="historia">
+      <h1 id="historia_h1">Ada</h1>
 
-              Recuperado de uma unidade de comando móvel Blackbox, MBFC <br><br>
-              
-              Os registros mostram que uma jovem precoce Ada ofereceu uma vaga no programa de treinamento da Meyers Baby Food Corporation (“Your Friend in Nanotech”). Depois disso, não existem registros oficiais de Ada. Parte de um grupo experimental, os neuro-sims de educação pública de Ada foram substituídos por treinamento em descriptografia de sinal em tempo real e guerra urbana. <br><br>
-              
-              Os graduados do experimento se juntaram à divisão de operações negras da Meyers Baby Food Corp, mas Ada invadiu a nuvem principal da corporação e descobriu que sua divisão estava protegendo a Upload Enslavement Initiative. Logo, os registros das operações secretas de Meyers estavam passando em todos os feeds de notícias, e Ada havia desaparecido. <br><br>
-              
-              “Criptografia de combate é fácil. Uma vez que você pode ignorar as balas e os gritos, é apenas cálculo quântico básico.” <br><br>
-              
-              Ada, gritou para um recruta durante uma batida na GovernCorp <br><br>
-              
-              No estado submarino livre de Miami Dome, Ada fundou os Right Wrong Cavaliers, uma equipe de elite de hackers de combate e banda de renascimento pós-punk, e ela liderou sua campanha de guerrilha magistral contra Meyers e seus sombrios apoiadores da GovernCorp. <br><br>
-              
-              Ela tem certeza de que Valhalla é algum tipo de simulador de computador, mas até encontrar uma saída, ela está jogando para vencer. <br><br>
-                
-            </p>
-                
-            
+      <p id="historia_p">“O alvo Ada está confirmado. O suspeito está armado e localizado nos fundos do sexto andar... e
+        no telhado... e duas vezes no terceiro andar. Todas as unidades, os protocolos de vigilância estão
+        comprometidos. Ignore as comunicações de rádio. Defina Aim Augmentation como Manual. Desprezo . . .
+        [embaralhado] . . . à vista . . . [embaralhado] . . . entrada . . . [embaralhado] . . . abaixo . . . [música de
+        elevador]” <br><br>
 
-            
-        </div>
+        Recuperado de uma unidade de comando móvel Blackbox, MBFC <br><br>
 
-      </div>
+        Os registros mostram que uma jovem precoce Ada ofereceu uma vaga no programa de treinamento da Meyers Baby Food
+        Corporation (“Your Friend in Nanotech”). Depois disso, não existem registros oficiais de Ada. Parte de um grupo
+        experimental, os neuro-sims de educação pública de Ada foram substituídos por treinamento em descriptografia de
+        sinal em tempo real e guerra urbana. <br><br>
 
-      <div class="valor_legend">
-        <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt=""> 
-          Preço: <span class="preço_span">3.900</span></h1>
+        Os graduados do experimento se juntaram à divisão de operações negras da Meyers Baby Food Corp, mas Ada invadiu
+        a nuvem principal da corporação e descobriu que sua divisão estava protegendo a Upload Enslavement Initiative.
+        Logo, os registros das operações secretas de Meyers estavam passando em todos os feeds de notícias, e Ada havia
+        desaparecido. <br><br>
+
+        “Criptografia de combate é fácil. Uma vez que você pode ignorar as balas e os gritos, é apenas cálculo quântico
+        básico.” <br><br>
+
+        Ada, gritou para um recruta durante uma batida na GovernCorp <br><br>
+
+        No estado submarino livre de Miami Dome, Ada fundou os Right Wrong Cavaliers, uma equipe de elite de hackers de
+        combate e banda de renascimento pós-punk, e ela liderou sua campanha de guerrilha magistral contra Meyers e seus
+        sombrios apoiadores da GovernCorp. <br><br>
+
+        Ela tem certeza de que Valhalla é algum tipo de siTechnomancer_Adamulador de computador, mas até encontrar uma
+        saída, ela está
+        jogando para vencer. <br><br>
+
+      </p>
+
+
+
+
     </div>
 
-      <script src="../menu.js"></script> <script src="../loading.js"></script>
-      <script src="../script.js"></script>
+  </div>
+
+
+
+  <div class="valor_legend">
+    <h1><img src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/c9/Coin_Gold.png" alt="">
+      Preço: <span class="preço_span">3.900</span></h1>
+  </div>
+
+  <div
+    style="max-width: 1600px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;box-sizing:unset;">
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Technomancer Ada">Technomancer Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Technomancer Ada"><img
+                  alt="Technomancer Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/a/af/Technomancer_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="172" data-image-name="Technomancer Ada.png"
+                  data-image-key="Technomancer_Ada.png" data-relevant="1"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Fatal Error Ada">Fatal Error Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Fatal Error Ada"><img alt="Fatal Error Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2c/Fatal_Error_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="193" data-image-name="Fatal Error Ada.png"
+                  data-image-key="Fatal_Error_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/2c/Fatal_Error_Ada.png"
+                  class=" ls-is-cached lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="DJ Ada">DJ Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="DJ Ada"><img alt="DJ Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/DJ_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="188" data-image-name="DJ Ada.png"
+                  data-image-key="DJ_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/DJ_Ada.png"
+                  class=" ls-is-cached lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Vixen Ada">Vixen Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Vixen Ada"><img alt="Vixen Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/99/Vixen_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="170" data-image-name="Vixen Ada.png"
+                  data-image-key="Vixen_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/9/99/Vixen_Ada.png"
+                  class=" ls-is-cached lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Wasteland Ada">Wasteland Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Wasteland Ada"><img alt="Wasteland Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5a/Wasteland_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="212" data-image-name="Wasteland Ada.png"
+                  data-image-key="Wasteland_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5a/Wasteland_Ada.png"
+                  class=" ls-is-cached lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class=" ls-is-cached lazyloaded"></a> 140</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Atlantean Ada">Atlantean Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Atlantean Ada"><img alt="Atlantean Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/22/Atlantean_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="202" data-image-name="Atlantean Ada.png"
+                  data-image-key="Atlantean_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/2/22/Atlantean_Ada.png"
+                  class=" ls-is-cached lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Sunken Chest"><img alt="Icon Chest"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class=" ls-is-cached lazyloaded"></a>&nbsp;<a title="Sunken Chest">Sunken
+                Chest</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Detention Ada">Detention Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Detention Ada"><img alt="Detention Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6f/Detention_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="169" data-image-name="Detention Ada.png"
+                  data-image-key="Detention_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/6f/Detention_Ada.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a title="Back to School Event"><img
+                  alt="EventIcon BackToSchool"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon BackToSchool.png"
+                  data-image-key="EventIcon_BackToSchool.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/0e/EventIcon_BackToSchool.png"
+                  class="lazyload"></a> <a title="Back to School">Back
+                to School</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Stormlord Ada">Stormlord Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Stormlord Ada"><img alt="Stormlord Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/10/Stormlord_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="197" data-image-name="Stormlord Ada.png"
+                  data-image-key="Stormlord_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/1/10/Stormlord_Ada.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Elemental Chest"><img alt="Icon Chest"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Icon Chest.png"
+                  data-image-key="Icon_Chest.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/6/67/Icon_Chest.png"
+                  class="lazyload"></a>&nbsp;<a title="Elemental Chest">Elemental Chest</a>
+              exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Lovelaced Ada">Lovelaced Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Lovelaced Ada"><img alt="Lovelaced Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/08/Lovelaced_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="183" data-image-name="Lovelaced Ada.png"
+                  data-image-key="Lovelaced_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/08/Lovelaced_Ada.png"
+                  class=" lazyloaded"></a>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 140<br><a href="/wiki/Valhallentine%27s_Event"
+                title="Valhallentine's Event"><img alt="EventIcon Valentines"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="EventIcon Valentines.png"
+                  data-image-key="EventIcon_Valentines.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/4/4b/EventIcon_Valentines.png"
+                  class="lazyload"></a> <a class="mw-redirect"
+                title="Valhallentine's">Valhallentine's</a> exclusive</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Heatblast">Heatblast</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;">
+              <div class="floatnone">
+                <div style="display:inline-block;position:relative;width:206px;height:206px" class="image"><a
+                    href="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                    class="image" title="Epic Skin"><img alt="Epic Skin"
+                      
+                      decoding="async" loading="lazy" width="206" height="206" data-image-name="Epic BG 2.png"
+                      data-image-key="Epic_BG_2.png" data-relevant="1"
+                      src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/06/Epic_BG_2.png"
+                      class="lazyload"></a>
+                  <div
+                    style="display:block;margin-left: auto;margin-right: auto;margin-top:-195.7px;margin-bottom: 0;max-width:90%;max-height:206px;text-align:center;">
+                    <a title="Heatblast"><img alt="AniHeatblast (lock-in)"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7c/AniHeatblast_%28lock-in%29.gif"
+                        decoding="async" loading="lazy" width="185" height="185"
+                        data-image-name="AniHeatblast (lock-in).gif" data-image-key="AniHeatblast_%28lock-in%29.gif"
+                        data-relevant="1"
+                        src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/7/7c/AniHeatblast_%28lock-in%29.gif"
+                        class="lazyload"></a></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="height: 49px;"><b>Cost:</b> <a title="Mammoth Coins"><img
+                  alt="Coin Mammoth"
+                  
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Coin Mammoth.png"
+                  data-image-key="Coin_Mammoth.png" data-relevant="0"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/c/cd/Coin_Mammoth.png"
+                  class="lazyload"></a> 300</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <table class="wikitable"
+        style="width: 220px;height: 270px;text-align:center;margin:2px 0px 2px 0px;font-size:14px;">
+
+        <tbody>
+          <tr>
+            <th style="height: 0;"><a title="Astral Core Ada">Astral Core Ada</a>
+            </th>
+          </tr>
+          <tr>
+            <td style="height:243px;"><a title="Astral Core Ada"><img alt="Astral Core Ada"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5c/Astral_Core_Ada.png"
+                  decoding="async" loading="lazy" width="198" height="196" data-image-name="Astral Core Ada.png"
+                  data-image-key="Astral_Core_Ada.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/5/5c/Astral_Core_Ada.png"
+                  class="lazyload"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="height: 49px"><a title="Season Five - Gold Pass"><img
+                  alt="Season Five - Gold Pass"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png/"
+                  decoding="async" loading="lazy" width="16" height="16" data-image-name="Battlepass Gold Pass Logo.png"
+                  data-image-key="Battlepass_Gold_Pass_Logo.png" data-relevant="1"
+                  src="https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/8/85/Battlepass_Gold_Pass_Logo.png/"
+                  class="lazyload"></a> <a title="Battle Pass/Season Five">Season
+                Five</a> <span style="color: #808080">| Tier 23 Reward</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../menu.js"></script>
+  <script src="../loading.js"></script>
+  <script src="../script.js"></script>
 </body>
+
 </html>
