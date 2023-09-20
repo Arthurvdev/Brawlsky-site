@@ -1181,6 +1181,8 @@ body {
     border: solid #8273ac 2px;
     padding: 20px;
     border-radius: 20px;
+    overflow-x: hidden;
+    
   }
 
   .cores h1{
@@ -1188,6 +1190,7 @@ body {
     text-align: center;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
+    overflow-x: hidden;
   }
 
   .cores h2{
@@ -1195,14 +1198,18 @@ body {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
+    overflow-x: hidden;
   }
 
   .cores img{
     width: 170px;
+    overflow-x: hidden;
+
   }
 
   .glory{
     width: 10px;
+    overflow-x: hidden;
   }
 
   /*SIDEKICKS*/
@@ -1873,7 +1880,8 @@ body {
   /*CORES RESPONSIVIDADE*/
 
   #titulo_das_cores{
-    font-size: 20px;
+    font-size: 15px;
+    overflow-x: hidden;
   }
 
   #p_das_cores{
@@ -1886,8 +1894,20 @@ body {
     padding: 30px;
     padding-top: 20px;
     padding-bottom: 0px;
-    font-size: 15px;
+    font-size: 12px;
+    overflow-x: hidden;
   }
+
+  .cores{
+    text-align: center;
+  }
+
+  .conteiner_cores{
+    margin: 0;
+    padding: 0;
+  }
+
+ 
 
   /*SIDEKICKS RESPONSIVIDADE*/
 
