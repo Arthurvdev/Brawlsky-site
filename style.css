@@ -468,7 +468,6 @@ body {
     justify-content: center;
     position: relative;
     gap: 50px;
-    margin-top: 400px;
     padding-top: 100px;
     padding-bottom: 40px;
     margin-bottom: 200px;
@@ -489,7 +488,7 @@ body {
 
   .categorias a img{
     width: 350px;
-    border-radius: 20px;
+    border-radius: 50%;
   }
 
   .categorias a:hover{
